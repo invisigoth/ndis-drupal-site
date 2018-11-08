@@ -1,0 +1,20 @@
+uuid: 148d0b32-1379-45fa-9bba-e23142a2af4e
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: all_nodes
+label: 'All Nodes'
+description: ''
+matchers:
+  86cf369c-673e-4fd9-bbef-d9c32fcf5746:
+    uuid: 86cf369c-673e-4fd9-bbef-d9c32fcf5746
+    id: 'entity:node'
+    weight: 0
+    settings:
+      bundles: {  }
+      group_by_bundle: true
+      include_unpublished: true
+      substitution_type: canonical
+      metadata: ''

@@ -1,0 +1,84 @@
+uuid: 7aa4dc1f-6fba-47d3-8477-5eec6f26aace
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.paragraph.preview
+    - field.field.paragraph.connected_pathways.field_connection
+    - field.field.paragraph.connected_pathways.field_title
+    - paragraphs.paragraphs_type.connected_pathways
+  module:
+    - ds
+    - entity_reference_revisions
+    - header_formatter
+third_party_settings:
+  ds:
+    layout:
+      id: ds_2col
+      library: ds/ds_2col
+      disable_css: false
+      entity_classes: all_classes
+      settings:
+        wrappers:
+          left: div
+          right: div
+          ds_hidden: div
+        outer_wrapper: div
+        attributes: ''
+        link_attribute: ''
+        link_custom: ''
+        classes:
+          layout_class: {  }
+          left: {  }
+          right: {  }
+          ds_hidden: {  }
+    regions:
+      left:
+        - 'bundle_field:paragraph'
+        - field_title
+      right:
+        - field_connection
+    fields:
+      'bundle_field:paragraph':
+        plugin_id: 'bundle_field:paragraph'
+        weight: 0
+        label: inline
+        formatter: default
+id: paragraph.connected_pathways.preview
+targetEntityType: paragraph
+bundle: connected_pathways
+mode: preview
+content:
+  field_connection:
+    type: entity_reference_revisions_entity_view
+    weight: 2
+    label: hidden
+    settings:
+      view_mode: preview
+      link: ''
+    third_party_settings:
+      ds:
+        ds_limit: ''
+        ft:
+          id: default
+          settings:
+            lb: ''
+            lb-col: false
+            classes: {  }
+    region: right
+  field_title:
+    weight: 1
+    label: hidden
+    settings:
+      level: '4'
+    third_party_settings:
+      ds:
+        ft:
+          id: default
+          settings:
+            lb: ''
+            lb-col: false
+            classes: {  }
+    type: text_header
+    region: left
+hidden: {  }

@@ -1,0 +1,28 @@
+uuid: 2a78cbf0-5f80-4f6a-a737-2f7b3d28822d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_icon
+    - media.type.icon
+    - paragraphs.paragraphs_type.small_tile
+id: paragraph.small_tile.field_icon
+field_name: field_icon
+entity_type: paragraph
+bundle: small_tile
+label: Icon
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      icon: icon
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

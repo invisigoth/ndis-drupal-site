@@ -1,0 +1,94 @@
+uuid: 292735ec-8d7c-460b-bcb9-1b6d27edce4d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.small_tile.field_icon
+    - field.field.paragraph.small_tile.field_link
+    - paragraphs.paragraphs_type.small_tile
+  module:
+    - ds
+    - link_plain_text_formatter
+third_party_settings:
+  ds:
+    layout:
+      id: ds_2col
+      library: ds/ds_2col
+      disable_css: false
+      entity_classes: all_classes
+      settings:
+        wrappers:
+          left: div
+          right: div
+          ds_hidden: div
+        outer_wrapper: div
+        attributes: ''
+        link_attribute: ''
+        link_custom: ''
+        classes:
+          layout_class: {  }
+          left: {  }
+          right: {  }
+          ds_hidden: {  }
+    regions:
+      left:
+        - field_icon
+      right:
+        - field_link
+id: paragraph.small_tile.default
+targetEntityType: paragraph
+bundle: small_tile
+mode: default
+content:
+  field_icon:
+    weight: 0
+    label: hidden
+    settings:
+      view_mode: icon
+      link: false
+    third_party_settings:
+      ds:
+        ft:
+          id: minimal
+          settings:
+            lb: ''
+            lb-col: false
+            classes: {  }
+    type: entity_reference_entity_view
+    region: left
+  field_link:
+    type: link_plain_text_formatter
+    weight: 1
+    region: right
+    label: hidden
+    settings: {  }
+    third_party_settings:
+      ds:
+        ft:
+          id: expert
+          settings:
+            lb: ''
+            prefix: ''
+            lbw-el: ''
+            lbw-cl: ''
+            lbw-at: ''
+            ow-el: ''
+            ow-cl: ''
+            ow-at: ''
+            fis-el: ''
+            fis-cl: ''
+            fis-at: ''
+            fi: true
+            fi-el: h3
+            fi-cl: h5
+            fi-at: ''
+            suffix: '<i class="far fa-chevron-right"></i>'
+            lbw: false
+            lb-col: false
+            ow: false
+            ow-def-at: false
+            ow-def-cl: false
+            fis: false
+            fis-def-at: false
+            fi-def-at: false
+hidden: {  }

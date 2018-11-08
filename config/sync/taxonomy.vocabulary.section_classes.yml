@@ -1,0 +1,9 @@
+uuid: e8f0f80b-e3f2-43f4-b624-ac18f7fe2181
+langcode: en
+status: true
+dependencies: {  }
+name: 'Section classes'
+vid: section_classes
+description: 'Used by Paragraphs to assign styles to sections'
+hierarchy: 0
+weight: 0

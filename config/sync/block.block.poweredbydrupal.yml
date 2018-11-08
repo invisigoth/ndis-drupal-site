@@ -1,0 +1,20 @@
+uuid: c69359c6-ae45-45ce-838a-ff088bca3c2c
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - ndis
+id: poweredbydrupal
+theme: ndis
+region: disabled
+weight: 0
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  provider: system
+  label_display: '0'
+visibility: {  }

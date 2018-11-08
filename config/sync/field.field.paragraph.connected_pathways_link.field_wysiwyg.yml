@@ -1,0 +1,21 @@
+uuid: 986e8a2f-1406-41ca-bb30-c5da059bf4c4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_wysiwyg
+    - paragraphs.paragraphs_type.connected_pathways_link
+  module:
+    - text
+id: paragraph.connected_pathways_link.field_wysiwyg
+field_name: field_wysiwyg
+entity_type: paragraph
+bundle: connected_pathways_link
+label: Content
+description: 'Note: This only displays if your orientation is set to <em>Vertical</em>.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

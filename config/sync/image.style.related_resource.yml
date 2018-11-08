@@ -1,0 +1,15 @@
+uuid: 0c6abaf4-39df-46a0-94d3-c80ff7fc6198
+langcode: en
+status: true
+dependencies: {  }
+name: related_resource
+label: 'Related Resource 165x238'
+effects:
+  3cfa118d-cd59-4b92-823a-75da0ca92014:
+    uuid: 3cfa118d-cd59-4b92-823a-75da0ca92014
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 165
+      height: 238
+      anchor: center-center

@@ -1,0 +1,35 @@
+uuid: 4bd0ef09-96f8-4abf-a77e-d9fa50937dba
+langcode: en
+status: true
+dependencies:
+  module:
+    - ctools
+name: full_width
+label: 'Full width'
+group: NDIS
+description: 'Change the page width'
+requireAllConditions: false
+disabled: false
+conditions:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    bundles:
+      landing_page: landing_page
+    negate: 0
+    uuid: 4377e98c-74b2-4d20-93b9-489b4fec3eeb
+    context_mapping:
+      node: '@node.node_route_context:node'
+reactions:
+  regions:
+    id: regions
+    regions:
+      classy: {  }
+      seven: {  }
+      stable: {  }
+      bootstrap_barrio: {  }
+      ndis:
+        - sidebar_first
+        - sidebar_second
+    saved: false
+    uuid: 26b58c75-b7fb-461f-910f-e4b6f432560a
+weight: 0

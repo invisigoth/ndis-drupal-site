@@ -1,0 +1,60 @@
+uuid: afd195fa-9558-46d3-9ebd-c1b2d48cb244
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.large_numbered_links.field_links
+    - paragraphs.paragraphs_type.large_numbered_links
+  module:
+    - ds
+    - element_class_formatter
+third_party_settings:
+  ds:
+    layout:
+      id: ds_1col
+      library: null
+      disable_css: false
+      entity_classes: all_classes
+      settings:
+        wrappers:
+          ds_content: div
+          ds_hidden: div
+        outer_wrapper: div
+        attributes: ''
+        link_attribute: ''
+        link_custom: ''
+        classes:
+          layout_class: {  }
+          ds_content: {  }
+          ds_hidden: {  }
+    regions:
+      ds_content:
+        - field_links
+id: paragraph.large_numbered_links.default
+targetEntityType: paragraph
+bundle: large_numbered_links
+mode: default
+content:
+  field_links:
+    weight: 0
+    label: hidden
+    settings:
+      trim_length: 150
+      list_type: ol
+      class: large-numbers
+      url_only: false
+      url_plain: false
+      rel: '0'
+      target: '0'
+    third_party_settings:
+      ds:
+        ds_limit: ''
+        ft:
+          id: minimal
+          settings:
+            lb: ''
+            lb-col: false
+            classes: {  }
+    type: link_list_class
+    region: ds_content
+hidden: {  }

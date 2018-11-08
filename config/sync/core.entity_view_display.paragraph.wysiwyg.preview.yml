@@ -1,0 +1,23 @@
+uuid: 697ca720-bb73-4d50-97d7-352c70b96a29
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.paragraph.preview
+    - field.field.paragraph.wysiwyg.field_wysiwyg
+    - paragraphs.paragraphs_type.wysiwyg
+  module:
+    - text
+id: paragraph.wysiwyg.preview
+targetEntityType: paragraph
+bundle: wysiwyg
+mode: preview
+content:
+  field_wysiwyg:
+    weight: 0
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+hidden: {  }

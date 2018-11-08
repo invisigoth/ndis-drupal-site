@@ -1,0 +1,63 @@
+uuid: 56f96b2e-7a7e-4c44-abd0-0231f43a380e
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.paragraph.preview
+    - field.field.paragraph.link_boxes.field_tile
+    - paragraphs.paragraphs_type.link_boxes
+  module:
+    - ds
+    - entity_reference_revisions
+third_party_settings:
+  ds:
+    layout:
+      id: ds_1col
+      library: null
+      disable_css: false
+      entity_classes: all_classes
+      settings:
+        wrappers:
+          ds_content: div
+          ds_hidden: div
+        outer_wrapper: div
+        attributes: ''
+        link_attribute: ''
+        link_custom: ''
+        classes:
+          layout_class: {  }
+          ds_content: {  }
+          ds_hidden: {  }
+    regions:
+      ds_content:
+        - 'bundle_field:paragraph'
+        - field_tile
+    fields:
+      'bundle_field:paragraph':
+        plugin_id: 'bundle_field:paragraph'
+        weight: 0
+        label: inline
+        formatter: default
+id: paragraph.link_boxes.preview
+targetEntityType: paragraph
+bundle: link_boxes
+mode: preview
+content:
+  field_tile:
+    weight: 1
+    label: hidden
+    settings:
+      view_mode: preview
+      link: ''
+    third_party_settings:
+      ds:
+        ds_limit: ''
+        ft:
+          id: default
+          settings:
+            lb: ''
+            lb-col: false
+            classes: {  }
+    type: entity_reference_revisions_entity_view
+    region: ds_content
+hidden: {  }

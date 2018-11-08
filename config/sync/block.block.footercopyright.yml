@@ -1,0 +1,25 @@
+uuid: a8fe10fc-f8e0-40fb-bba8-7caaa5fa2d9c
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:bffadd6c-5609-4d0c-8bb0-575740b8438a'
+  module:
+    - block_content
+  theme:
+    - ndis
+id: footercopyright
+theme: ndis
+region: footer
+weight: -2
+provider: null
+plugin: 'block_content:bffadd6c-5609-4d0c-8bb0-575740b8438a'
+settings:
+  id: 'block_content:bffadd6c-5609-4d0c-8bb0-575740b8438a'
+  label: 'Footer Copyright'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

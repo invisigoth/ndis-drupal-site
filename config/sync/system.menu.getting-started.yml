@@ -1,0 +1,8 @@
+uuid: 5f27ce71-4c4a-4108-aa4e-7988dd3495ed
+langcode: en
+status: true
+dependencies: {  }
+id: getting-started
+label: 'Getting started'
+description: 'Homepage menu'
+locked: false

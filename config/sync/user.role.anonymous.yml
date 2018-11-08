@@ -1,0 +1,21 @@
+uuid: d099ae9a-032a-41ba-96a9-8b8f55ddf6f7
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: j5zLMOdJBqC0bMvSdth5UebkprJB8g_2FXHqhfpJzow
+id: anonymous
+label: 'Anonymous user'
+weight: -10
+is_admin: false
+permissions:
+  - 'access comments'
+  - 'access content'
+  - 'access site-wide contact form'
+  - 'access sitemap'
+  - 'download media'
+  - 'never autoplay videos'
+  - 'search content'
+  - 'use search_api_autocomplete for search_site'
+  - 'use text format restricted_html'
+  - 'view media'

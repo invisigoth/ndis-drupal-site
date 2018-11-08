@@ -1,0 +1,9 @@
+uuid: 48ddcebd-dbaf-4063-a1b9-b7a76f781f5a
+langcode: en
+status: true
+dependencies: {  }
+name: 'Article Categories'
+vid: article_categories
+description: 'Used in news and announcements'
+hierarchy: 0
+weight: 0

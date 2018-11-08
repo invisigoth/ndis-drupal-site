@@ -1,0 +1,59 @@
+uuid: 6a87caa0-faaa-424a-90a4-2f29a17e3f34
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.test_location.body
+    - field.field.node.test_location.field_test_address
+    - field.field.node.test_location.field_test_geocode
+    - node.type.test_location
+  module:
+    - address
+    - ds
+    - geofield
+    - text
+    - user
+third_party_settings:
+  ds:
+    layout:
+      id: ds_reset
+      library: layout_discovery/onecol
+      disable_css: false
+      entity_classes: all_classes
+      settings: {  }
+    regions:
+      ds_content:
+        - body
+        - field_test_address
+        - field_test_geocode
+        - field_test_paragraph
+id: node.test_location.default
+targetEntityType: node
+bundle: test_location
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_test_address:
+    weight: 1
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: address_default
+    region: content
+  field_test_geocode:
+    weight: 2
+    label: above
+    settings:
+      output_format: decimal
+    third_party_settings: {  }
+    type: geofield_latlon
+    region: content
+hidden:
+  langcode: true
+  links: true

@@ -1,0 +1,13 @@
+uuid: ee5c5bbd-8527-4c47-be2b-d0422ab3eb69
+langcode: en
+status: true
+dependencies: {  }
+name: breadcrumbs
+label: Breadcrumbs
+group: NDIS
+description: 'Enable or disable breadcrumbs'
+requireAllConditions: false
+disabled: false
+conditions: {  }
+reactions: {  }
+weight: 0

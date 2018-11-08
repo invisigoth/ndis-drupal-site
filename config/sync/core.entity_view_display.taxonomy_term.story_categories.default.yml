@@ -1,0 +1,14 @@
+uuid: 772a5de4-fec6-40ee-8af9-d87d21c01705
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.story_categories
+id: taxonomy_term.story_categories.default
+targetEntityType: taxonomy_term
+bundle: story_categories
+mode: default
+content: {  }
+hidden:
+  description: true
+  langcode: true

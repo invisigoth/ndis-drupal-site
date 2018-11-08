@@ -1,0 +1,96 @@
+uuid: c320aa85-53ca-473e-9947-42ef99e5efcf
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.video.field_link
+    - field.field.paragraph.video.field_title
+    - field.field.paragraph.video.field_video
+    - paragraphs.paragraphs_type.video
+  module:
+    - ds
+    - header_formatter
+    - link
+    - video_embed_field
+third_party_settings:
+  ds:
+    layout:
+      id: ds_1col
+      library: null
+      disable_css: false
+      entity_classes: all_classes
+      settings:
+        wrappers:
+          ds_content: div
+          ds_hidden: div
+        outer_wrapper: div
+        attributes: ''
+        link_attribute: ''
+        link_custom: ''
+        classes:
+          layout_class: {  }
+          ds_content: {  }
+          ds_hidden: {  }
+    regions:
+      ds_content:
+        - field_title
+        - field_video
+        - field_link
+id: paragraph.video.default
+targetEntityType: paragraph
+bundle: video
+mode: default
+content:
+  field_link:
+    weight: 2
+    label: visually_hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: '0'
+      target: '0'
+    third_party_settings:
+      ds:
+        ft:
+          id: minimal
+          settings:
+            lb: ''
+            lb-col: false
+            classes: {  }
+    type: link
+    region: ds_content
+  field_title:
+    weight: 0
+    label: hidden
+    settings:
+      level: '2'
+    third_party_settings:
+      ds:
+        ft:
+          id: minimal
+          settings:
+            lb: ''
+            lb-col: false
+            classes: {  }
+    type: text_header
+    region: ds_content
+  field_video:
+    weight: 1
+    label: hidden
+    settings:
+      autoplay: true
+      responsive: true
+      width: 854
+      height: 480
+    third_party_settings:
+      ds:
+        ft:
+          id: minimal
+          settings:
+            lb: ''
+            lb-col: false
+            classes: {  }
+    type: video_embed_field_video
+    region: ds_content
+hidden: {  }

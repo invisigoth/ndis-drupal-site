@@ -1,0 +1,55 @@
+uuid: 723c9778-5b81-4459-aed2-d6d7e1b0cfc4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_column
+    - paragraphs.paragraphs_type.block
+    - paragraphs.paragraphs_type.columns
+    - paragraphs.paragraphs_type.connected_pathways
+    - paragraphs.paragraphs_type.image
+    - paragraphs.paragraphs_type.wysiwyg
+  module:
+    - entity_reference_revisions
+id: paragraph.columns.field_column
+field_name: field_column
+entity_type: paragraph
+bundle: columns
+label: Column
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      block: block
+      image: image
+      connected_pathways: connected_pathways
+      wysiwyg: wysiwyg
+    target_bundles_drag_drop:
+      block:
+        enabled: true
+        weight: 6
+      columns:
+        weight: 7
+        enabled: false
+      image:
+        enabled: true
+        weight: 8
+      section:
+        weight: 9
+        enabled: false
+      connected_pathways:
+        enabled: true
+        weight: 10
+      wysiwyg:
+        enabled: true
+        weight: 10
+      connected_pathways_link:
+        weight: 11
+        enabled: false
+field_type: entity_reference_revisions

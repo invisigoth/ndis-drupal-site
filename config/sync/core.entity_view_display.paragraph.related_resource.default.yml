@@ -1,0 +1,133 @@
+uuid: 3111dd51-5d7d-4602-97a2-72af9d691803
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.related_resource.field_documents
+    - field.field.paragraph.related_resource.field_image
+    - field.field.paragraph.related_resource.field_link
+    - field.field.paragraph.related_resource.field_title
+    - image.style.related_resource
+    - paragraphs.paragraphs_type.related_resource
+  module:
+    - ds
+    - link
+    - media
+    - ndis_header_formatter
+third_party_settings:
+  ds:
+    layout:
+      id: ds_2col
+      library: ds/ds_2col
+      disable_css: false
+      entity_classes: all_classes
+      settings:
+        wrappers:
+          left: div
+          right: div
+          ds_hidden: div
+        outer_wrapper: div
+        attributes: ''
+        link_attribute: ''
+        link_custom: ''
+        classes:
+          layout_class:
+            col-sm-4: col-sm-4
+          left: {  }
+          right: {  }
+          ds_hidden: {  }
+    regions:
+      left:
+        - field_image
+      right:
+        - field_title
+        - field_documents
+        - field_link
+id: paragraph.related_resource.default
+targetEntityType: paragraph
+bundle: related_resource
+mode: default
+content:
+  field_documents:
+    type: entity_reference_entity_view
+    weight: 2
+    label: visually_hidden
+    settings:
+      view_mode: download_link
+      link: false
+    third_party_settings:
+      ds:
+        ds_limit: ''
+        ft:
+          id: expert
+          settings:
+            lb: ''
+            prefix: ''
+            lbw-el: ''
+            lbw-cl: ''
+            lbw-at: ''
+            ow: true
+            ow-el: div
+            ow-cl: 'field field-name-field-documents'
+            ow-at: ''
+            ow-def-at: true
+            ow-def-cl: true
+            fis: true
+            fis-el: ul
+            fis-cl: ''
+            fis-at: ''
+            fis-def-at: true
+            fi: true
+            fi-el: li
+            fi-cl: ''
+            fi-at: ''
+            fi-def-at: true
+            suffix: ''
+            lbw: false
+            lb-col: false
+    region: right
+  field_image:
+    weight: 0
+    label: hidden
+    settings:
+      image_style: related_resource
+      image_link: ''
+    third_party_settings:
+      ds:
+        ft:
+          id: default
+          settings:
+            lb: ''
+            lb-col: false
+            classes: {  }
+    type: media_thumbnail
+    region: left
+  field_link:
+    weight: 3
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+    region: right
+  field_title:
+    weight: 1
+    label: hidden
+    settings:
+      level: '3'
+      class: h5
+    third_party_settings:
+      ds:
+        ft:
+          id: minimal
+          settings:
+            lb: ''
+            lb-col: false
+            classes: {  }
+    type: ndis_text_header
+    region: right
+hidden: {  }

@@ -1,0 +1,10 @@
+uuid: 0c00dd71-efac-431a-82c4-8c3efd609079
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+id: media.icon_preview
+label: 'Icon Preview'
+targetEntityType: media
+cache: true

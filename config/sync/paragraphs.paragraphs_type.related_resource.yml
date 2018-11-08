@@ -1,0 +1,9 @@
+uuid: 3e0c9310-a488-44e8-a4f5-454ad9853a8c
+langcode: en
+status: true
+dependencies: {  }
+id: related_resource
+label: 'Related resource'
+icon_uuid: null
+description: 'Used by the block Related Resources type.'
+behavior_plugins: {  }

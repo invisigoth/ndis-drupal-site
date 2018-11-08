@@ -1,0 +1,23 @@
+uuid: 3348a444-04d9-4e18-a403-253c3a156c4e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_style
+    - paragraphs.paragraphs_type.small_tiles
+  module:
+    - options
+id: paragraph.small_tiles.field_style
+field_name: field_style
+entity_type: paragraph
+bundle: small_tiles
+label: Style
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: grid
+default_value_callback: ''
+settings: {  }
+field_type: list_string

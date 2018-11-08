@@ -1,0 +1,37 @@
+uuid: a413e3b2-fb0f-40f6-9349-3dc5c93e724b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.link_boxes.field_tile
+    - paragraphs.paragraphs_type.link_boxes
+  module:
+    - paragraphs
+id: paragraph.link_boxes.default
+targetEntityType: paragraph
+bundle: link_boxes
+mode: default
+content:
+  field_tile:
+    weight: 0
+    settings:
+      title: Tile
+      title_plural: Tiles
+      edit_mode: closed
+      closed_mode: summary
+      autocollapse: all
+      closed_mode_threshold: 0
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: _none
+      features:
+        duplicate: duplicate
+        collapse_edit_all: collapse_edit_all
+        add_above: '0'
+    third_party_settings: {  }
+    type: paragraphs
+    region: content
+hidden:
+  created: true
+  status: true
+  uid: true

@@ -1,0 +1,73 @@
+uuid: 4d0cfe38-c2fe-428a-bb5d-c614067319d6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.accordions.field_accordion
+    - field.field.paragraph.accordions.field_title
+    - paragraphs.paragraphs_type.accordions
+  module:
+    - ds
+    - entity_reference_revisions
+    - header_formatter
+third_party_settings:
+  ds:
+    layout:
+      id: ds_1col
+      library: null
+      disable_css: false
+      entity_classes: all_classes
+      settings:
+        wrappers:
+          ds_content: div
+          ds_hidden: div
+        outer_wrapper: div
+        attributes: ''
+        link_attribute: ''
+        link_custom: ''
+        classes:
+          layout_class: {  }
+          ds_content: {  }
+          ds_hidden: {  }
+    regions:
+      ds_content:
+        - field_title
+        - field_accordion
+id: paragraph.accordions.default
+targetEntityType: paragraph
+bundle: accordions
+mode: default
+content:
+  field_accordion:
+    type: entity_reference_revisions_entity_view
+    weight: 1
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings:
+      ds:
+        ds_limit: ''
+        ft:
+          id: minimal
+          settings:
+            lb: ''
+            lb-col: false
+            classes: {  }
+    region: ds_content
+  field_title:
+    weight: 0
+    label: hidden
+    settings:
+      level: '2'
+    third_party_settings:
+      ds:
+        ft:
+          id: minimal
+          settings:
+            lb: ''
+            lb-col: false
+            classes: {  }
+    type: text_header
+    region: ds_content
+hidden: {  }

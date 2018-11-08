@@ -1,0 +1,15 @@
+uuid: 22c6afff-26a6-44e9-90a4-b4db8a8f7f43
+langcode: en
+status: true
+dependencies: {  }
+name: image_embed_wysiwyg_full
+label: 'Image Embed Wysiwyg: Full'
+effects:
+  d97fd598-0cbe-4b9a-9c6c-0308c3391ade:
+    uuid: d97fd598-0cbe-4b9a-9c6c-0308c3391ade
+    id: image_scale
+    weight: 1
+    data:
+      width: 750
+      height: null
+      upscale: false

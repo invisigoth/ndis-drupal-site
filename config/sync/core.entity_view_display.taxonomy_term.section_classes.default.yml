@@ -1,0 +1,31 @@
+uuid: e9fd134b-38c2-4540-8848-923d78bd5927
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.section_classes.field_class
+    - taxonomy.vocabulary.section_classes
+  module:
+    - text
+id: taxonomy_term.section_classes.default
+targetEntityType: taxonomy_term
+bundle: section_classes
+mode: default
+content:
+  description:
+    label: hidden
+    type: text_default
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_class:
+    weight: 1
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+hidden:
+  langcode: true

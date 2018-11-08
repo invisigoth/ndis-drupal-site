@@ -1,0 +1,65 @@
+uuid: 74ad562c-9e4c-4af2-a3ad-33ee55e27cdd
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.media.image_embed_wysiwyg_small
+    - field.field.media.image.field_media_image
+    - image.style.image_embed_wysiwyg_small
+    - media.type.image
+  module:
+    - ds
+    - svg_image
+third_party_settings:
+  ds:
+    layout:
+      id: ds_reset
+      library: null
+      disable_css: false
+      entity_classes: all_classes
+      settings:
+        wrappers:
+          ds_content: div
+          ds_hidden: div
+        outer_wrapper: div
+        attributes: ''
+        link_attribute: ''
+        link_custom: ''
+        classes:
+          layout_class: {  }
+          ds_content: {  }
+          ds_hidden: {  }
+    regions:
+      ds_content:
+        - field_media_image
+_core:
+  default_config_hash: jOwnt_yq6AKAfqU6f0xKnxEkFQ2eTPJWxrk3WMLbL68
+id: media.image.image_embed_wysiwyg_small
+targetEntityType: media
+bundle: image
+mode: image_embed_wysiwyg_small
+content:
+  field_media_image:
+    label: hidden
+    settings:
+      image_style: image_embed_wysiwyg_small
+      image_link: ''
+      svg_render_as_image: '1'
+      svg_attributes:
+        width: '336'
+        height: '254'
+    third_party_settings:
+      ds:
+        ft:
+          id: reset
+          settings:
+            lb: ''
+    type: image
+    weight: 0
+    region: ds_content
+hidden:
+  created: true
+  langcode: true
+  name: true
+  thumbnail: true
+  uid: true

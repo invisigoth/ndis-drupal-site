@@ -1,0 +1,65 @@
+uuid: 0e899939-81cd-48e7-bdd6-6b3b3fd30b38
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.media.download_link
+    - field.field.media.file.field_media_file
+    - media.type.file
+  module:
+    - ds
+    - ndis_files
+third_party_settings:
+  ds:
+    layout:
+      id: ds_reset
+      library: null
+      disable_css: false
+      entity_classes: all_classes
+      settings:
+        wrappers:
+          ds_content: div
+          ds_hidden: div
+        outer_wrapper: div
+        attributes: ''
+        link_attribute: ''
+        link_custom: ''
+        classes:
+          layout_class: {  }
+          ds_content: {  }
+          ds_hidden: {  }
+    regions:
+      ds_content:
+        - field_media_file
+_core:
+  default_config_hash: 9s0lWIanCnW5Xrrkmedxohs9F0yk4LO8ZcmVQ9xyuu4
+id: media.file.download_link
+targetEntityType: media
+bundle: file
+mode: download_link
+content:
+  field_media_file:
+    weight: 2
+    label: hidden
+    settings:
+      trim_length: '80'
+      rel: nofollow
+      replacement_title: 'Download [media:ext]'
+      add_icon: '1'
+      url_only: ''
+      url_plain: ''
+      target: 0
+    third_party_settings:
+      ds:
+        ft:
+          id: reset
+          settings:
+            lb: ''
+    type: ndis_files_download_link
+    region: ds_content
+hidden:
+  created: true
+  langcode: true
+  name: true
+  thumbnail: true
+  uid: true

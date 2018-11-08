@@ -1,0 +1,14 @@
+uuid: ca16b78d-aa78-4214-a9c8-7e85adc43207
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - postcodes_entity
+_core:
+  default_config_hash: 8pJwb6OCJrhLguKpzHDUCt9AwJMXz-s8PvwKDrN-zaY
+name: 'Postcode States'
+vid: postcode_states
+description: 'Stores the states for the postcodes entity'
+hierarchy: 0
+weight: 0

@@ -1,0 +1,9 @@
+uuid: c54349ed-088f-4a83-8b58-8e17afb34a66
+langcode: en
+status: true
+dependencies: {  }
+id: link_with_icon_on_left
+label: 'Link with Icon on Left'
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

@@ -1,0 +1,8 @@
+uuid: 4d6c8fa1-184d-4b39-bdf4-ff790ce51e6a
+langcode: en
+status: true
+dependencies: {  }
+id: page_current_date
+label: 'Page current date'
+locked: false
+pattern: 'jS F Y'

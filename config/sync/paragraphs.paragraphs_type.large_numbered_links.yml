@@ -1,0 +1,9 @@
+uuid: 30f3d72a-6181-450c-89de-6131baa2b8f1
+langcode: en
+status: true
+dependencies: {  }
+id: large_numbered_links
+label: 'Links with Large Numbers on Left'
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

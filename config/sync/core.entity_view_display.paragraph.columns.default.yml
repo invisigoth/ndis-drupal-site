@@ -1,0 +1,94 @@
+uuid: 9293ac45-e3fa-4791-9aa1-7063dc79cf05
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.columns.field_column
+    - field.field.paragraph.columns.field_title
+    - paragraphs.paragraphs_type.columns
+  module:
+    - ds
+    - entity_reference_revisions
+    - header_formatter
+third_party_settings:
+  ds:
+    layout:
+      id: ds_1col
+      library: null
+      disable_css: false
+      entity_classes: all_classes
+      settings:
+        wrappers:
+          ds_content: div
+          ds_hidden: div
+        outer_wrapper: div
+        attributes: ''
+        link_attribute: ''
+        link_custom: ''
+        classes:
+          layout_class: {  }
+          ds_content: {  }
+          ds_hidden: {  }
+    regions:
+      ds_content:
+        - field_title
+        - field_column
+id: paragraph.columns.default
+targetEntityType: paragraph
+bundle: columns
+mode: default
+content:
+  field_column:
+    type: entity_reference_revisions_entity_view
+    weight: 1
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings:
+      ds:
+        ds_limit: ''
+        ft:
+          id: expert
+          settings:
+            lb: ''
+            prefix: ''
+            lbw-el: ''
+            lbw-cl: ''
+            lbw-at: ''
+            ow-el: ''
+            ow-cl: ''
+            ow-at: ''
+            fis: true
+            fis-el: ''
+            fis-cl: row
+            fis-at: ''
+            fi: true
+            fi-el: ''
+            fi-cl: col-sm
+            fi-at: ''
+            suffix: ''
+            lbw: false
+            lb-col: false
+            ow: false
+            ow-def-at: false
+            ow-def-cl: false
+            fis-def-at: false
+            fi-def-at: false
+    region: ds_content
+  field_title:
+    weight: 0
+    label: hidden
+    settings:
+      level: '2'
+    third_party_settings:
+      ds:
+        ft:
+          id: minimal
+          settings:
+            lb: ''
+            lb-col: false
+            classes: {  }
+    type: text_header
+    region: ds_content
+hidden: {  }

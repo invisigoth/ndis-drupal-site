@@ -1,0 +1,27 @@
+uuid: 4493acb7-e164-407f-9da5-c6aabe962dca
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.copyright
+  module:
+    - menu_block
+  theme:
+    - ndis
+id: copyright
+theme: ndis
+region: footer
+weight: -3
+provider: null
+plugin: 'menu_block:copyright'
+settings:
+  id: 'menu_block:copyright'
+  label: 'Copyright Menu'
+  provider: menu_block
+  label_display: '0'
+  level: 1
+  depth: 0
+  expand: 0
+  parent: 'copyright:'
+  suggestion: copyright
+visibility: {  }

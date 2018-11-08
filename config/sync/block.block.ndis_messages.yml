@@ -1,0 +1,22 @@
+uuid: a832b8ca-d4a4-4e10-8d4c-c7e336ca1d83
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - ndis
+_core:
+  default_config_hash: KHQIJ7Vfl25lTjzIc7qIvnuistt-Mw2O0kG4jCofmkI
+id: ndis_messages
+theme: ndis
+region: messages
+weight: -8
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

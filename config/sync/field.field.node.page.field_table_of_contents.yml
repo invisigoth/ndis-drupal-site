@@ -1,0 +1,23 @@
+uuid: a2416bf7-4311-4833-a270-5faaf536b2f6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_table_of_contents
+    - node.type.page
+id: node.page.field_table_of_contents
+field_name: field_table_of_contents
+entity_type: node
+bundle: page
+label: 'Table of contents'
+description: 'Insert a table of contents automatically based on H2 headers.'
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

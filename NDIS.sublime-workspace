@@ -1,0 +1,3302 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"en",
+				"entities"
+			],
+			[
+				"entit",
+				"entities"
+			],
+			[
+				"white",
+				"white-space"
+			],
+			[
+				"no",
+				"nowrap"
+			],
+			[
+				"finan",
+				"financeDataBool"
+			],
+			[
+				"Fin",
+				"Financial"
+			],
+			[
+				"financal",
+				"financials"
+			],
+			[
+				"rel",
+				"related_charity"
+			],
+			[
+				"file_",
+				"file_get_contents"
+			],
+			[
+				"fin",
+				"financeData"
+			],
+			[
+				"font-si",
+				"font-size-small"
+			],
+			[
+				"endp",
+				"endpoints"
+			],
+			[
+				"inline",
+				"inline_script"
+			],
+			[
+				"entity",
+				"entity_type"
+			],
+			[
+				"c",
+				"chartcanvas"
+			],
+			[
+				"side",
+				"sidebar_first"
+			],
+			[
+				"val",
+				"value"
+			],
+			[
+				"line",
+				"line-height-computed"
+			],
+			[
+				"stop",
+				"stopPropagation"
+			],
+			[
+				"grid-",
+				"grid-gutter-width"
+			],
+			[
+				"font",
+				"font-size-smaller"
+			],
+			[
+				"grid",
+				"grid-gutter-width"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"compl",
+				"compliance_actions"
+			],
+			[
+				"add",
+				"add1"
+			],
+			[
+				"import",
+				"import_url"
+			],
+			[
+				"for",
+				"foreach\tforeach …"
+			],
+			[
+				"array_key",
+				"array_key_exists"
+			],
+			[
+				"_acnc_ds_ds_field_node_charity_history__",
+				"_acnc_ds_ds_field_node_charity_history__compliance_history"
+			],
+			[
+				"report",
+				"report_wrap"
+			],
+			[
+				"prop",
+				"property_name"
+			],
+			[
+				"other",
+				"other_field"
+			],
+			[
+				"ann",
+				"annual_report"
+			],
+			[
+				"person",
+				"person_node"
+			],
+			[
+				"ent",
+				"entity"
+			],
+			[
+				"Line",
+				"line-height-computed"
+			],
+			[
+				"acnc",
+				"acnc_icons"
+			],
+			[
+				"color",
+				"color-blue-dark"
+			],
+			[
+				"color-te",
+				"color-teal-dark"
+			],
+			[
+				"stri",
+				"str_ireplace"
+			],
+			[
+				"str_",
+				"str_ireplace"
+			],
+			[
+				"color-dar",
+				"color-teal-dark"
+			],
+			[
+				"gray",
+				"gray-border"
+			],
+			[
+				"backgro",
+				"background-position"
+			],
+			[
+				"back",
+				"background-size"
+			],
+			[
+				"method",
+				"method_exists"
+			],
+			[
+				"call",
+				"callback"
+			],
+			[
+				"mess",
+				"message_list"
+			],
+			[
+				"json_",
+				"json_values"
+			],
+			[
+				"font-",
+				"font-size-small"
+			],
+			[
+				"in",
+				"important"
+			],
+			[
+				"field",
+				"field_name"
+			],
+			[
+				"border",
+				"border-color"
+			],
+			[
+				"gr",
+				"gray-border"
+			],
+			[
+				"gray-",
+				"gray-lighter"
+			],
+			[
+				"icon",
+				"icon-sizings"
+			],
+			[
+				"item",
+				"item_ids"
+			],
+			[
+				"pane",
+				"panel_id"
+			],
+			[
+				"menu",
+				"menu_order"
+			],
+			[
+				"font-siz",
+				"font-size-small"
+			],
+			[
+				"font-size",
+				"font-size-base"
+			],
+			[
+				"color-",
+				"color-blue-light"
+			],
+			[
+				"colo",
+				"color-blue-dark"
+			],
+			[
+				"col",
+				"color-green"
+			],
+			[
+				"get_defined",
+				"get_defined_vars"
+			],
+			[
+				"view",
+				"view-mode-tile"
+			],
+			[
+				"conte",
+				"contexts"
+			],
+			[
+				"theme",
+				"theme_registry"
+			],
+			[
+				"array_merge",
+				"array_merge"
+			],
+			[
+				"boot",
+				"bootstrap_layouts"
+			],
+			[
+				"bckground",
+				"background-repeat"
+			],
+			[
+				"backgr",
+				"background-size"
+			],
+			[
+				"cas",
+				"caseData"
+			],
+			[
+				"margin",
+				"margin-left"
+			],
+			[
+				"block",
+				"block_1"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "web/modules/custom/gathercontent_migration/migrations/migrate_plus.migration.gathercontent_items.yml",
+			"settings":
+			{
+				"buffer_size": 2720,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "web/modules/custom/gathercontent_migration/migrations/migrate_plus.migration.gathercontent_menu_links.yml",
+			"settings":
+			{
+				"buffer_size": 1991,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "langcode: en\nstatus: true\nname: Beer\ntype: migrate_example_beer\ndescription: 'Beer is what we drink.'\nhelp: ''\nnew_revision: false\npreview_mode: 1\ndisplay_submitted: true\n",
+			"file": "web/modules/contrib/migrate_plus/migrate_example/migrate_example_setup/config/install/node.type.migrate_example_beer.yml",
+			"file_size": 171,
+			"file_write_time": 131798542360000000,
+			"settings":
+			{
+				"buffer_size": 171,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "<?php\n\nnamespace Drupal\\migrate_example\\Plugin\\migrate\\source;\n\nuse Drupal\\migrate\\Plugin\\migrate\\source\\SqlBase;\n\n/**\n * Source plugin for beer comments.\n *\n * @MigrateSource(\n *   id = \"beer_comment\"\n * )\n */\nclass BeerComment extends SqlBase {\n\n  /**\n   * {@inheritdoc}\n   */\n  public function query() {\n    $fields = [\n      'cid',\n      'cid_parent',\n      'name',\n      'mail',\n      'aid',\n      'body',\n      'bid',\n      'subject',\n    ];\n    $query = $this->select('migrate_example_beer_comment', 'mec')\n      ->fields('mec', $fields)\n      ->orderBy('cid_parent', 'ASC');\n    return $query;\n  }\n\n  /**\n   * {@inheritdoc}\n   */\n  public function fields() {\n    $fields = [\n      'cid' => $this->t('Comment ID'),\n      'cid_parent' => $this->t('Parent comment ID in case of comment replies'),\n      'name' => $this->t('Comment name (if anon)'),\n      'mail' => $this->t('Comment email (if anon)'),\n      'aid' => $this->t('Account ID (if any)'),\n      'bid' => $this->t('Beer ID that is being commented upon'),\n      'subject' => $this->t('Comment subject'),\n    ];\n\n    return $fields;\n  }\n\n  /**\n   * {@inheritdoc}\n   */\n  public function getIds() {\n    return [\n      'cid' => [\n        'type' => 'integer',\n        'alias' => 'mec',\n      ],\n    ];\n  }\n\n}\n",
+			"file": "web/modules/contrib/migrate_plus/migrate_example/src/Plugin/migrate/source/BeerComment.php",
+			"file_size": 1269,
+			"file_write_time": 131798542360000000,
+			"settings":
+			{
+				"buffer_size": 1269,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "# Migration configuration for beer comments. No new concepts here.\nid: beer_comment\nlabel: Comments on beers\nmigration_group: beer\nsource:\n  plugin: beer_comment\ndestination:\n  plugin: entity:comment\nprocess:\n  pid:\n    plugin: migration_lookup\n    migration: beer_comment\n    source: cid_parent\n  entity_id:\n    plugin: migration_lookup\n    migration: beer_node\n    source: bid\n  entity_type:\n    plugin: default_value\n    default_value: node\n  field_name:\n    plugin: default_value\n    default_value: field_comments\n  comment_type:\n    plugin: default_value\n    default_value: node_comments\n  subject: subject\n  uid:\n    plugin: migration_lookup\n    migration: beer_user\n    source: aid\n  name: name\n  mail: mail\n  status:\n    plugin: default_value\n    default_value: 1\n  'comment_body/value': body\nmigration_dependencies:\n  required:\n    - beer_node\n    - beer_user\ndependencies:\n  enforced:\n    module:\n      - migrate_example\n",
+			"file": "web/modules/contrib/migrate_plus/migrate_example/migrations/beer_comment.yml",
+			"file_size": 931,
+			"file_write_time": 131798542360000000,
+			"settings":
+			{
+				"buffer_size": 931,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "composer.json",
+			"settings":
+			{
+				"buffer_size": 5697,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "web/sites/default/settings.local.php",
+			"settings":
+			{
+				"buffer_size": 938,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/usr/local/etc/php/7.1/php.ini",
+			"settings":
+			{
+				"buffer_size": 71138,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "web/modules/contrib/gathercontent/gathercontent_ui/src/Form/MappingEditSteps/MappingSteps.php",
+			"settings":
+			{
+				"buffer_size": 15915,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "web/modules/custom/ndis_pathauto/ndis_pathauto.module",
+			"settings":
+			{
+				"buffer_size": 2477,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "web/modules/custom/ndis_toc/ndis_toc.module",
+			"settings":
+			{
+				"buffer_size": 1742,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "web/themes/custom/ndis/assets/src/scss/app/wysiwyg/blockquote.scss",
+			"settings":
+			{
+				"buffer_size": 1082,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "web/themes/custom/ndis/assets/src/scss/app/wysiwyg/html.scss",
+			"settings":
+			{
+				"buffer_size": 395,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "web/modules/contrib/toc_api/templates/toc-tree.html.twig",
+			"settings":
+			{
+				"buffer_size": 1569,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "web/themes/custom/ndis/templates/navigation/toc-tree.html.twig",
+			"settings":
+			{
+				"buffer_size": 1580,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "web/themes/custom/ndis/templates/layout/page.html.twig",
+			"settings":
+			{
+				"buffer_size": 6938,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "web/themes/contrib/bootstrap_barrio/templates/views/views-view-table.html.twig",
+			"settings":
+			{
+				"buffer_size": 4439,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "web/themes/custom/ndis/templates/views/views-view-table.html.twig",
+			"settings":
+			{
+				"buffer_size": 4435,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "web/modules/custom/ndis_toc/ndis_toc.info.yml",
+			"settings":
+			{
+				"buffer_size": 136,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "web/themes/custom/ndis/assets/src/scss/app/layout/menu-sidebar.scss",
+			"settings":
+			{
+				"buffer_size": 1777,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "web/themes/custom/ndis/assets/src/scss/app/layout/containers.scss",
+			"settings":
+			{
+				"buffer_size": 1035,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "web/modules/contrib/pathauto/src/PathautoGenerator.php",
+			"settings":
+			{
+				"buffer_size": 12054,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "web/core/includes/batch.inc",
+			"settings":
+			{
+				"buffer_size": 19322,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "vendor/twig/twig/src/Node/Node.php",
+			"settings":
+			{
+				"buffer_size": 119,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "web/core/modules/node/src/Entity/Node.php",
+			"settings":
+			{
+				"buffer_size": 11774,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "web/core/modules/menu_link_content/src/Entity/MenuLinkContent.php",
+			"settings":
+			{
+				"buffer_size": 13065,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/al/Downloads/child_path_update/child_path_update.module",
+			"settings":
+			{
+				"buffer_size": 598,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/al/Downloads/child_path_update/child_path_update.routing.yml",
+			"settings":
+			{
+				"buffer_size": 222,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/al/Downloads/child_path_update/src/Form/PathUpdaterQueueForm.php",
+			"settings":
+			{
+				"buffer_size": 2681,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/al/Downloads/child_path_update/src/Plugin/QueueWorker/CronPathUpdater.php",
+			"settings":
+			{
+				"buffer_size": 397,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/al/Downloads/child_path_update/src/Plugin/QueueWorker/ManualPathUpdater.php",
+			"settings":
+			{
+				"buffer_size": 409,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/al/Downloads/child_path_update/src/Plugin/QueueWorker/PathUpdaterBase.php",
+			"settings":
+			{
+				"buffer_size": 4526,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "web/modules/contrib/pathauto/pathauto.module",
+			"settings":
+			{
+				"buffer_size": 8964,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "web/themes/custom/ndis/assets/src/scss/variables.scss",
+			"settings":
+			{
+				"buffer_size": 2993,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "web/themes/contrib/bootstrap_barrio/templates/dataset/item-list.html.twig",
+			"settings":
+			{
+				"buffer_size": 1454,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "web/themes/custom/ndis/node_modules/bootstrap/scss/_breadcrumb.scss",
+			"settings":
+			{
+				"buffer_size": 1278,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "web/themes/custom/ndis/assets/src/scss/app/layout/footer.scss",
+			"settings":
+			{
+				"buffer_size": 2865,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "web/modules/contrib/pathauto/src/PathautoGeneratorInterface.php",
+			"settings":
+			{
+				"buffer_size": 2181,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 354.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"on save",
+				"phpfmt: toggle format on save"
+			],
+			[
+				"pn save",
+				"phpfmt: toggle format on save"
+			],
+			[
+				"syn php",
+				"Set Syntax: PHP"
+			],
+			[
+				"on sav",
+				"phpfmt: toggle format on save"
+			],
+			[
+				"onsa",
+				"phpfmt: toggle format on save"
+			],
+			[
+				"syn pgp",
+				"Plugin Development: Convert Syntax to .sublime-syntax"
+			],
+			[
+				"synphp",
+				"Set Syntax: PHP"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				" on sav",
+				"phpfmt: toggle format on save"
+			],
+			[
+				"on sa",
+				"phpfmt: toggle format on save"
+			],
+			[
+				" on save",
+				"phpfmt: toggle format on save"
+			],
+			[
+				"on ",
+				"phpfmt: toggle format on save"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"fmt",
+				"phpfmt: toggle format on save"
+			],
+			[
+				"syn ph",
+				"Set Syntax: PHP"
+			],
+			[
+				"forma",
+				"phpfmt: toggle format on save"
+			],
+			[
+				"format",
+				"phpfmt: toggle format on save"
+			],
+			[
+				"format save",
+				"phpfmt: toggle format on save"
+			],
+			[
+				"fmt to",
+				"phpfmt: toggle format on save"
+			],
+			[
+				"format php",
+				"phpfmt: toggle format on save"
+			],
+			[
+				"syn p",
+				"Set Syntax: PHP"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"php",
+				"phpfmt: format now"
+			],
+			[
+				"php syn",
+				"Set Syntax: PHP"
+			],
+			[
+				"prett",
+				"JsPrettier: Format Code"
+			],
+			[
+				"styl",
+				"Run Stylefmt"
+			],
+			[
+				"pos",
+				"Run PostCSS Sorting"
+			],
+			[
+				"post",
+				"Run PostCSS Sorting"
+			],
+			[
+				"pretty",
+				"HTMLPrettify"
+			],
+			[
+				"toggle php for",
+				"phpfmt: toggle format on save"
+			],
+			[
+				"php form",
+				"phpfmt: toggle format on save"
+			],
+			[
+				"php save",
+				"phpfmt: toggle format on save"
+			],
+			[
+				"save",
+				"phpfmt: toggle format on save"
+			],
+			[
+				"syntax php",
+				"Set Syntax: PHP"
+			],
+			[
+				"syn html",
+				"Set Syntax: HTML"
+			],
+			[
+				"set syn php",
+				"Set Syntax: PHP"
+			],
+			[
+				"php sy",
+				"phpfmt: analyse this"
+			],
+			[
+				"json",
+				"Set Syntax: JSON"
+			],
+			[
+				"package",
+				"Package Control: List Packages"
+			],
+			[
+				"pre",
+				"HTMLPrettify"
+			],
+			[
+				"css",
+				"Set Syntax: CSS"
+			],
+			[
+				"prety",
+				"HTMLPrettify"
+			],
+			[
+				"index",
+				"Indexing Status"
+			]
+		],
+		"width": 624.0
+	},
+	"console":
+	{
+		"height": 724.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/al/Sites/NDIS",
+		"/Users/al/Sites/NDIS/web",
+		"/Users/al/Sites/NDIS/web/modules",
+		"/Users/al/Sites/NDIS/web/modules/contrib",
+		"/Users/al/Sites/NDIS/web/modules/custom",
+		"/Users/al/Sites/NDIS/web/modules/custom/ndis_media",
+		"/Users/al/Sites/NDIS/web/modules/custom/ndis_pathauto",
+		"/Users/al/Sites/NDIS/web/modules/custom/ndis_toc",
+		"/Users/al/Sites/NDIS/web/sites",
+		"/Users/al/Sites/NDIS/web/sites/default",
+		"/Users/al/Sites/NDIS/web/themes",
+		"/Users/al/Sites/NDIS/web/themes/custom",
+		"/Users/al/Sites/NDIS/web/themes/custom/ndis",
+		"/Users/al/Sites/NDIS/web/themes/custom/ndis/assets",
+		"/Users/al/Sites/NDIS/web/themes/custom/ndis/assets/src",
+		"/Users/al/Sites/NDIS/web/themes/custom/ndis/assets/src/js",
+		"/Users/al/Sites/NDIS/web/themes/custom/ndis/assets/src/js/app",
+		"/Users/al/Sites/NDIS/web/themes/custom/ndis/assets/src/scss",
+		"/Users/al/Sites/NDIS/web/themes/custom/ndis/assets/src/scss/app",
+		"/Users/al/Sites/NDIS/web/themes/custom/ndis/assets/src/scss/app/layout",
+		"/Users/al/Sites/NDIS/web/themes/custom/ndis/assets/src/scss/app/wysiwyg",
+		"/Users/al/Sites/NDIS/web/themes/custom/ndis/assets/src/scss/components",
+		"/Users/al/Sites/NDIS/web/themes/custom/ndis/assets/src/scss/dynamic",
+		"/Users/al/Sites/NDIS/web/themes/custom/ndis/templates",
+		"/Users/al/Sites/NDIS/web/themes/custom/ndis/templates/layout",
+		"/Users/al/Sites/NDIS/web/themes/custom/ndis/templates/navigation",
+		"/Users/al/Sites/NDIS/web/themes/custom/ndis/templates/views"
+	],
+	"file_history":
+	[
+		"/Users/al/Sites/NDIS/web/modules/contrib/gathercontent/gathercontent_ui/src/Form/MappingEditFormBase.php",
+		"/Users/al/Sites/NDIS/web/sites/example.settings.local.php",
+		"/Users/al/Sites/NDIS/web/sites/default/settings.local.php",
+		"/Users/al/Sites/NDIS/web/modules/custom/gathercontent_migration/README.md",
+		"/Users/al/Sites/NDIS/web/modules/custom/gathercontent_migration/migrations/migrate_plus.migration.gathercontent_menu_links.yml",
+		"/Users/al/Sites/NDIS/web/modules/contrib/gathercontent/gathercontent_ui/src/Form/MappingEditSteps/MappingStepNew.php",
+		"/Users/al/Sites/NDIS/web/themes/custom/ndis/assets/src/scss/app/layout/menu-main.scss",
+		"/Users/al/Sites/NDIS/composer.json",
+		"/Users/al/Sites/NDIS/web/themes/custom/ndis/assets/src/scss/app/layout/header.scss",
+		"/Users/al/Sites/NDIS/web/sites/default/settings.php",
+		"/Users/al/Sites/NDIS/web/themes/custom/ndis/templates/block/block--region-content-top--entity-view--header.html.twig",
+		"/Users/al/Sites/NDIS/web/themes/custom/ndis/assets/src/scss/app/wysiwyg/headers.scss",
+		"/Users/al/Sites/NDIS/web/themes/custom/ndis/templates/block/block--region-content-top.html.twig",
+		"/Users/al/Sites/NDIS/web/themes/contrib/bootstrap_barrio/templates/block/block.html.twig",
+		"/Users/al/Sites/NDIS/web/themes/custom/ndis/templates/block/block--block-content.html.twig",
+		"/Users/al/Sites/NDIS/web/themes/custom/ndis/templates/navigation/menu--main--primary-menu.html.twig",
+		"/Users/al/Sites/NDIS/web/themes/custom/ndis/assets/src/scss/app/elements/node--view-mode-tile-large.scss",
+		"/Users/al/Sites/NDIS/web/themes/custom/ndis/assets/src/scss/app/elements/paragraph--type-large-tile.scss",
+		"/Users/al/Sites/NDIS/web/themes/custom/ndis/ndis.theme",
+		"/Users/al/Sites/NDIS/web/themes/custom/ndis/templates/navigation/item-list--sub-menu--side.html.twig",
+		"/Users/al/Sites/NDIS/web/core/lib/Drupal/Core/Url.php",
+		"/Users/al/Sites/NDIS/web/sites/default/files/php/twig/5bd2aef1b5855_menu--main--primary-menu._TVYsiIDi8-2b6vWWOcUlcgitH/diQbF8AzUXyMqqZ80c15q4XwzDEoy2-_cUezD_Nn9Ww.php",
+		"/Users/al/Sites/NDIS/web/themes/custom/ndis/templates/block/block--region-breadcrumb.html.twig",
+		"/Users/al/Sites/NDIS/web/modules/custom/menu_submenu_entity/src/Entity/Controller/PostcodeListBuilder.php",
+		"/Users/al/Sites/NDIS/web/themes/custom/ndis/templates/layout/page.html.twig",
+		"/Users/al/Sites/NDIS/web/modules/custom/ndis_pathauto/ndis_pathauto.info.yml",
+		"/Users/al/Sites/NDIS/web/modules/custom/ndis_pathauto/ndis_pathauto.module",
+		"/Users/al/Sites/NDIS/web/modules/custom/menu_submenu_entity/postcodes_entity.info.yml",
+		"/Users/al/Sites/NDIS/web/modules/custom/menu_submenu_entity/src/PostcodeInterface.php",
+		"/Users/al/Sites/NDIS/web/modules/custom/menu_submenu_entity/src/PostcodeAccessControlHandler.php",
+		"/Users/al/Sites/NDIS/web/modules/custom/menu_submenu_entity/src/Form/PostcodeSettingsForm.php",
+		"/Users/al/Sites/NDIS/web/modules/custom/menu_submenu_entity/src/Form/PostcodeForm.php",
+		"/Users/al/Sites/NDIS/web/modules/custom/menu_submenu_entity/src/Form/PostcodeDeleteForm.php",
+		"/Users/al/Sites/NDIS/web/modules/custom/menu_submenu_entity/src/Entity/Postcode.php",
+		"/Users/al/Sites/NDIS/web/modules/custom/menu_submenu_entity/postcodes_entity.links.action.yml",
+		"/Users/al/Sites/NDIS/web/modules/custom/menu_submenu_entity/postcodes_entity.links.menu.yml",
+		"/Users/al/Sites/NDIS/web/modules/custom/menu_submenu_entity/postcodes_entity.links.task.yml",
+		"/Users/al/Sites/NDIS/web/modules/custom/menu_submenu_entity/postcodes_entity.permissions.yml",
+		"/Users/al/Sites/NDIS/web/modules/custom/menu_submenu_entity/postcodes_entity.routing.yml",
+		"/Users/al/Sites/NDIS/web/modules/contrib/menu_link/menu_link.install",
+		"/Users/al/Sites/NDIS/web/modules/contrib/pathauto/src/PathautoGenerator.php",
+		"/Users/al/Sites/NDIS/web/core/modules/menu_link_content/menu_link_content.module",
+		"/Users/al/Sites/NDIS/web/core/modules/menu_link_content/src/Entity/MenuLinkContent.php",
+		"/Users/al/Sites/NDIS/web/core/lib/Drupal/Core/Entity/ContentEntityBase.php",
+		"/Users/al/Sites/NDIS/web/modules/custom/ndis_pathauto/ndis_pathauto.batch.inc",
+		"/Users/al/Sites/NDIS/web/modules/contrib/pathauto/pathauto.api.php",
+		"/Users/al/Sites/NDIS/vendor/chi-teck/drupal-code-generator/templates/d7/hook/boot.twig",
+		"/Users/al/Sites/NDIS/web/themes/custom/ndis/assets/src/scss/app/wysiwyg/blockquote.scss",
+		"/Users/al/Sites/NDIS/web/themes/custom/ndis/assets/src/scss/app/wysiwyg/html.scss",
+		"/Users/al/Sites/NDIS/web/themes/custom/ndis/assets/src/scss/app/wysiwyg/video.scss",
+		"/Users/al/Sites/NDIS/web/themes/custom/ndis/assets/src/scss/editor.scss",
+		"/Users/al/Sites/NDIS/web/themes/custom/ndis/assets/src/scss/variables.scss",
+		"/Users/al/Sites/NDIS/web/themes/contrib/bootstrap_barrio/templates/content-edit/filter-caption.html.twig",
+		"/Users/al/Sites/NDIS/web/modules/contrib/entity_embed/entity_embed.api.php",
+		"/Users/al/Sites/NDIS/web/modules/custom/ndis_media/ndis_media.info.yml",
+		"/Users/al/Sites/NDIS/web/modules/custom/ndis_media/ndis_media.module",
+		"/Users/al/Sites/NDIS/web/themes/custom/ndis/assets/src/scss/app/layout/footer.scss",
+		"/Users/al/Sites/NDIS/web/modules/contrib/ds/ds.api.php",
+		"/Users/al/Sites/NDIS/web/modules/contrib/ds/ds.module",
+		"/Users/al/Sites/NDIS/web/core/modules/file/src/Plugin/Field/FieldType/FileFieldItemList.php",
+		"/Users/al/Sites/NDIS/web/core/lib/Drupal/Core/Field/EntityReferenceFieldItemList.php",
+		"/Users/al/Sites/NDIS/web/core/lib/Drupal/Core/Entity/EntityViewBuilder.php",
+		"/Users/al/Sites/NDIS/web/core/modules/media/src/Entity/Media.php",
+		"/Users/al/Sites/NDIS/web/core/modules/image/image.module",
+		"/Users/al/Sites/NDIS/web/core/lib/Drupal/Component/Utility/Image.php",
+		"/Users/al/Sites/NDIS/web/core/modules/media/src/Plugin/media/Source/Image.php",
+		"/Users/al/Sites/NDIS/web/core/modules/media/src/Plugin/media/Source/File.php",
+		"/Users/al/Sites/NDIS/web/core/modules/media/src/MediaSourceBase.php",
+		"/Users/al/Sites/NDIS/web/modules/contrib/geofield_map/src/GeofieldMapFieldTrait.php",
+		"/Users/al/Sites/NDIS/web/modules/contrib/media_entity_browser/media_entity_browser.module",
+		"/Users/al/Sites/NDIS/web/modules/contrib/media_entity_browser/media_entity_browser.libraries.yml",
+		"/Users/al/Sites/NDIS/web/modules/contrib/media_entity_browser/css/media_entity_browser.view.css",
+		"/Users/al/Sites/NDIS/web/themes/custom/ndis/assets/src/scss/app/layout/containers.scss",
+		"/Users/al/Sites/NDIS/web/modules/custom/ndis_admin/css/extra.admin.css",
+		"/Users/al/Sites/NDIS/web/themes/custom/ndis/assets/src/scss/app/wysiwyg/images.scss",
+		"/Users/al/Sites/NDIS/web/themes/custom/ndis/ndis.info.yml",
+		"/Users/al/Sites/NDIS/web/modules/contrib/entity_embed/src/Form/EntityEmbedDialog.php",
+		"/Users/al/Sites/NDIS/web/modules/contrib/entity_embed/src/EntityEmbedBuilder.php",
+		"/Users/al/Sites/NDIS/web/themes/custom/ndis/assets/src/scss/app/wysiwyg/links.scss",
+		"/Users/al/Sites/NDIS/web/modules/contrib/entity_browser/tests/modules/entity_browser_test/config/install/entity_browser.browser.multiple_submit_example.yml",
+		"/Users/al/Sites/NDIS/web/modules/contrib/entity_embed/templates/entity-embed-container.html.twig",
+		"/Users/al/Sites/NDIS/web/themes/custom/ndis/assets/src/scss/components/image-button.scss",
+		"/Users/al/Sites/NDIS/web/themes/contrib/bootstrap_barrio/templates/ds/layout--ds-media.html.twig",
+		"/Users/al/Sites/NDIS/web/core/modules/filter/tests/src/Functional/FilterCaptionTwigDebugTest.php",
+		"/Users/al/Sites/NDIS/web/core/modules/filter/filter.module",
+		"/Users/al/Sites/NDIS/web/core/modules/media/media.api.php",
+		"/Users/al/Sites/NDIS/web/modules/contrib/entity_embed/README.md",
+		"/Users/al/Sites/NDIS/web/core/lib/Drupal/Core/Entity/EditorialContentEntityBase.php",
+		"/Users/al/Sites/NDIS/web/modules/contrib/entity_browser/src/Plugin/EntityBrowser/Widget/MediaImageUpload.php",
+		"/Users/al/Sites/NDIS/web/core/modules/image/src/Plugin/Field/FieldFormatter/ImageFormatter.php",
+		"/Users/al/Sites/NDIS/web/modules/contrib/entity_embed/src/Twig/EntityEmbedTwigExtension.php",
+		"/Users/al/Sites/NDIS/web/modules/contrib/entity_embed/src/Tests/EntityEmbedUpdateHookTest.php",
+		"/Users/al/Sites/NDIS/web/modules/contrib/entity_embed/tests/modules/entity_embed_test/entity_embed_test.module",
+		"/Users/al/Sites/NDIS/web/themes/custom/ndis/assets/src/scss/app/elements/connected-circles.scss",
+		"/Users/al/Sites/NDIS/web/core/modules/system/templates/menu.html.twig",
+		"/Users/al/Sites/NDIS/web/core/themes/classy/templates/navigation/menu.html.twig",
+		"/Users/al/Sites/NDIS/web/modules/custom/ndis_rollout_map/ndis_rollout_map.module",
+		"/Users/al/Sites/NDIS/web/themes/custom/ndis/assets/src/js/app/fontawesome.js",
+		"/Users/al/Sites/NDIS/web/modules/contrib/media_entity_download/src/Plugin/Field/FieldFormatter/DownloadLinkFieldFormatter.php",
+		"/Users/al/Sites/NDIS/web/themes/custom/ndis/templates/block/block--bundle-rollout-statistics.html.twig",
+		"/Users/al/Sites/NDIS/web/themes/custom/ndis/node_modules/bootstrap/scss/_variables.scss",
+		"/Users/al/Sites/NDIS/web/core/lib/Drupal/Core/Link.php",
+		"/Users/al/Sites/NDIS/web/themes/custom/ndis/assets/src/scss/app/elements/block-block-content--type-large-icon-with-buttons.scss",
+		"/Users/al/Sites/NDIS/web/themes/custom/ndis/assets/src/scss/app.scss",
+		"/Users/al/Sites/NDIS/web/themes/custom/ndis/assets/src/scss/app/layout/menu-sidebar.scss",
+		"/Users/al/Sites/NDIS/web/themes/custom/ndis/templates/navigation/menu--main--sidebar-first.html.twig",
+		"/Users/al/Sites/NDIS/web/modules/custom/ndis_rollout_map/src/Plugin/Block/RolloutMapLandingBlock.php",
+		"/Users/al/Sites/NDIS/web/themes/custom/ndis/templates/navigation/menu.html.twig",
+		"/Users/al/Sites/NDIS/web/themes/custom/ndis/assets/src/scss/app/elements/block-block-content--type-related-resources.scss",
+		"/Users/al/Sites/NDIS/web/themes/custom/ndis/assets/src/scss/app/layout/field.scss",
+		"/Users/al/Sites/NDIS/web/themes/custom/ndis/assets/src/scss/app/elements/paragraph--type-small-tile.scss",
+		"/Users/al/Sites/NDIS/web/themes/custom/ndis/node_modules/bootstrap/scss/_type.scss",
+		"/Users/al/Sites/NDIS/web/themes/custom/ndis/templates/block/DELETE--block--bundle-large-icon-with-buttons.html.twig",
+		"/Users/al/Sites/NDIS/web/themes/custom/ndis/templates/block/block--region-content-admin--ndis-local-tasks.html.twig",
+		"/Users/al/Sites/NDIS/web/themes/custom/ndis/templates/block/block--region-content-admin.html.twig",
+		"/Users/al/Sites/NDIS/web/themes/custom/ndis/package.json",
+		"/Users/al/Sites/NDIS/web/themes/custom/ndis/templates/block/block--system-branding-block.html.twig",
+		"/Users/al/Sites/NDIS/web/themes/custom/ndis/templates/block/block--system-main-block.html.twig",
+		"/Users/al/Sites/NDIS/web/themes/custom/ndis/assets/src/scss/app/elements/block-block-content--type-rollout-statistics.scss",
+		"/Users/al/Sites/NDIS/web/themes/custom/ndis/templates/block/block--menu-block--social.html.twig",
+		"/Users/al/Sites/NDIS/web/modules/custom/ndis_rollout_map/src/Plugin/Block/RolloutMapStatsBlock.php",
+		"/Users/al/Sites/NDIS/web/themes/custom/ndis/assets/src/scss/app/elements/block-ndis-rollout-map-landing.scss",
+		"/Users/al/Sites/NDIS/web/modules/custom/ndis_rollout_map/templates/rollout-map-landing.html.twig",
+		"/Users/al/Sites/NDIS/web/modules/custom/ndis_rollout_map/templates/rollout-map-stats.html.twig",
+		"/Users/al/Sites/NDIS/web/themes/custom/ndis/node_modules/bootstrap/scss/utilities/_flex.scss",
+		"/Users/al/Sites/NDIS/web/themes/custom/ndis/node_modules/bootstrap/scss/_grid.scss",
+		"/Users/al/Sites/NDIS/web/modules/contrib/header_formatter/src/Plugin/Field/FieldFormatter/TextHeaderFormatter.php",
+		"/Users/al/Sites/NDIS/web/modules/custom/ndis_header_formatter/src/Plugin/Field/FieldFormatter/NdisTextHeaderFormatter.php"
+	],
+	"find":
+	{
+		"height": 70.0
+	},
+	"find_in_files":
+	{
+		"height": 188.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"paragraphs_type",
+			"getMappingTable",
+			"Drupal content type",
+			"bread",
+			"block--node--view-mode-header",
+			"dpm",
+			"Postcode",
+			"postcode",
+			"Postcode",
+			"postcode",
+			"Postcode",
+			"postcode",
+			"Postcode",
+			"postcode",
+			"Postcode",
+			"postcode",
+			"Postcodes",
+			"postcode",
+			"Postcode",
+			"postcode",
+			"left",
+			"node",
+			"pathauto_cleanstring",
+			"ndis_pathauto_batch_op",
+			"load",
+			"ndis_pathauto_batch",
+			"ndis_pathauto_process_entities",
+			"drupal_register_shutdown_function",
+			"call_",
+			"ndis_pathauto_batch_op",
+			"operations",
+			"_ndis_pathauto_entity_update",
+			"operations",
+			"menu_link_id",
+			"function updateEntityAlias",
+			"pathauto_menu_link",
+			"ds_entity_view_alter",
+			"bundle()",
+			"bundle",
+			"ds_configuration",
+			"ndis_breadcrumbs",
+			"bread",
+			"'media_entity_browser'",
+			"alt",
+			"embed_button",
+			"buildEmbedStep",
+			"data-caption",
+			"alt",
+			" set",
+			"set",
+			"alt",
+			"filter_img",
+			"filter_image",
+			"filter_align",
+			"filter_caption",
+			"filter_title",
+			"data-caption",
+			"data-entity-embed-display-settings",
+			"data-caption",
+			"Embed media",
+			"Upload images as media items",
+			"img",
+			"content_main_attributes",
+			"top_links",
+			"top_link",
+			"menu_link_instance",
+			"XX",
+			"XXXX",
+			"XXXXXXXX",
+			"$font-size-lg",
+			"$gray-900",
+			"content_wysiwyg",
+			"sm",
+			"cls-1",
+			"getUrlIfValid",
+			"fromUri",
+			"link_wa",
+			"content_wysiwyg",
+			"px",
+			"font-size",
+			"span",
+			"li",
+			"2",
+			"inner",
+			"left",
+			".field--widget-paragraphs",
+			"300px",
+			"200px",
+			"separator",
+			"addAccess",
+			"Add media",
+			"entity_url",
+			"rel",
+			"1.125",
+			"make-col",
+			"elements['content']['#bundle']",
+			"pink",
+			"red",
+			"left",
+			"Left",
+			"left",
+			"Left",
+			"left",
+			"Left",
+			"left",
+			"Left",
+			"left",
+			"Left",
+			"left",
+			"Left",
+			"left",
+			"Left",
+			"left",
+			"Left",
+			"left",
+			"orange",
+			"teal",
+			"blue",
+			"teal",
+			"blue",
+			"$icon-double-gap",
+			"md",
+			"left",
+			"after",
+			"$icon-size",
+			"green",
+			"align-content-center",
+			"small"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 11,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "web/modules/custom/gathercontent_migration/migrations/migrate_plus.migration.gathercontent_items.yml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2720,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								264,
+								236
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/YAML/YAML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 21,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "web/modules/custom/gathercontent_migration/migrations/migrate_plus.migration.gathercontent_menu_links.yml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1991,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								274,
+								274
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/YAML/YAML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 22,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "web/modules/contrib/migrate_plus/migrate_example/migrate_example_setup/config/install/node.type.migrate_example_beer.yml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 171,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								146,
+								146
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/YAML/YAML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 23,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "web/modules/contrib/migrate_plus/migrate_example/src/Plugin/migrate/source/BeerComment.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1269,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"SL.1208.region_keys":
+							[
+							],
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 19,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "web/modules/contrib/migrate_plus/migrate_example/migrations/beer_comment.yml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 931,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								130,
+								109
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/YAML/YAML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 105.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 20,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "composer.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5697,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1417,
+								1417
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 314.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 17,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "web/sites/default/settings.local.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 938,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								833,
+								804
+							]
+						],
+						"settings":
+						{
+							"SL.1244.region_keys":
+							[
+							],
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "/usr/local/etc/php/7.1/php.ini",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 71138,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								15484,
+								15484
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/DoxyDoxygen/INI.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 8861.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 16,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "web/modules/contrib/gathercontent/gathercontent_ui/src/Form/MappingEditSteps/MappingSteps.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 15915,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								12827,
+								12842
+							]
+						],
+						"settings":
+						{
+							"SL.1246.region_keys":
+							[
+								"sublime_linter.protected_regions"
+							],
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 10294.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 15,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "web/modules/custom/ndis_pathauto/ndis_pathauto.module",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2477,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2474,
+								2474
+							]
+						],
+						"settings":
+						{
+							"SL.1249.region_keys":
+							[
+								"sublime_linter.protected_regions"
+							],
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 979.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "web/modules/custom/ndis_toc/ndis_toc.module",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1742,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								462,
+								462
+							]
+						],
+						"settings":
+						{
+							"SL.1266.region_keys":
+							[
+								"sublime_linter.protected_regions"
+							],
+							"open_with_edit": true,
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "web/themes/custom/ndis/assets/src/scss/app/wysiwyg/blockquote.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1082,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								617,
+								617
+							]
+						],
+						"settings":
+						{
+							"SL.1280.region_keys":
+							[
+								"SL.sass.Highlights.|85db38bb64739cbb610f940542044a07f47a27eb4963d91550bd27810165f6c2|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|4217986b415d817f4c9cc57a294727b46942b2b60a6897588141ec8a4458a2b4|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|cc33a2d12247ddac6d0d4633fd7d556f0f9545e30f52755422a5fb67c8f9012a|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|3bf193d91512b3e3b323b8e2057336fdf4f27d9887440479cd9bba10a3164ae3|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|eff8e46e4fd3960eefb68fceb87ff64e173e311147bb043b5caa0f6f3bf07f5e|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|c9f751b9da40e5aee46230835ee54d1bfc7b752193731e9217381a3ec25789a3|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|4de062ec98c5c2fe6013f7906fb56bbec24c5fb438c1e5e949c31065bbe9bf8a|region.yellowish markup.warning.sublime_linter|32",
+								"sublime_linter.protected_regions",
+								"SL.sass.Highlights.|a4ac6856efda7e18ca10fff3339b1a14375e882bcac913fca6627911b1079f54|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|cf98dd5dd455a8b568a7335e9ef215eb1e810c3a9713e78507e5a1044a52f121|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|b855854837b7fa7ca3f93685f8f919e1b2f532fc70586e952ca6b5ff9d12c4fb|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|3884b26c967c727ec80e381a2c0e5d5138ea5fffad38647182c496544ca68943|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|4820aedba997272ff62fcc2020e7d7bdb9601a055578c7b1b50a1ac46bb357e0|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|d85ffdaaae0be74489dca4f1548999aa27d18251916d090a44b23a5534b662d2|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|025b780711d357493c6f1019a3bc99781b7635000e2e5b54c1c3180f1f6f17d5|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|6c8af733e75aa87a374d6b130b3ab2c054f8c2c844b6b11c70b9249c033021ab|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|60dc92d129914053b9873e5e4a3efd8c56cc38aeae01c4a3b55db49766dff963|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|1c0f50a9ec15e9ef798c53ed480e3575b9d13ca0805207a1437e5dd9e6aef525|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|6cbb1651da8a66f07f5a6928377a5d4604bceb062e36287c8cd9ce8e8bece95b|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|f23395aff527b4c2fdbce2466317074481feb121213a46c2e154803f3b6a5c5e|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|7ce0806dc27e3725ed47b14fff4873aed19158f8e187dcd59730647b4568b3a5|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|cb124f92fa8cb21a64d022e768b3369199ccedca71f2f8a09446b22e5aacedc8|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|a239ceb46736288060077d35a6fe34be863ded8c14ff000c21daf6e432bd89ea|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|500739b841ea6ae55a3668afad8a5cacabb22e35ae5235a486e64ad3076c1160|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|fc23f7458ef151910e5804af6578d601f40635acba93567424a6f472b53e03a0|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|23291eb3b9ade0d21e5ed9fca46bd2232ad23cb47fe1d7f8e1b85bd7dac065c2|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|3a04aeea8e76e1fd1604a083eaa0a8a6764907cf2654b668f75b34854fb3b418|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|d517bff48c6e0cf274cb2c60f50d9ff7bc0e8263c0c7bbb9a28f918951e9e473|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|c0f19a59dc48ee4cd47664a182a28fd2097dbe4e8b40ac907970735aa10728f9|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|d424d781db723a2a91c727de3ff844252c35ed9164164304ee57786149929ffd|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|b43afb0e95ac06968d657f94f3931bde9ad1f11f51b3999896d5680be0542c47|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|8184dda49db5d711c84d9f3de7454ab0082a32cae5dd9f5c50a4d671dfe79902|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|91f701f0fc264980050e3773453f2254e24b1400b1fbb59962e803d1df24ba19|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|9b21e206b33aac88acced656912ca89e62d154012b8d0d3d66a496cdf8d3f815|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|5eaba49e92d3156c33d9ea6513ca227d779a9cec71c3674f9931f45b42fdc636|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|1191b298bf2a35dc0721a44559c16638a2c02d065deee94eca4fb591759a9d25|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|2c917028dc9f2771404f0702432447e4d8a00b645a00d2205a9ab89e0e1a02a8|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|37db980d650888931eb3cc6da3ade715c0dd2d78ab38fb93a2acf0e8696797ed|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|a59bc1f63759eda52ed7a5a457b331c77204c54550ab42c1f37f20a1214a20bb|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|88df080f90d3bceee1ca4545ce52289dbd8bcd5eebdee8319a2a803fc51ebcf7|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|9f6ca18a0924d8e3f8a5599a01c4b742824dad8d9a9efeefdb036e95c527093d|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|f2b217fa60daeeb3fd0cecdaa639591896c85269356ebb798ce6ea1b51e54cfd|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|cbcfaf81c6ad60ad3183e76799151e6bf8e6a3361105289dfa2d922cb45bd067|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|6b58ab68307e08d202e094e4cceb3ec7181332a3381e9ac2c5034f8d409fb426|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|e2cb4963410de9de086f773d75e017eb0e7ac696b6cb41bdce5ed2b526248757|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|9c1f28b46ea946ff73945afb34d7c4bc2b5c8cbd953d8075973f5fef4d77bcb6|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|dc2589ff5a941287f923bb46f29255ccbf7b0e9b2dc35862a7b675240d2c9bfd|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Gutter.|region.yellowish markup.warning.sublime_linter|dot",
+								"SL.sass.Highlights.|47c4fc43b62c19d98efb9e4269b412404828119adff2bd1c52239a82cb8e7d81|region.yellowish markup.warning.sublime_linter|32"
+							],
+							"syntax": "Packages/Sass/Syntaxes/SCSS.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 542.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "web/themes/custom/ndis/assets/src/scss/app/wysiwyg/html.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 395,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								394,
+								394
+							]
+						],
+						"settings":
+						{
+							"SL.1270.region_keys":
+							[
+								"SL.sass.Highlights.|e01e05ad94c3126746aae480d56acddd9e80f8179c176e5f3ebf7564e3f39615|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|8135dadb2f923b1ed5e3f983dad4c753c21a9830523efca8000ba197afcb29a7|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|c69bd0e838ea4e013131801ba9d644a8ef94012457815492d31016ee10130150|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|8e35c05c4fb7a89d8063621758f19a0b116695bdebc0550455c82f53f13ebfde|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Gutter.|region.yellowish markup.warning.sublime_linter|dot",
+								"sublime_linter.protected_regions"
+							],
+							"syntax": "Packages/Sass/Syntaxes/SCSS.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "web/modules/contrib/toc_api/templates/toc-tree.html.twig",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1569,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1188,
+								1188
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Twig/Syntaxes/HTML (Twig).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 450.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 14,
+					"file": "web/themes/custom/ndis/templates/navigation/toc-tree.html.twig",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1580,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								962,
+								962
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"syntax": "Packages/Twig/Syntaxes/HTML (Twig).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 365.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 15,
+					"file": "web/themes/custom/ndis/templates/layout/page.html.twig",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6938,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4915,
+								4915
+							]
+						],
+						"settings":
+						{
+							"SL.1251.region_keys":
+							[
+							],
+							"syntax": "Packages/Twig/Syntaxes/HTML (Twig).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2895.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 16,
+					"file": "web/themes/contrib/bootstrap_barrio/templates/views/views-view-table.html.twig",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4439,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								4439
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Twig/Syntaxes/HTML (Twig).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 805.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 17,
+					"file": "web/themes/custom/ndis/templates/views/views-view-table.html.twig",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4435,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1595,
+								1595
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"syntax": "Packages/Twig/Syntaxes/HTML (Twig).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2083.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 18,
+					"file": "web/modules/custom/ndis_toc/ndis_toc.info.yml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 136,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								136,
+								136
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"syntax": "Packages/YAML/YAML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 19,
+					"file": "web/themes/custom/ndis/assets/src/scss/app/layout/menu-sidebar.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1777,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								938,
+								938
+							]
+						],
+						"settings":
+						{
+							"SL.1252.region_keys":
+							[
+								"SL.sass.Highlights.|f00bb2254cf034e9f450e31a8a45a9961a12628a92209307451b4fbd053fcb8e|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|85189bba2f5ad7bb4f0289cfb9d31d8d0a991c0818c5494d298d16a24bab7cae|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|77692750bc32ff2c10dce7c069143f3033ce3e709389c28051480e61266625f4|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|f1298274cf66936959b4eb87585bfdc20b94e0ebb22efbc7861368e93d3972ac|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|7e32568cef211fcf34fd204d769cb7be29ed4aef72d11462b0ad151dc9f6085b|region.yellowish markup.warning.sublime_linter|32",
+								"sublime_linter.protected_regions",
+								"SL.sass.Highlights.|0742c3d4b6730681ebd533dec34036643631fb56c525496850f837c5645bb924|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|53a89972b6632cdf99aa386ac114f77722cbcb8daa063a3c32e2bd74b56ae05c|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|2526d8401f87787025459f305cc91a7015605f9a897cc7cb4edebdf56ab1787d|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|94f35451be70bdbc9e29ea22db6032ebfd5978ce5487b88ccf7799cad91fb8f2|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|dbb0c308576e5132cde7fe245672a9612bcb6b051127b364f9b140bb07a84504|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|f2fd0e2064259a02ea13cdaf925191f14e5e3609af2a843a2d65bd029ed836bb|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|42739a85184d5f5fe57a30d8a5838b5e3310d6dc6a91b6362057ed1667854e77|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|1227be5b7756764e14418cdf383d45ffe4137c282268be4f62c2cbe94c359978|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|bfab3ec43f1ac26d5dc235f92feac88df4002685a03b4f0fbf32cde3e3af545f|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|82a4d4ea420a594ea8ff0822bc07c443fb290a070cfb143cfe5c6ef11f8a012b|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|99c1cfa17414ee7a65a6214b997159eb3f86378cc5449cb789a5647925336aa6|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|df5b04ae0139ce2db80faba1cde2fa467eb899a9a2dd3efd436b34cbe6c22946|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|b2c9760a0785358596db69079bdf2eb682d1e111cd4c96a4952c1c54d786aa71|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|6bbcc80a870938b235dbb51916dc505deb9c9a359b1415bf4f99ebea82d19ab3|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|be27e462534b8ffff453523236ae95fef0f45cc668357a833fe8a460a40ddca8|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|0d82ea27ef21fc22209d943aee0bd34a790c9b3893147466b269f09289ddec5e|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|cbf0041ce4b276ed27ac6505372cc72554b6602ce6fc341947991aa2c0128b2f|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|275fc31dec3e64b958855f5e8bfef696f9cc6bd8438a8dac7e7315dcd9630a6e|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|76ba6f18493239906203740c0b1585efac0212f2f4f5cf2b9db9ff16bbde1aaa|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|a236377d48c6b4060ec889165d19b6cceeed084c1553de7d8f8364e60eeea392|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|b49796cc7a6871ccd613d175751ca6e543d9f6c3eca280fa6184d6ba91da49b7|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|6796b5dc4eea12380a1c3886192aa033e0dd857a248532c2dd866a023d551f76|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|762aa32779b950295eab7aca32f5c3850d4dde2261f36202c178bd9da23149a0|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|c48d0b12e78a9279c80d352698d442ba7deca965c7a36dc13e7a15696639383c|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|3a2f533302d64982231f765cfb25254b2e9ec2c5a365b19e5d1e9e363bbe8553|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|d0d71a7d598fb83453dcd0704ddd66cb09b188e766e742cd1c8bb81a9bb92d35|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|8df302345e490bfc9dcc8b6b271057ad96879fd5a0453794c9d23900bdc4c334|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|01e3d569321b6b7250d28e04b4b5fe55842fd292533a56381511798551553b1c|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|326fd4d75bf63b590c1ed327501269b8811f000eb437fe8065970e6b8ca5c8f9|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|79a012bd0907af498cca60462c9faf09ff82f1bd6c113c528476b7c92076781f|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|ef4433b74ecffc0f2913f1ea6620744af6ff5a2a3233901d9f491a143b6aba5b|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|156dd71ad8b74b06f517a1cbfa33102613921c7fa64a2e5a82abd86d899954aa|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|dc2a670da3cdc8fa9dc209fca94e206aa55a73427ece4158f58c689a487301e4|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|46ddca8a63d61270e36db3bc5be7dcf5166d148fdfb18b93ff35221c13cc6c3c|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|62f5626cff3f16eb67939d16837aae77b3595413216ff97a023d5eac6d3a1229|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|7bcf0fd290e6a943f9042015061c8eb42897b417040e56b8e640c0fa8248937f|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|dbf0b90b14513353a9f4c4d7d3775dbaf8effe1040c6fc8e2572fcb860f9d730|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|134792d53ba00a2a310e82e2e62748a7251e292f2f39c711d267b3eb24db1ab4|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|b26336403e3f1c581c322ca5da9af2b9c728d85ced300ee6323dd218aca3b891|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|e7b5c475e8d901e9309e51258a3854ba7189d75fe7128c12160cb654647c9bde|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|b6750eefb1cf1e102e60227d85b8fc0c7cbde42ab2dcc98aaa71cbbd719ea9c1|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|f80784bda204335cb264b36b760a1fd972fce226938ff41caef71c9d6e8fc275|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|d339c10f7d2a04cb963bc96b63d29043ce39be576383c554fc010241a42d5d36|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|7c36fa2a759b75f1db3801a7605c8da01d300626f9ad7370d4bb22d7054da0c8|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|3d0e1927093b4a1c66c085e92d6072d437484a51b1621da20924947e0a8749c6|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|e7a8e8be48d6f27e126141af575b8b7b5bda316d470c08c56ebc9c0d22c4943f|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|2aa1c8e93d9bdfdb5e447a0f57dd51afc16505e0322da78d0c5ac31d432efea8|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|5972354dd1cf7d3a4edfa5f94458f6c2eb06e5cceee72e1b026dcadbf6ca7eb5|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|b4641b3748fae0ddc403102c7159ec7c5d0172f8fb94050452ff5ab3e4f85104|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|dfb2ae2de3555738d5f86c7e536a2bc131d42ada5d4c42305e95ede044b28c68|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|c72418da5d4b555622e515b23ab571c2df90dcb166987fe4251c2cfb45830db3|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|3357f42edfc51f5f922f864b5f8cf18acf51ef5cd76627a04b8c521ff8cbf21c|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|a0bea5ac2935a47f9a70a0607270786e9290ade779fd90b6a72c496c5328321b|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|f5d4a4a6109c909d110c79743130f1425a669fffc7753c95ae1ceed3aaf94ac1|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|e6197e9a34dae0bec032ad35403df868c57fa7e5ddb6fcd7fa736c0b43e5fc58|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|13b5f9a78bccdca863aca9232754e0160902f44be7950078a76eebab84083c03|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|4b892a1e46f8f46569174ad68a958fe9f2cb527baa5142f66df246444b68d880|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|b9adfd30e549f5bb5ee19ac5842646d35997af48855301fd50d96595ded857cb|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|c0bd717953623cc162ae161152ce3d77e1f63c0a19cfc1fa2be068ee44f77870|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|dd5a9d602cb13ace1bc6c5a8c23c2058a06efe160dad8406f81543e50871be16|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|f06b325fb48268c0e93529bc4e30dc59305a6627e2f3a3c9c683c782cd64c764|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|73887c9e5c553bcd0ee86cd8f0ecc9ec15702b7276f2252d7578f802afdf9e5f|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|477f2da16b6fe2af4c438ec6dd9f097c8f37ba541de4ab301e8f16a55cdff9c9|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|d3146713ec9055075f84949070afeb64f9e5eef8648ab1ca9975fa06826b9906|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|10c572ef543af3799d014e5cfd37686f9cb5cc97540cfde207b043c0aaecdf31|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Gutter.|region.yellowish markup.warning.sublime_linter|dot"
+							],
+							"syntax": "Packages/Sass/Syntaxes/SCSS.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 563.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 14,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 18,
+			"sheets":
+			[
+				{
+					"buffer": 20,
+					"file": "web/themes/custom/ndis/assets/src/scss/app/layout/containers.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1035,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								335,
+								335
+							]
+						],
+						"settings":
+						{
+							"SL.854.region_keys":
+							[
+								"SL.sass.Highlights.|58781e01c052133b91050f2478ccdc809196c41e629bf4e7574a12d72687f0f6|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|a6d1efcc562a41abd5c27a423930e0cab225454f74924676b740b1368579b585|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|2222c7a985a4ded5316f939e2a6c1b1c4cbab9e59cf650d1132488618a8473cd|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|7518a68d20509f102713a9615d2d18dfd4df6e4390c67be08e40070523a8c272|region.yellowish markup.warning.sublime_linter|32",
+								"sublime_linter.protected_regions",
+								"SL.sass.Highlights.|5c9dc89e0bb93e69577361108f2521ec3c203b6d653e5cc998bcfdaf556f2376|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|1514a5802ed13de89764ca1e2111e2a07b3c3733bf127fbf7bf5b1837bef5a52|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|9b21e206b33aac88acced656912ca89e62d154012b8d0d3d66a496cdf8d3f815|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|0b364c1495e4f9ad25e3e667e406e2d463df85d917e6fff1fb026fc339bddc2f|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|d0eb681266239af9dfdb2c5a9aa361588f4d23b2192f4100a92c53f9c56fe1df|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|cc630cece45dc6acdac816d46f87fc48ea57e08488658442d9bea520d14589f7|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|dd134287f86b3ee6a2a5aeeeb051b0bc6861afdc93de79305ccb02f752a550bd|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|5a1bce9a87522d2b02c3a01c874e7e6fa6f2e5f8ef550f5c0c435e51d6ad29eb|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|0d803585d8aa701046032c9189821c99c31045204bdc5764fcf21dcd9bbc8e60|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|92e725ecbcd16fd26fa5313582d2049428a2b92dbb1e3360adfd412e41ceda28|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|511d196524c3a2ea419cfdc92e46874407b3e7d59e7c822bdc374734c828e75e|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|e9250e1d69b52455aa803a3fb1b43cb4641fd4c3efeb010864db1d5deb5ad578|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|ba0f3c648a7158ca3e32faa6360e04be0d0db546361fa14f931c22be0329171a|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|0f30c0194c491e62b33834a11e2f6b61156bc0816bc66a20c072631ac0fb0de6|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|3e14547e36a3ec73ee8a23324d2de93e9b5ba99e899609ee1e8496ce979a7299|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|1386be5bc3e14ed1cbd6a94c9aaa87dec184cf3039b38eafbf0a5fa2c3a515ba|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|f311cff3f08a68f0c7c51db7d5dee2ff950e0e041c540a1b0850c2057b7642ee|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Gutter.|region.yellowish markup.warning.sublime_linter|dot",
+								"SL.sass.Highlights.|f2b3310ba70b4904f4e57b8e31d03a8c549ae4a23936a8965d313b6118db5788|region.yellowish markup.warning.sublime_linter|32"
+							],
+							"syntax": "Packages/Sass/Syntaxes/SCSS.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 38,
+					"type": "text"
+				},
+				{
+					"buffer": 21,
+					"file": "web/modules/contrib/pathauto/src/PathautoGenerator.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 12054,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								10352,
+								10352
+							]
+						],
+						"settings":
+						{
+							"SL.903.region_keys":
+							[
+							],
+							"history_list_is_closing": true,
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 6945.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 37,
+					"type": "text"
+				},
+				{
+					"buffer": 22,
+					"file": "web/core/includes/batch.inc",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 19322,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								9054,
+								9054
+							]
+						],
+						"settings":
+						{
+							"SL.925.region_keys":
+							[
+								"sublime_linter.protected_regions"
+							],
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 6191.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 36,
+					"type": "text"
+				},
+				{
+					"buffer": 23,
+					"file": "vendor/twig/twig/src/Node/Node.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 119,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"SL.971.region_keys":
+							[
+							],
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 35,
+					"type": "text"
+				},
+				{
+					"buffer": 24,
+					"file": "web/core/modules/node/src/Entity/Node.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 11774,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6554,
+								6554
+							]
+						],
+						"settings":
+						{
+							"SL.982.region_keys":
+							[
+							],
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 4239.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 34,
+					"type": "text"
+				},
+				{
+					"buffer": 25,
+					"file": "web/core/modules/menu_link_content/src/Entity/MenuLinkContent.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 13065,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5437,
+								5445
+							]
+						],
+						"settings":
+						{
+							"SL.987.region_keys":
+							[
+							],
+							"history_list_is_closing": true,
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 5888.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 33,
+					"type": "text"
+				},
+				{
+					"buffer": 26,
+					"file": "/Users/al/Downloads/child_path_update/child_path_update.module",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 598,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								295,
+								295
+							]
+						],
+						"settings":
+						{
+							"SL.993.region_keys":
+							[
+							],
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 32,
+					"type": "text"
+				},
+				{
+					"buffer": 27,
+					"file": "/Users/al/Downloads/child_path_update/child_path_update.routing.yml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 222,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								222,
+								222
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/YAML/YAML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 31,
+					"type": "text"
+				},
+				{
+					"buffer": 28,
+					"file": "/Users/al/Downloads/child_path_update/src/Form/PathUpdaterQueueForm.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2681,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"SL.995.region_keys":
+							[
+							],
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1747.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 30,
+					"type": "text"
+				},
+				{
+					"buffer": 29,
+					"file": "/Users/al/Downloads/child_path_update/src/Plugin/QueueWorker/CronPathUpdater.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 397,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"SL.996.region_keys":
+							[
+							],
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 29,
+					"type": "text"
+				},
+				{
+					"buffer": 30,
+					"file": "/Users/al/Downloads/child_path_update/src/Plugin/QueueWorker/ManualPathUpdater.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 409,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"SL.997.region_keys":
+							[
+							],
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 28,
+					"type": "text"
+				},
+				{
+					"buffer": 31,
+					"file": "/Users/al/Downloads/child_path_update/src/Plugin/QueueWorker/PathUpdaterBase.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4526,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3635,
+								3635
+							]
+						],
+						"settings":
+						{
+							"SL.998.region_keys":
+							[
+							],
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2247.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 27,
+					"type": "text"
+				},
+				{
+					"buffer": 32,
+					"file": "web/modules/contrib/pathauto/pathauto.module",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8964,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								463,
+								463
+							]
+						],
+						"settings":
+						{
+							"SL.1006.region_keys":
+							[
+							],
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 26,
+					"type": "text"
+				},
+				{
+					"buffer": 33,
+					"file": "web/themes/custom/ndis/assets/src/scss/variables.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2993,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1716,
+								1716
+							]
+						],
+						"settings":
+						{
+							"SL.1024.region_keys":
+							[
+								"SL.sass.Highlights.|190ba9d60345dae56e410b3d7a27a28c715491eed3a01f70cfb021c400489be9|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|f1d718ce0f9be03ff995df1a2a2af36158e5c606e1543a688977604199a6f677|region.yellowish markup.warning.sublime_linter|32",
+								"sublime_linter.protected_regions",
+								"SL.sass.Highlights.|af38537da9484e44e2e9dbfc04acd19666e6d4f38c1c4545254de047f918160e|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|843f40b6963a09732045b318b8b8c90ff22268bdd93c2f0c04f342141c933223|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Gutter.|region.yellowish markup.warning.sublime_linter|dot",
+								"SL.sass.Highlights.|4614889bf0141a88b240cb3a234c2ce64d838e3afc960e7939d9b152d5eddf73|region.yellowish markup.warning.sublime_linter|32"
+							],
+							"syntax": "Packages/Sass/Syntaxes/SCSS.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1006.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 24,
+					"type": "text"
+				},
+				{
+					"buffer": 34,
+					"file": "web/themes/contrib/bootstrap_barrio/templates/dataset/item-list.html.twig",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1454,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								794,
+								794
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Twig/Syntaxes/HTML (Twig).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 13.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 25,
+					"type": "text"
+				},
+				{
+					"buffer": 35,
+					"file": "web/themes/custom/ndis/node_modules/bootstrap/scss/_breadcrumb.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1278,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								656,
+								656
+							]
+						],
+						"settings":
+						{
+							"SL.1129.region_keys":
+							[
+								"SL.sass.Highlights.|c80a59c83f25859d41bb912394fdf4da92ab0cbb4abc6859da4a809d61f2a4b9|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|08dad0ed96d46be94d7ca4314645110d05f579c50d6dc523d7d2bdc721a786be|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|1a77bc884b2a94592647022f349ff877b5e7d68d268dc794362b17bf766c7fd7|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|5cbd28ff71d48d90d686e861c9b99c1ca61124fe6eea997674aac23d4ed121df|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|0b358fb6b71f41e72a75de663de5dd72d45344af87cc60f57c3745cf413e9a6c|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|5aad58757f7756cb36cad868ad2f9b653c3b828e845a48305310b6fa9533dc3c|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|dd45cf65fd0c11d257fd8da25e590491e8ad305cb03a0d8e081dbdf6bf0688f7|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|cd7e8e6d5710e73a0809b8c88b1295950eab1a08353d704be05277ebb82d328f|region.yellowish markup.warning.sublime_linter|32",
+								"sublime_linter.protected_regions",
+								"SL.sass.Highlights.|013f27963b3e504cbb6d1ad264ee122249214627a89cdae6821db73ec56f2964|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|0d32f5c24dc3031b0f4b03f95b5001873ff43c255d0cd563ae5b170ff40de060|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|ff7a4e447bc0635aabaa341c4e11d0391d193598c225fec18e1e2d74cdf51e46|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|eb8594309737f88463d01cc4e11b1d47976c1fd9b6c13ddb43ccee7d3c2c25a2|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|7a4e09daa1612a8e9724458be6351d98c5218f2abf6c3bd2e8cc504f4fffcbad|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Gutter.|region.yellowish markup.warning.sublime_linter|dot",
+								"SL.sass.Highlights.|656c2b355ba3d91b470d950c7225466f59670d6efe2c4461b9d13308a71e0bac|region.yellowish markup.warning.sublime_linter|32"
+							],
+							"syntax": "Packages/Sass/Syntaxes/SCSS.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 12,
+					"type": "text"
+				},
+				{
+					"buffer": 36,
+					"file": "web/themes/custom/ndis/assets/src/scss/app/layout/footer.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2865,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1449,
+								1449
+							]
+						],
+						"settings":
+						{
+							"SL.1134.region_keys":
+							[
+								"SL.sass.Highlights.|6efe89845b61a7bd37d4090cfacc4b8c46beedc04b85e381a5a4993f25cf0e06|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|5efe17999f8c4ae871873c1727c4294e99a1676d71398fa7d797edb55bec6c4c|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|b8fa148e0fad9d034098af79fb65677263cdb975e8485a64714fed3f32c9be26|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|2ce7d411095b218f34229a774bbae3403bf7017afd579650af58590cf2d0da10|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|bf713e0d9d6707786e119390fd93b36b8925b80d8b36c31d8a0abfecebc6e01d|region.yellowish markup.warning.sublime_linter|32",
+								"sublime_linter.protected_regions",
+								"SL.sass.Highlights.|043b8038cc08b7a8bbae8932d060fd3a78043da39b89490d0c1233496e2c6348|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|9fef89bb57afde7d36a5919737ee6ed8ab04162ef39108b5aac37cbfd0a238f9|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|83be6baaa09198366e7a5c578486ff5bb5a71bff02bd37dfd9a4c12c5049d7b2|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|536aed1cc0e4095e83dc2c1f1839fdfd399d7d91ffbb9ee878c65950f22172b2|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|7a7f5858a62101d29013b5ddaebc6558f322797b901873f1d2afd1461676a05c|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|62d5aae1ceb85788dd765a86a2855ce135d8ffb62cd6f2e8e8538e0fe5eaab72|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|02d0baf8fae2bcecb92528488094cf8a7d8a13436741d6adfd25af73653ffa6f|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|0754617d9c10844e9afee5d257026edd67ba69debb52b8418d0ee839d866e76c|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|9a028caed9db0a2811ee1da8640bcc7ef5dd38d4a7bb794c754a7851b5eba4d1|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|e12bd8fd9209f3d0d25667ecb610d0b7396fbfeca8ba410c6ba38ee740a973cb|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|499da174448f1d777e785e62a5a2ff2cf398b754f4088893961870547e182f6e|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|7e795e4497d5284309b20106403158b46c417032702c0661ce7dac4040addbe5|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|6085c2f9b77d8c1d03d9958b3ad2089fe87742a29fd237c758932768048fbc61|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|0033e00b25285a0ff5d47693497913b6faa927343c24046cdcfa515c6cb191e1|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|816a0eefabb5da322dd185a537f2f78673e880d78e4225337ef3be0a2fb202dd|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|bd8251e27d8507ae5ea230f7fc80f506d7662f7e146918540e5e90d8a51e8aab|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|4c7b520218652efcc65eb874e53e9b349d6fdda2cd9ec1b88333d18348c01555|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|71ea96c9d120b4928c238c6223ee5567545fdd8c4e8951fe45f7240e5f548a84|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|89e89525f3b9fc7017e54bdef8a3258e2bd8eaccfb40b5f32e3d1cbe39f7fbfc|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|d43b269a2f9ad0689d63f9f9285615872985cb9e252187f3d8f5a020683bd238|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|5d6690d93714c830696d3470b2a0129e7545733e93cdbb4d99f0548ceb3ef71f|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|eff8e46e4fd3960eefb68fceb87ff64e173e311147bb043b5caa0f6f3bf07f5e|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|ddb11a52c5c8170182c345c84f119e3878ec62db3650d3f722ae841f861eaf97|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|7ec4e0149a0706e738b60cb35c00dddf197ecab2e45167fc1aba94b77133968a|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|1c39bd26ea60a5ae02acbd94ab3c9151e83cc1928e272c147f824763e9de48c4|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|fb1b7359c86bf0d2d56c47ca83278b6421270adf575413f1c209ea95c090c190|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|f0f4420cfa287b14a9f48a7c86a6d09657d2084ac325ca5f260d99f8b93f4e8b|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|dcb79138273ba01c09e44668adc90a156fa8669e3cf918d579deb55d20af40f5|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|6b56048a9722068609dffdfb97be4de6d29834de421b1b11a024d60018432fac|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|a2c08ddebae8d04fb54e377e999fdc914b52a31cae96e21af26fcf826a77ed72|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|271d33731d779a55d66ec0d2be4be381132e7ae37488a8d2d0eb7391eb7d2b7e|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|eb3b1f183047105c278b40635ba6637a939fe0962ad1a2c2e01f90c19dba4809|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|ef99fbd8010f8b19e47fb1104ca3439e44974c6980292e862079a2f310452f65|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|3e4536fa92a0c3ee407edf88ca5d1836623f5a6a773d03d2424284f029045d3a|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|c7d7225ed2c44faaf9ddf08537aac048710a276ebad5fcb9eff727fbd6f2ef01|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|1961e74cabac1329426a79866df1cccc0e66ea06907302b96d60de1efcdfba0b|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|57121f6253b7ec0c51f06fe7010cbf39c02999fa1e815d08f371ff40e43d6cfb|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|43d8dea103a149a9eac73073971fbd175ee78627f8b86d309331230ccbf23c28|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|96245863af41d62c035d2faf4209930844148546c7586a6d88bf875666b00c22|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|e9c702e872dee3338f4eb0b349094955b1b86777eb28de53d34e5214a52be695|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|04f2172377ba458160dc163a5b9af71cb84a46e0a7a12a55045956bbe732b66f|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|1c60e15e309da872fdfd2adac5e30764c6a1b47adf37437d107c9687d5a4d4fa|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|f5389cf5448967233f1a155ff4a85c27b0bf5854835a2e13dd26baea3738f690|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|9e31d1f327548fee19f2b0e56c13763e7ec1aedef5fe8ff515426155b877935e|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|5104701d753ff138b89a3f0b939f1df4dc0828c12b15d3a1883a4d4cd85f270b|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|5487631acad125b03f8bc1f40aa713720c3466def73864ab8ab101b653c14a63|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|d77e2d6a50b76a5e9c4c9775bbcc053306389dacea333090925eabd7ca2da71f|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|64e1f25009ef5a8e13a2eadd929bcf91d7bd61ff743f44e5cc14a1586c11558b|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|96898d0ab2235366b7315a1be63fe95895eb5a69542b712544be074345128860|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|3ec13d269df6eb123c17af5940d04286c6e430109c460ec71e05f9dc3bd3dd10|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|59702c1b8c74a7f35d87926992fe6fefdff5cafbcd76ae09f8c8a7b6150f4b4f|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|53760c0ada6c46cadde578d08392f86affd3cde1638ed56fa706b17f0084f36d|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|5e5c7539cf93a2f345a550abd5a13f9503b0730aa765a95f4eb9b7b05236426f|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|edf195f72221b145eb8777ec4b9fd00a454d24e18e23302ba5df0188c609b6f9|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|2b9d42e40dc5c83c59550b192fe31c597575c32e709f144c2f26ffdd89be94e8|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|9364006c6b38bf2f0d16de998266f68cef00e45f3d31e6bf186d62b619e1339a|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|c04917c152ac2bbd04a333912e32919acbfe655c39e4afeb298be13eaea25be8|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|ab68275151dfb94dd02636d2ac9141415b70dea3f70b8fcf11cdebcd95735e7c|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|9377a322c2a08f1d99b9bd5e3f84ca851f2afa7cd49bf8950d03a852ad348b4e|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|bbdc67e4c159ec3092b7423104ba65de6fbd32cf499080b83da8744398cc7ed9|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|1adefef05ebf8bd6625c9c1fa1d9e3acbd383ea06563353662425573cb91ac94|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|63b78f32dde33f805fa8fab6f26b36c7e8a5a4554d41634ca628a21da19d7888|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|c4d2247b190598571237cebbcc82534b2874fcaae7450de85684508bd988fa88|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|8d2a8393bdedc28eee220c8c7f755b3e06c8a6dbe2b6c0793a784a9c788b5d17|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|45f6ebc949558a1e9029ae970337020891cfe2f2d3d77e4a3b1ddb0c3b00680d|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|0f59edca5a689ec102d6e6b4d48dd02f3fcc440ddd972eb63ac5d523c97d42e4|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|369e5de28e7e4f9ca5e2157d942bbc10c04928b061593566b22b5612425df1f8|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|0cb716f31bbd731eb3205a3616c66149d9f8927eb0a953ef06dd9d691884d02b|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|4b8c770bc14de561c107d853cb1c9219c3df70211e8ebc7076d1e1c1e4a6914f|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|4e610e06c6a39f514d9d9a85172fafa769218c329eded3b8438c9daa3d403e8c|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|53f3f7961c998bb645fee2f7344ef0fe25c4373619e23f566872ade48244a4b3|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|aba5c51f89c397974aa2a7fc93b8e87279a1de1d2486412d3e50ddc62b186d0c|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|beefd7d28381a7e098d261d2937d731ff8c72bb681cc10185d538f7be7a24be3|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|6eb1e1eb612ba7df1b0502975ef1216da28c7dae7fc909c9fc85ce7fdb559830|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|cecf1a0d46fdf118754913c7856879975a665f54364f32d9fb4962baa515025f|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|09fd078a8d94d47067ac94120f0812c0a0e5b36226dcda3d82cbd8d26aa1f21f|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|c8f42fec9dc2404fd1b4a0d151c55f47c780dc6caaa0c0451f1dba5d4924df50|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|30c48e208f202c6ffabd860d11614cf71009c36775ce180ccee8e23a29998c4d|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|31b61f2b939127db65fdc8fbd853a94cf0c2aed813326cdc479ec8fab77b6ef7|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|20c25dec6d80455827ad50ff65483e0e57df0906477aa0bb34becf7193463070|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|ceedae1be1bed2b992abc1d11b9a4dbee1e6fe96c79ef09ef0db6336b0c6672c|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|0bd4de1bcd8d47bd03d496b52af6a817f84e71b771d19863beae342f848cd48c|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|02165d3c234fb318e40e08ff4e339d5a411a8271b14b50466c5fc0cd83672f48|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|04f2df15ce019531abb81555d743c9041d33f512bef5f949b8da0b1055ec3a10|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|70ec27ed46198936da1731c8d03b418a03f94e870154775b6aea2091ff752c8d|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|9601ca3e2f1d1bf02f2b9532d00556aaba44bfbec4686153fbb4b0687648bba6|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|12d8ef350ec6401fc0343dfee5cea4fc949708a77a2731d55f6218d604d7408d|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|1386be5bc3e14ed1cbd6a94c9aaa87dec184cf3039b38eafbf0a5fa2c3a515ba|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Highlights.|c48d0b12e78a9279c80d352698d442ba7deca965c7a36dc13e7a15696639383c|region.yellowish markup.warning.sublime_linter|32",
+								"SL.sass.Gutter.|region.yellowish markup.warning.sublime_linter|dot",
+								"SL.sass.Highlights.|57f638f59078bcc3649100d573d913897cbc197bfc2ff17714c987623653c8e6|region.yellowish markup.warning.sublime_linter|32"
+							],
+							"syntax": "Packages/Sass/Syntaxes/SCSS.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1412.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 13,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "composer.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5697,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 18,
+					"type": "text"
+				},
+				{
+					"buffer": 37,
+					"file": "web/modules/contrib/pathauto/src/PathautoGeneratorInterface.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2181,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1365,
+								1365
+							]
+						],
+						"settings":
+						{
+							"SL.902.region_keys":
+							[
+							],
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1140.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 31.0
+	},
+	"input":
+	{
+		"height": 83.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.919169594516,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.SublimeLinter":
+	{
+		"height": 0.0
+	},
+	"output.SublimeLinter Messages":
+	{
+		"height": 192.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "NDIS.sublime-project",
+	"replace":
+	{
+		"height": 114.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"blockquo",
+				"web/themes/custom/ndis/assets/src/scss/app/wysiwyg/blockquote.scss"
+			],
+			[
+				"toc-tree",
+				"web/modules/contrib/toc_api/templates/toc-tree.html.twig"
+			],
+			[
+				"views-view-table.html.twig",
+				"web/themes/contrib/bootstrap_barrio/templates/views/views-view-table.html.twig"
+			],
+			[
+				"ndis_pathauto",
+				"web/modules/custom/ndis_pathauto/ndis_pathauto.module"
+			],
+			[
+				"MappingSteps",
+				"web/modules/contrib/gathercontent/gathercontent_ui/src/Form/MappingEditSteps/MappingSteps.php"
+			],
+			[
+				"MappingSteps.php",
+				"web/modules/contrib/gathercontent/gathercontent_ui/src/Form/MappingEditSteps/MappingSteps.php"
+			],
+			[
+				"sttings loal",
+				"web/sites/default/settings.local.php"
+			],
+			[
+				"composer",
+				"composer.json"
+			],
+			[
+				"settings",
+				"web/sites/default/settings.php"
+			],
+			[
+				"variables",
+				"web/themes/custom/ndis/assets/src/scss/variables.scss"
+			],
+			[
+				"breadcrumb.scss",
+				"web/themes/custom/ndis/node_modules/bootstrap/scss/_breadcrumb.scss"
+			],
+			[
+				"block.html.twig",
+				"web/themes/contrib/bootstrap_barrio/templates/block/block.html.twig"
+			],
+			[
+				"themes/contrib/bootstrap_barrio/templates/dataset/item-list.html.twig",
+				"web/themes/contrib/bootstrap_barrio/templates/dataset/item-list.html.twig"
+			],
+			[
+				"menu_link.in",
+				"web/modules/contrib/menu_link/menu_link.install"
+			],
+			[
+				"pathauto module",
+				"web/modules/contrib/pathauto/pathauto.module"
+			],
+			[
+				"MenuLink",
+				"web/core/modules/menu_link_content/src/Entity/MenuLinkContent.php"
+			],
+			[
+				"menu_link_content",
+				"web/core/modules/menu_link_content/menu_link_content.module"
+			],
+			[
+				"Core/Node.php",
+				"web/core/modules/node/src/Entity/Node.php"
+			],
+			[
+				"Node.php",
+				"vendor/twig/twig/src/Node/Node.php"
+			],
+			[
+				"core/includes/batch.inc",
+				"web/core/includes/batch.inc"
+			],
+			[
+				"pathauto",
+				"web/modules/contrib/pathauto/pathauto.api.php"
+			],
+			[
+				"ds.module",
+				"web/modules/contrib/ds/ds.module"
+			],
+			[
+				"ds.api",
+				"web/modules/contrib/ds/ds.api.php"
+			],
+			[
+				"footer",
+				"web/themes/custom/ndis/assets/src/scss/app/layout/footer.scss"
+			],
+			[
+				"media_entity_browser.view.css",
+				"web/modules/contrib/media_entity_browser/css/media_entity_browser.view.css"
+			],
+			[
+				"media_entity_browser",
+				"web/modules/contrib/media_entity_browser/media_entity_browser.libraries.yml"
+			],
+			[
+				"\\media\\Entity\\Media",
+				"web/core/modules/media/src/Entity/Media.php"
+			],
+			[
+				"EntityReferenceFieldItemList",
+				"web/core/lib/Drupal/Core/Field/EntityReferenceFieldItemList.php"
+			],
+			[
+				"FileFieldItemList ",
+				"web/core/modules/file/src/Plugin/Field/FieldType/FileFieldItemList.php"
+			],
+			[
+				"MediaSourceBase",
+				"web/core/modules/media/src/MediaSourceBase.php"
+			],
+			[
+				"media/Source/File",
+				"web/core/modules/media/src/Plugin/media/Source/File.php"
+			],
+			[
+				"Image.php",
+				"web/core/modules/media/src/Plugin/media/Source/Image.php"
+			],
+			[
+				"Imagephp",
+				"web/core/lib/Drupal/Component/Utility/Image.php"
+			],
+			[
+				"Image",
+				"web/core/modules/image/image.module"
+			],
+			[
+				"EntityViewBuilder",
+				"web/core/lib/Drupal/Core/Entity/EntityViewBuilder.php"
+			],
+			[
+				"media.api",
+				"web/core/modules/media/media.api.php"
+			],
+			[
+				"ContentEntityBase",
+				"web/core/lib/Drupal/Core/Entity/ContentEntityBase.php"
+			],
+			[
+				"EditorialContentEntityBase",
+				"web/core/lib/Drupal/Core/Entity/EditorialContentEntityBase.php"
+			],
+			[
+				"Media.php",
+				"web/core/modules/media/src/Entity/Media.php"
+			],
+			[
+				"entityembed.api",
+				"web/modules/contrib/entity_embed/entity_embed.api.php"
+			],
+			[
+				"templates/content-edit/filter-caption.html.twig",
+				"web/themes/contrib/bootstrap_barrio/templates/content-edit/filter-caption.html.twig"
+			],
+			[
+				"media_entity_embed",
+				"web/modules/contrib/media_entity_browser/media_entity_browser.module"
+			],
+			[
+				"FieldFormatter\\ImageFormatter",
+				"web/core/modules/image/src/Plugin/Field/FieldFormatter/ImageFormatter.php"
+			],
+			[
+				"layout--ds-media",
+				"web/themes/contrib/bootstrap_barrio/templates/ds/layout--ds-media.html.twig"
+			],
+			[
+				"templates/entity-embed-container.html.twig",
+				"web/modules/contrib/entity_embed/templates/entity-embed-container.html.twig"
+			],
+			[
+				"entity_browser_example",
+				"web/modules/contrib/entity_browser/tests/modules/entity_browser_test/config/install/entity_browser.browser.multiple_submit_example.yml"
+			],
+			[
+				"bootstrap/variables",
+				"web/themes/custom/ndis/node_modules/bootstrap/scss/_variables.scss"
+			],
+			[
+				"MenuLinkContent",
+				"web/core/modules/menu_link_content/src/Entity/MenuLinkContent.php"
+			],
+			[
+				"menu.html",
+				"web/core/themes/classy/templates/navigation/menu.html.twig"
+			],
+			[
+				"menu.html.",
+				"web/core/modules/system/templates/menu.html.twig"
+			],
+			[
+				"bootstrap/varia",
+				"web/themes/custom/ndis/node_modules/bootstrap/scss/_variables.scss"
+			],
+			[
+				"type.sc",
+				"web/themes/custom/ndis/node_modules/bootstrap/scss/_type.scss"
+			],
+			[
+				"bootsrvariables",
+				"web/themes/custom/ndis/node_modules/bootstrap/scss/_variables.scss"
+			],
+			[
+				"flex.s",
+				"web/themes/custom/ndis/node_modules/bootstrap/scss/utilities/_flex.scss"
+			],
+			[
+				"grid",
+				"web/themes/custom/ndis/node_modules/bootstrap/scss/_grid.scss"
+			],
+			[
+				"bootstrap/scss/variables",
+				"web/themes/custom/ndis/node_modules/bootstrap/scss/_variables.scss"
+			],
+			[
+				"Url.p",
+				"web/core/lib/Drupal/Core/Url.php"
+			],
+			[
+				"Drupal\\Core\\Link",
+				"web/core/lib/Drupal/Core/Link.php"
+			],
+			[
+				"block.html",
+				"web/themes/contrib/bootstrap_barrio/templates/block/block.html.twig"
+			],
+			[
+				"DownloadLinkFieldFormatter",
+				"web/modules/contrib/media_entity_download/src/Plugin/Field/FieldFormatter/DownloadLinkFieldFormatter.php"
+			],
+			[
+				"LinkFormatter",
+				"web/core/modules/link/src/Plugin/Field/FieldFormatter/LinkFormatter.php"
+			],
+			[
+				"FormatterBase",
+				"web/core/lib/Drupal/Core/Field/FormatterBase.php"
+			],
+			[
+				"ds-field-mini",
+				"web/modules/contrib/ds/templates/ds-field-minimal.html.twig"
+			],
+			[
+				"field.html.twig",
+				"web/themes/contrib/bootstrap_barrio/templates/field/field.html.twig"
+			],
+			[
+				"ds-1col.html.twig",
+				"web/modules/contrib/ds/templates/ds-1col.html.twig"
+			],
+			[
+				"address-plain",
+				"web/modules/contrib/address/templates/address-plain.html.twig"
+			],
+			[
+				"field-mini",
+				"web/modules/contrib/ds/templates/ds-field-minimal.html.twig"
+			],
+			[
+				"container.twig",
+				"web/themes/custom/ndis/templates/form/container.html.twig"
+			],
+			[
+				"views-view-grid",
+				"web/themes/contrib/bootstrap_barrio/templates/views/views-view-grid.html.twig"
+			],
+			[
+				"_variables",
+				"web/themes/custom/ndis/node_modules/bootstrap/scss/_variables.scss"
+			],
+			[
+				"header scss",
+				"web/themes/custom/ndis/assets/src/scss/app/layout/header.scss"
+			],
+			[
+				"text.scss",
+				"web/themes/custom/ndis/node_modules/bootstrap/scss/utilities/_text.scss"
+			],
+			[
+				"ds-1col-w",
+				"web/modules/contrib/ds/templates/ds-1col-wrapper.html.twig"
+			],
+			[
+				"ds-1col",
+				"web/modules/contrib/ds/templates/ds-1col.html.twig"
+			],
+			[
+				"frame.scss",
+				"web/themes/custom/ndis/node_modules/bootstrap/scss/mixins/_grid-framework.scss"
+			],
+			[
+				"grid.scss",
+				"web/themes/custom/ndis/node_modules/bootstrap/scss/mixins/_grid-framework.scss"
+			],
+			[
+				"ds-2col",
+				"web/modules/contrib/ds/templates/ds-2col.html.twig"
+			],
+			[
+				"ds-field-rese",
+				"web/modules/contrib/ds/templates/ds-field-reset.html.twig"
+			],
+			[
+				"link.twig",
+				"web/core/modules/system/templates/links.html.twig"
+			],
+			[
+				"ds-reset.html.twig",
+				"web/modules/contrib/ds/templates/ds-reset.html.twig"
+			],
+			[
+				"modules/contrib/ds/templates/ds-field-minimal.html.twig",
+				"web/modules/contrib/ds/templates/ds-field-minimal.html.twig"
+			],
+			[
+				"modules/contrib/ds/templates/ds-reset.html.twig",
+				"web/modules/contrib/ds/templates/ds-reset.html.twig"
+			],
+			[
+				"mixins/",
+				"web/themes/custom/ndis/node_modules/bootstrap/scss/mixins/_alert.scss"
+			],
+			[
+				"hamburger/ham",
+				"web/themes/custom/ndis/node_modules/hamburgers/_sass/hamburgers/hamburgers.scss"
+			],
+			[
+				"block--system-menu-block.html.twig",
+				"web/themes/contrib/bootstrap_barrio/templates/block/block--system-menu-block.html.twig"
+			],
+			[
+				"bootstrap/_variables",
+				"web/themes/custom/ndis/node_modules/bootstrap/scss/_variables.scss"
+			],
+			[
+				"DsFieldBase",
+				"web/modules/contrib/ds/src/Plugin/DsField/DsFieldBase.php"
+			],
+			[
+				"bario.info",
+				"web/themes/contrib/bootstrap_barrio/bootstrap_barrio.info.yml"
+			],
+			[
+				"menu.html.twig",
+				"web/themes/contrib/bootstrap_barrio/templates/navigation/menu.html.twig"
+			],
+			[
+				"bootstrap/scss/utilities",
+				"web/themes/custom/ndis/node_modules/bootstrap/scss/_utilities.scss"
+			],
+			[
+				"flex.scss",
+				"web/themes/custom/ndis/node_modules/bootstrap/scss/utilities/_flex.scss"
+			],
+			[
+				"system-branding",
+				"web/core/modules/system/templates/block--system-branding-block.html.twig"
+			],
+			[
+				"branding.html",
+				"web/core/modules/system/templates/block--system-branding-block.html.twig"
+			],
+			[
+				"block--system-branding-block.html.twig",
+				"web/themes/contrib/bootstrap_barrio/templates/block/block--system-branding-block.html.twig"
+			],
+			[
+				"barrio.theme",
+				"web/themes/contrib/bootstrap_barrio/bootstrap_barrio.theme"
+			],
+			[
+				"views-view.html.twig",
+				"web/themes/contrib/bootstrap_barrio/templates/views/views-view.html.twig"
+			],
+			[
+				"views-exposed-form.html.twig",
+				"web/themes/contrib/bootstrap_barrio/templates/views/views-exposed-form.html.twig"
+			],
+			[
+				"html.html.twig",
+				"web/themes/contrib/bootstrap_barrio/templates/layout/html.html.twig"
+			],
+			[
+				"variables.scss",
+				"web/themes/custom/ndis/node_modules/bootstrap/scss/_variables.scss"
+			],
+			[
+				"menu--main",
+				"web/themes/custom/ndis/templates/navigation/menu--main.html.twig"
+			],
+			[
+				" menu--main.html.twig",
+				"web/themes/contrib/bootstrap_barrio/templates/navigation/menu--main.html.twig"
+			],
+			[
+				"menu--footer.html.twig",
+				"web/themes/contrib/bootstrap_barrio/templates/navigation/menu--footer.html.twig"
+			],
+			[
+				"page.tig",
+				"web/themes/contrib/bootstrap_barrio/templates/layout/page.html.twig"
+			],
+			[
+				"context.module",
+				"web/modules/contrib/context/context.module"
+			],
+			[
+				"block--local-tasks-block.html.twig",
+				"web/themes/contrib/bootstrap_barrio/templates/block/block--local-tasks-block.html.twig"
+			],
+			[
+				"page.twig",
+				"web/core/modules/system/templates/page.html.twig"
+			],
+			[
+				"ds-1col-wrapper.html.twig",
+				"web/modules/contrib/ds/templates/ds-1col-wrapper.html.twig"
+			],
+			[
+				"breakpoints.scs",
+				"web/themes/custom/ndis/node_modules/bootstrap/scss/mixins/_breakpoints.scss"
+			],
+			[
+				"bootstrap/scss/images",
+				"web/themes/custom/ndis/node_modules/bootstrap/scss/_images.scss"
+			],
+			[
+				"bootstrap/scss/grid",
+				"web/themes/custom/ndis/node_modules/bootstrap/scss/mixins/_grid.scss"
+			],
+			[
+				"search_api.api",
+				"modules/contrib/search_api/search_api.api.php"
+			],
+			[
+				"home-map",
+				"themes/custom/acnc/templates/block/acnc-blocks-home-map.tpl.php"
+			],
+			[
+				"AcncDot",
+				"modules/custom/acnc_charity_ais/includes/AcncDot.inc"
+			],
+			[
+				"acnc_tokens",
+				"modules/custom/acnc_tokens/acnc_tokens.module"
+			],
+			[
+				"acnc_pathauto",
+				"modules/custom/acnc_pathauto/acnc_pathauto.module"
+			],
+			[
+				"acnc_service",
+				"modules/custom/acnc_services/acnc_services.module"
+			],
+			[
+				"acnc_servce",
+				"modules/custom/acnc_services/acnc_services.module"
+			],
+			[
+				"acncdot",
+				"modules/custom/acnc_charity_ais/includes/AcncDot.inc"
+			],
+			[
+				"services.runtime",
+				"ACNC/drupal/docroot/profiles/govcms/modules/contrib/services/includes/services.runtime.inc"
+			],
+			[
+				"services_rest",
+				"ACNC/drupal/docroot/profiles/govcms/modules/contrib/services/servers/rest_server/rest_server.info"
+			],
+			[
+				"services.module",
+				"ACNC/drupal/docroot/profiles/govcms/modules/contrib/services/services.module"
+			],
+			[
+				"Dot.inc",
+				"modules/custom/acnc_charity_ais/includes/Dot.inc"
+			],
+			[
+				"acnc_ds.module",
+				"modules/custom/acnc_ds/acnc_ds.module"
+			],
+			[
+				"acnc_batch_import.module",
+				"modules/custom/acnc_batch_import/acnc_batch_import.module"
+			],
+			[
+				"AcncFieldReplacer.inc",
+				"modules/custom/acnc_field_rules/includes/AcncFieldReplacer.inc"
+			],
+			[
+				"acnc_pathauto.module",
+				"modules/custom/acnc_pathauto/acnc_pathauto.module"
+			],
+			[
+				"acnc_field_rules.info",
+				"modules/custom/acnc_field_rules/acnc_field_rules.info"
+			],
+			[
+				"acnc_blocks/includes/social.inc",
+				"modules/custom/acnc_blocks/includes/social.inc"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 354.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"$resolve"
+			]
+		],
+		"width": 238.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 366.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

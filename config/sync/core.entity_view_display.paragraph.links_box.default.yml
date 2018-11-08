@@ -1,0 +1,111 @@
+uuid: d4ae408d-3b68-42ea-950b-74731dce42c2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.links_box.field_link
+    - field.field.paragraph.links_box.field_subtitle
+    - field.field.paragraph.links_box.field_title
+    - field.field.paragraph.links_box.field_wysiwyg
+    - paragraphs.paragraphs_type.links_box
+  module:
+    - ds
+    - link
+    - ndis_header_formatter
+    - text
+third_party_settings:
+  ds:
+    layout:
+      id: ds_1col_wrapper
+      library: null
+      disable_css: false
+      entity_classes: all_classes
+      settings:
+        wrappers:
+          ds_content: div
+          ds_hidden: div
+        outer_wrapper: div
+        attributes: ''
+        link_attribute: ''
+        link_custom: ''
+        classes:
+          layout_class:
+            col-sm-6: col-sm-6
+          ds_content: {  }
+          ds_hidden: {  }
+    regions:
+      ds_content:
+        - field_subtitle
+        - field_title
+        - field_wysiwyg
+        - field_link
+id: paragraph.links_box.default
+targetEntityType: paragraph
+bundle: links_box
+mode: default
+content:
+  field_link:
+    weight: 3
+    label: hidden
+    settings:
+      trim_length: 150
+      target: _blank
+      url_only: false
+      url_plain: false
+      rel: '0'
+    third_party_settings:
+      ds:
+        ft:
+          id: minimal
+          settings:
+            lb: ''
+            lb-col: false
+            classes: {  }
+    type: link
+    region: ds_content
+  field_subtitle:
+    weight: 0
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings:
+      ds:
+        ft:
+          id: minimal
+          settings:
+            lb: ''
+            lb-col: false
+            classes: {  }
+    type: string
+    region: ds_content
+  field_title:
+    weight: 1
+    label: hidden
+    settings:
+      level: '3'
+      class: h5
+    third_party_settings:
+      ds:
+        ft:
+          id: minimal
+          settings:
+            lb: ''
+            lb-col: false
+            classes: {  }
+    type: ndis_text_header
+    region: ds_content
+  field_wysiwyg:
+    weight: 2
+    label: hidden
+    settings: {  }
+    third_party_settings:
+      ds:
+        ft:
+          id: minimal
+          settings:
+            lb: ''
+            lb-col: false
+            classes: {  }
+    type: text_default
+    region: ds_content
+hidden: {  }

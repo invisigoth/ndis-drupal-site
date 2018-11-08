@@ -1,0 +1,59 @@
+uuid: a63dc2ae-d1e3-4331-bdc1-72b6d8fc8ac3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.small_tiles.field_style
+    - field.field.paragraph.small_tiles.field_tile
+    - field.field.paragraph.small_tiles.field_title
+    - paragraphs.paragraphs_type.small_tiles
+  module:
+    - paragraphs
+id: paragraph.small_tiles.default
+targetEntityType: paragraph
+bundle: small_tiles
+mode: default
+content:
+  field_style:
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  field_tile:
+    weight: 2
+    settings:
+      title: Tile
+      title_plural: Tiles
+      edit_mode: closed
+      closed_mode: summary
+      autocollapse: all
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: _none
+      features:
+        duplicate: duplicate
+        collapse_edit_all: collapse_edit_all
+        add_above: '0'
+      closed_mode_threshold: 0
+    third_party_settings: {  }
+    type: paragraphs
+    region: content
+  field_title:
+    weight: 1
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  moderation_state:
+    type: moderation_state_default
+    weight: 100
+    settings: {  }
+    region: content
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true
+  uid: true

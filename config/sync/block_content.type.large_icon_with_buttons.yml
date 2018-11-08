@@ -1,0 +1,8 @@
+uuid: 77345fd0-373d-417f-909d-7e65ec8bda65
+langcode: en
+status: true
+dependencies: {  }
+id: large_icon_with_buttons
+label: 'Large icon with buttons'
+revision: 1
+description: 'Large icon on the left with some buttons. Typically seen on homepage.'

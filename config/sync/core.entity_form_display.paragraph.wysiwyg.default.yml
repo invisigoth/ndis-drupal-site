@@ -1,0 +1,33 @@
+uuid: 668db2f7-a9eb-46af-ae17-259458fa942d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.wysiwyg.field_wysiwyg
+    - paragraphs.paragraphs_type.wysiwyg
+  module:
+    - content_moderation
+    - text
+id: paragraph.wysiwyg.default
+targetEntityType: paragraph
+bundle: wysiwyg
+mode: default
+content:
+  field_wysiwyg:
+    weight: 101
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+  moderation_state:
+    type: moderation_state_default
+    weight: 100
+    settings: {  }
+    region: content
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true
+  uid: true

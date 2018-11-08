@@ -1,0 +1,9 @@
+uuid: ad90c478-05b3-4017-88c1-633028e6104c
+langcode: en
+status: true
+dependencies: {  }
+id: columns
+label: 'Columns (Split Content)'
+icon_uuid: null
+description: 'Add content side by side'
+behavior_plugins: {  }

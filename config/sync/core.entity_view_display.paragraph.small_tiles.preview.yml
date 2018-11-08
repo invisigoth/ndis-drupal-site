@@ -1,0 +1,75 @@
+uuid: 566f0fc6-7b2f-4c93-bd5c-dfced94c8f44
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.paragraph.preview
+    - field.field.paragraph.small_tiles.field_style
+    - field.field.paragraph.small_tiles.field_tile
+    - paragraphs.paragraphs_type.small_tiles
+  module:
+    - ds
+    - entity_reference_revisions
+    - options
+third_party_settings:
+  ds:
+    layout:
+      id: ds_1col
+      library: null
+      disable_css: false
+      entity_classes: all_classes
+      settings:
+        wrappers:
+          ds_content: div
+          ds_hidden: div
+        outer_wrapper: div
+        attributes: ''
+        link_attribute: ''
+        link_custom: ''
+        classes:
+          layout_class:
+            row: row
+            row-eq-height: row-eq-height
+          ds_content: {  }
+          ds_hidden: {  }
+    regions:
+      ds_content:
+        - 'bundle_field:paragraph'
+        - field_style
+        - field_tile
+    fields:
+      'bundle_field:paragraph':
+        plugin_id: 'bundle_field:paragraph'
+        weight: 0
+        label: inline
+        formatter: default
+id: paragraph.small_tiles.preview
+targetEntityType: paragraph
+bundle: small_tiles
+mode: preview
+content:
+  field_style:
+    type: list_default
+    weight: 1
+    region: ds_content
+    label: inline
+    settings: {  }
+    third_party_settings: {  }
+  field_tile:
+    weight: 2
+    label: hidden
+    settings:
+      view_mode: preview
+      link: ''
+    third_party_settings:
+      ds:
+        ds_limit: ''
+        ft:
+          id: default
+          settings:
+            lb: ''
+            lb-col: false
+            classes: {  }
+    type: entity_reference_revisions_entity_view
+    region: ds_content
+hidden: {  }

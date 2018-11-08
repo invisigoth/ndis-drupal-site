@@ -1,0 +1,73 @@
+uuid: 57d92fe2-0379-43d1-b389-6772a9fac158
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_sections
+    - node.type.page
+    - paragraphs.paragraphs_type.section
+  module:
+    - entity_reference_revisions
+id: node.page.field_sections
+field_name: field_sections
+entity_type: node
+bundle: page
+label: 'Footer sections'
+description: 'Displays in the footer of the page underneath all the content and navigation.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      section: section
+    target_bundles_drag_drop:
+      block:
+        weight: 6
+        enabled: false
+      columns:
+        weight: 7
+        enabled: false
+      image:
+        weight: 8
+        enabled: false
+      section:
+        enabled: true
+        weight: 9
+      wysiwyg:
+        weight: 10
+        enabled: false
+      connected_pathways:
+        weight: 18
+        enabled: false
+      connected_pathways_link:
+        weight: 19
+        enabled: false
+      large_tile:
+        weight: 21
+        enabled: false
+      large_tiles:
+        weight: 22
+        enabled: false
+      link_with_icon_on_left:
+        weight: 23
+        enabled: false
+      related_resource:
+        weight: 24
+        enabled: false
+      rollout_statistic:
+        weight: 25
+        enabled: false
+      small_tile:
+        weight: 27
+        enabled: false
+      small_tiles:
+        weight: 28
+        enabled: false
+      video:
+        weight: 29
+        enabled: false
+field_type: entity_reference_revisions

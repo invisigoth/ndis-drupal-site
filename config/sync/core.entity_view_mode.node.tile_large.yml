@@ -1,0 +1,10 @@
+uuid: 2ef6396b-02b9-423d-b805-07539784eee1
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.tile_large
+label: 'Tile: Large'
+targetEntityType: node
+cache: true

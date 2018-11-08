@@ -1,0 +1,73 @@
+uuid: 38919a4e-86c5-403f-a64e-5a66e3469dd0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.landing_page.body
+    - field.field.node.landing_page.field_header_image
+    - field.field.node.landing_page.field_sections
+    - node.type.landing_page
+  module:
+    - ds
+    - entity_reference_revisions
+    - user
+third_party_settings:
+  ds:
+    layout:
+      id: ds_1col
+      library: null
+      disable_css: false
+      entity_classes: all_classes
+      settings:
+        wrappers:
+          ds_content: article
+          ds_hidden: div
+        outer_wrapper: div
+        attributes: ''
+        link_attribute: ''
+        link_custom: ''
+        classes:
+          layout_class: {  }
+          ds_content: {  }
+          ds_hidden: {  }
+    regions:
+      ds_content:
+        - field_sections
+        - node_changed_date
+    fields:
+      node_changed_date:
+        plugin_id: node_changed_date
+        weight: 1
+        label: inline
+        formatter: ds_post_date_page_current_date
+        ft:
+          id: minimal
+          settings:
+            lb: 'This page current as of'
+            lb-col: false
+            classes: {  }
+id: node.landing_page.default
+targetEntityType: node
+bundle: landing_page
+mode: default
+content:
+  field_sections:
+    type: entity_reference_revisions_entity_view
+    weight: 0
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings:
+      ds:
+        ds_limit: ''
+        ft:
+          id: reset
+          settings:
+            lb: ''
+    region: ds_content
+hidden:
+  body: true
+  field_header_image: true
+  langcode: true
+  links: true

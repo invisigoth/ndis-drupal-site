@@ -1,0 +1,9 @@
+uuid: 1c0e04dd-7dbc-44ee-a1de-6013c8937f5b
+langcode: en
+status: true
+dependencies: {  }
+id: block
+label: 'Reusable Block'
+icon_uuid: null
+description: 'Embed a single block.'
+behavior_plugins: {  }

@@ -1,0 +1,14 @@
+uuid: d6be4617-d98e-4855-b263-75f0332d1c53
+langcode: en
+status: true
+dependencies: {  }
+id: icon
+label: Icon
+description: 'A locally hosted icon file.'
+source: image
+queue_thumbnail_downloads: false
+new_revision: false
+source_configuration:
+  source_field: field_media_image
+field_map:
+  name: name

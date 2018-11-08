@@ -1,0 +1,116 @@
+uuid: c677d731-8bf6-4a72-b1e7-28f5d9c26a8c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.connected_pathways_link.field_icon
+    - field.field.paragraph.connected_pathways_link.field_link
+    - field.field.paragraph.connected_pathways_link.field_pathway_left_class
+    - field.field.paragraph.connected_pathways_link.field_pathway_right_class
+    - field.field.paragraph.connected_pathways_link.field_wysiwyg
+    - paragraphs.paragraphs_type.connected_pathways_link
+  module:
+    - field_group
+    - link
+    - media_library
+    - text
+third_party_settings:
+  field_group:
+    group_settings:
+      children:
+        - group_left
+        - group_right
+        - group_vertical_only_content
+      parent_name: ''
+      weight: 2
+      format_type: tabs
+      format_settings:
+        id: ''
+        classes: ''
+        direction: horizontal
+      label: Settings
+    group_left:
+      children:
+        - field_pathway_left_class
+      parent_name: group_settings
+      weight: 20
+      format_type: tab
+      format_settings:
+        label: 'Left/Up lines'
+        formatter: open
+        description: 'If orientation is set to vertical, these lines will go up.'
+        required_fields: true
+        id: ''
+        classes: ''
+      label: 'Left/Up lines'
+    group_right:
+      children:
+        - field_pathway_right_class
+      parent_name: group_settings
+      weight: 21
+      format_type: tab
+      format_settings:
+        label: 'Right/Down lines'
+        formatter: closed
+        description: 'If orientation is set to vertical, these lines will go down.'
+        required_fields: true
+        id: ''
+        classes: ''
+      label: 'Right/Down lines'
+    group_vertical_only_content:
+      children:
+        - field_wysiwyg
+      parent_name: group_settings
+      weight: 22
+      format_type: tab
+      format_settings:
+        id: ''
+        classes: ''
+        formatter: closed
+        description: ''
+        required_fields: true
+      label: 'Vertical only content'
+id: paragraph.connected_pathways_link.default
+targetEntityType: paragraph
+bundle: connected_pathways_link
+mode: default
+content:
+  field_icon:
+    weight: 1
+    settings: {  }
+    third_party_settings: {  }
+    type: media_library_widget
+    region: content
+  field_link:
+    weight: 0
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+    type: link_default
+    region: content
+  field_pathway_left_class:
+    weight: 21
+    settings: {  }
+    third_party_settings: {  }
+    type: options_buttons
+    region: content
+  field_pathway_right_class:
+    weight: 23
+    settings: {  }
+    third_party_settings: {  }
+    type: options_buttons
+    region: content
+  field_wysiwyg:
+    weight: 2
+    settings:
+      rows: 3
+      placeholder: 'Only shows if orientation is set to vertical.'
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+hidden:
+  created: true
+  moderation_state: true
+  status: true
+  uid: true

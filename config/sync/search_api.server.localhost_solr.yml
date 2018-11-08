@@ -1,0 +1,32 @@
+uuid: 871fc08a-cc9a-4f8e-b2f9-dc0725706f39
+langcode: en
+status: true
+dependencies:
+  config:
+    - search_api_solr.solr_field_type.text_und_6_0_0
+  module:
+    - search_api_solr
+id: localhost_solr
+name: 'Localhost SOLR'
+description: ''
+backend: search_api_solr
+backend_config:
+  connector: standard
+  connector_config:
+    scheme: http
+    host: 127.0.0.1
+    port: '8984'
+    path: /solr
+    core: ndis
+    timeout: 5
+    index_timeout: 5
+    optimize_timeout: 10
+    finalize_timeout: 30
+    commit_within: 1000
+    solr_version: ''
+    http_method: AUTO
+  retrieve_data: false
+  highlight_data: false
+  skip_schema_check: false
+  domain: generic
+  site_hash: true

@@ -1,0 +1,10 @@
+uuid: b27607e8-2f71-4686-a714-a7f3573aca83
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.tile_featured
+label: 'Tile: Featured'
+targetEntityType: node
+cache: true

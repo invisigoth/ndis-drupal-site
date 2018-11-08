@@ -1,0 +1,9 @@
+uuid: 95b5f51e-d156-4363-8975-dc50736b7b65
+langcode: en
+status: true
+dependencies: {  }
+id: connected_pathways_link
+label: 'Connected pathways link'
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

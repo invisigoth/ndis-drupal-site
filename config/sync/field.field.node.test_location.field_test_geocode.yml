@@ -1,0 +1,39 @@
+uuid: 7de57a7d-429e-4ef5-a167-caa9e27279a6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_test_geocode
+    - node.type.test_location
+  module:
+    - geocoder_field
+    - geofield
+third_party_settings:
+  geocoder_field:
+    method: source
+    weight: 0
+    geocode_field: field_test_address
+    reverse_geocode_field: ''
+    hidden: true
+    disabled: false
+    plugins:
+      - googlemaps
+    dumper: wkt
+    delta_handling: default
+    failure:
+      handling: preserve
+      status_message: true
+      log: true
+id: node.test_location.field_test_geocode
+field_name: field_test_geocode
+entity_type: node
+bundle: test_location
+label: 'Test Geocode'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  backend: geofield_backend_default
+field_type: geofield

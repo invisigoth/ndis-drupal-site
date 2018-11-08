@@ -1,0 +1,23 @@
+uuid: f4da2ec9-b3fd-49b8-a194-2243e7ae4979
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.large_icon_with_buttons
+    - field.storage.block_content.field_style
+  module:
+    - options
+id: block_content.large_icon_with_buttons.field_style
+field_name: field_style
+entity_type: block_content
+bundle: large_icon_with_buttons
+label: Style
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: default
+default_value_callback: ''
+settings: {  }
+field_type: list_string

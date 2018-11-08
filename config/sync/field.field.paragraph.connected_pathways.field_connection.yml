@@ -1,0 +1,49 @@
+uuid: 2855f531-922e-4ff8-bf91-f2f45c20971c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_connection
+    - paragraphs.paragraphs_type.connected_pathways
+    - paragraphs.paragraphs_type.connected_pathways_link
+  module:
+    - entity_reference_revisions
+id: paragraph.connected_pathways.field_connection
+field_name: field_connection
+entity_type: paragraph
+bundle: connected_pathways
+label: Connection
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      connected_pathways_link: connected_pathways_link
+    target_bundles_drag_drop:
+      block:
+        weight: 7
+        enabled: false
+      columns:
+        weight: 8
+        enabled: false
+      connected_pathways:
+        weight: 9
+        enabled: false
+      image:
+        weight: 10
+        enabled: false
+      connected_pathways_link:
+        enabled: true
+        weight: 11
+      section:
+        weight: 11
+        enabled: false
+      wysiwyg:
+        weight: 12
+        enabled: false
+field_type: entity_reference_revisions

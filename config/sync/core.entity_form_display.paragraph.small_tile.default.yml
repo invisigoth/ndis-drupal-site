@@ -1,0 +1,35 @@
+uuid: fbe68259-ce2b-4c74-bbb9-65a749cbaa1c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.small_tile.field_icon
+    - field.field.paragraph.small_tile.field_link
+    - paragraphs.paragraphs_type.small_tile
+  module:
+    - link
+    - media_library
+id: paragraph.small_tile.default
+targetEntityType: paragraph
+bundle: small_tile
+mode: default
+content:
+  field_icon:
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    type: media_library_widget
+    region: content
+  field_link:
+    weight: 1
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+    type: link_default
+    region: content
+hidden:
+  created: true
+  moderation_state: true
+  status: true
+  uid: true

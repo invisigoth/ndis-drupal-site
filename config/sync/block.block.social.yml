@@ -1,0 +1,27 @@
+uuid: 651690bb-8902-47cd-98d1-34742fa98bf8
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.social
+  module:
+    - menu_block
+  theme:
+    - ndis
+id: social
+theme: ndis
+region: footer
+weight: -5
+provider: null
+plugin: 'menu_block:social'
+settings:
+  id: 'menu_block:social'
+  label: 'Social Menu'
+  provider: menu_block
+  label_display: '0'
+  level: 1
+  depth: 0
+  expand: 0
+  parent: 'social:'
+  suggestion: social
+visibility: {  }

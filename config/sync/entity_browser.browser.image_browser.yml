@@ -1,0 +1,42 @@
+uuid: a0179ad3-32ae-45cc-add5-752de33f2bb4
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.media_entity_browser
+  module:
+    - views
+name: image_browser
+label: 'Image browser'
+display: iframe
+display_configuration:
+  width: 100%
+  height: '500'
+  link_text: 'Select entities'
+  auto_open: true
+selection_display: no_display
+selection_display_configuration: {  }
+widget_selector: tabs
+widget_selector_configuration: {  }
+widgets:
+  eefb8302-eaad-4f0b-99d6-050eca01f662:
+    settings:
+      view: media_entity_browser
+      view_display: entity_browser_2
+      submit_text: Place
+      auto_select: false
+    uuid: eefb8302-eaad-4f0b-99d6-050eca01f662
+    weight: 1
+    label: Library
+    id: view
+  b32e4d6e-7d23-4872-b81c-d7a9137771b9:
+    settings:
+      extensions: 'jpg jpeg png gif'
+      media_type: image
+      upload_location: 'public://wysiwyg'
+      multiple: 0
+      submit_text: 'Select files'
+    uuid: b32e4d6e-7d23-4872-b81c-d7a9137771b9
+    weight: 3
+    label: Upload
+    id: media_image_upload

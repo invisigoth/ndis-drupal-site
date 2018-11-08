@@ -1,0 +1,47 @@
+uuid: c3a3a446-09fb-4f1f-9437-bbe137fc9144
+langcode: en
+status: true
+dependencies:
+  module:
+    - ctools
+name: header
+label: Header
+group: NDIS
+description: 'Change the header'
+requireAllConditions: false
+disabled: false
+conditions:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    bundles:
+      article: article
+      landing_page: landing_page
+      page: page
+      test_location: test_location
+    negate: 0
+    uuid: 04a3645c-bdfe-4f4b-94b6-2de7dd5d8c11
+    context_mapping:
+      node: '@node.node_route_context:node'
+reactions:
+  blocks:
+    blocks:
+      408780f6-261b-4b9a-b1c2-98c1efc1aec4:
+        id: 'entity_view:node'
+        label: 'Page Header View'
+        provider: ctools
+        label_display: 0
+        view_mode: header
+        region: content_top
+        weight: '0'
+        context_mapping:
+          entity: '@node.node_route_context:node'
+        theme: ndis
+        css_class: ''
+        unique: 1
+        context_id: header
+        uuid: 408780f6-261b-4b9a-b1c2-98c1efc1aec4
+    id: blocks
+    saved: false
+    uuid: 95406a27-cf44-4399-ab4b-fece44d76e5d
+    include_default_blocks: 1
+weight: 0

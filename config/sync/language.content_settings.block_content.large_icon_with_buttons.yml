@@ -1,0 +1,11 @@
+uuid: c30e092e-5d05-48f5-8211-6488989bb905
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.large_icon_with_buttons
+id: block_content.large_icon_with_buttons
+target_entity_type_id: block_content
+target_bundle: large_icon_with_buttons
+default_langcode: site_default
+language_alterable: false

@@ -1,0 +1,55 @@
+uuid: fabdade7-044e-4ba8-92c8-2020aedfd5e0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.large_tiles.field_tile
+    - paragraphs.paragraphs_type.large_tiles
+  module:
+    - ds
+    - entity_reference_revisions
+third_party_settings:
+  ds:
+    layout:
+      id: ds_1col
+      library: null
+      disable_css: false
+      entity_classes: all_classes
+      settings:
+        wrappers:
+          ds_content: div
+          ds_hidden: div
+        outer_wrapper: div
+        attributes: ''
+        link_attribute: ''
+        link_custom: ''
+        classes:
+          layout_class:
+            row: row
+            row-eq-height: row-eq-height
+          ds_content: {  }
+          ds_hidden: {  }
+    regions:
+      ds_content:
+        - field_tile
+id: paragraph.large_tiles.default
+targetEntityType: paragraph
+bundle: large_tiles
+mode: default
+content:
+  field_tile:
+    type: entity_reference_revisions_entity_view
+    weight: 0
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings:
+      ds:
+        ds_limit: ''
+        ft:
+          id: reset
+          settings:
+            lb: ''
+    region: ds_content
+hidden: {  }

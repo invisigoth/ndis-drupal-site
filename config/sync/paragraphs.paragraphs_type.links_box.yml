@@ -1,0 +1,9 @@
+uuid: 0c9d5abf-51e9-451e-88f9-6aba9c82433a
+langcode: en
+status: true
+dependencies: {  }
+id: links_box
+label: 'Links box'
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

@@ -1,0 +1,17 @@
+uuid: 4867e59a-5d8f-4e31-8814-db810ec84dcc
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Story
+type: story
+description: 'Use <em>stories</em> for story content like experiences, human interest or video posts.'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

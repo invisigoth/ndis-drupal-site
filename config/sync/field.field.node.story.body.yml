@@ -1,0 +1,22 @@
+uuid: a2593ee1-f07c-472a-a7a7-11150524475d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.story
+  module:
+    - text
+id: node.story.body
+field_name: body
+entity_type: node
+bundle: story
+label: Body
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

@@ -1,0 +1,10 @@
+uuid: 18a6100e-4a59-4d22-a2e9-531cb7e31635
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+id: media.image_embed_wysiwyg_original
+label: 'Image Embed Wysiwyg: Original'
+targetEntityType: media
+cache: true

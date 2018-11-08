@@ -1,0 +1,9 @@
+uuid: 4f929b38-ffea-475f-acbb-a419f97fcd6c
+langcode: en
+status: true
+dependencies: {  }
+name: 'Event Categories'
+vid: event_categories
+description: 'Used in events and information sessions'
+hierarchy: 0
+weight: 0

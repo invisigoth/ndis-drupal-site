@@ -1,0 +1,10 @@
+uuid: 71f4b66b-e64c-49c4-9867-179bf8a95056
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+id: media.icon
+label: Icon
+targetEntityType: media
+cache: true

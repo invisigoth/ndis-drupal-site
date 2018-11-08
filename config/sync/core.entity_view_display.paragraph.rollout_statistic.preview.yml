@@ -1,0 +1,50 @@
+uuid: c29a2d98-0dc0-478e-bcf1-2fbf9584833c
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.paragraph.preview
+    - field.field.paragraph.rollout_statistic.field_icon
+    - field.field.paragraph.rollout_statistic.field_title
+    - field.field.paragraph.rollout_statistic.field_wysiwyg
+    - paragraphs.paragraphs_type.rollout_statistic
+  module:
+    - ds
+    - text
+id: paragraph.rollout_statistic.preview
+targetEntityType: paragraph
+bundle: rollout_statistic
+mode: preview
+content:
+  field_icon:
+    weight: 0
+    label: hidden
+    settings:
+      view_mode: icon_preview
+      link: false
+    third_party_settings:
+      ds:
+        ft:
+          id: default
+          settings:
+            lb: ''
+            lb-col: false
+            classes: {  }
+    type: entity_reference_entity_view
+    region: content
+  field_title:
+    weight: 1
+    label: inline
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_wysiwyg:
+    weight: 2
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+hidden: {  }

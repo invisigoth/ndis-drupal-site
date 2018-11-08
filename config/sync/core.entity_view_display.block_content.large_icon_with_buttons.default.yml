@@ -1,0 +1,123 @@
+uuid: 77ff1207-0018-46a4-90ed-5bb8858fab29
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.large_icon_with_buttons
+    - field.field.block_content.large_icon_with_buttons.body
+    - field.field.block_content.large_icon_with_buttons.field_icon
+    - field.field.block_content.large_icon_with_buttons.field_links
+    - field.field.block_content.large_icon_with_buttons.field_style
+  module:
+    - ds
+    - element_class_formatter
+    - options
+    - text
+third_party_settings:
+  ds:
+    layout:
+      id: ds_2col
+      library: ds/ds_2col
+      disable_css: false
+      entity_classes: all_classes
+      settings:
+        wrappers:
+          left: div
+          right: div
+          ds_hidden: div
+        outer_wrapper: div
+        attributes: ''
+        link_attribute: ''
+        link_custom: ''
+        classes:
+          layout_class: {  }
+          left: {  }
+          right: {  }
+          ds_hidden: {  }
+    regions:
+      left:
+        - field_icon
+      right:
+        - block_description
+        - body
+        - field_links
+    fields:
+      block_description:
+        plugin_id: block_description
+        weight: 1
+        label: hidden
+        formatter: default
+        settings:
+          wrapper: h2
+          class: ''
+        ft:
+          id: minimal
+          settings:
+            lb: ''
+            lb-col: false
+            classes: {  }
+id: block_content.large_icon_with_buttons.default
+targetEntityType: block_content
+bundle: large_icon_with_buttons
+mode: default
+content:
+  body:
+    weight: 2
+    label: hidden
+    settings: {  }
+    third_party_settings:
+      ds:
+        ft:
+          id: minimal
+          settings:
+            lb: ''
+            lb-col: false
+            classes: {  }
+    type: text_default
+    region: right
+  field_icon:
+    type: entity_reference_entity_view
+    weight: 0
+    label: hidden
+    settings:
+      view_mode: icon
+      link: false
+    third_party_settings:
+      ds:
+        ft:
+          id: minimal
+          settings:
+            lb: ''
+            lb-col: false
+            classes: {  }
+    region: left
+  field_links:
+    type: link_class
+    weight: 3
+    region: right
+    label: hidden
+    settings:
+      trim_length: 80
+      class: 'btn btn-light btn-lg'
+      url_only: false
+      url_plain: false
+      rel: '0'
+      target: '0'
+    third_party_settings:
+      ds:
+        ds_limit: ''
+        ft:
+          id: minimal
+          settings:
+            lb: ''
+            lb-col: false
+            classes: {  }
+  field_style:
+    weight: 4
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+    region: content
+hidden:
+  langcode: true

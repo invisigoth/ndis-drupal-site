@@ -1,0 +1,48 @@
+uuid: f7d955b0-280e-4475-920d-053c153071f9
+langcode: en
+status: true
+dependencies:
+  module:
+    - options
+    - paragraphs
+id: paragraph.field_pathway_left_class
+field_name: field_pathway_left_class
+entity_type: paragraph
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: left-green
+      label: 'Single green'
+    -
+      value: left-orange
+      label: 'Single orange'
+    -
+      value: left-teal
+      label: 'Single teal'
+    -
+      value: left-top-green
+      label: 'Top green'
+    -
+      value: left-top-orange
+      label: 'Top orange'
+    -
+      value: left-top-teal
+      label: 'Top teal'
+    -
+      value: left-bottom-green
+      label: 'Bottom green'
+    -
+      value: left-bottom-orange
+      label: 'Bottom orange'
+    -
+      value: left-bottom-teal
+      label: 'Bottom teal'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

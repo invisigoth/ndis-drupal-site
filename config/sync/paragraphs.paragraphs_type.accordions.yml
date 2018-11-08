@@ -1,0 +1,9 @@
+uuid: ea87a116-a52f-4106-acc8-12b81c1a98d0
+langcode: en
+status: true
+dependencies: {  }
+id: accordions
+label: 'Accordion / FAQs'
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

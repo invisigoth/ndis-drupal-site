@@ -1,0 +1,8 @@
+uuid: 003be680-9db6-4a02-b833-62417183666e
+langcode: en
+status: true
+dependencies: {  }
+id: portal
+label: Portal
+description: 'Portal sign in links'
+locked: false

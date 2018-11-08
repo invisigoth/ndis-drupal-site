@@ -1,0 +1,9 @@
+uuid: c909f9d1-65bc-4afc-9568-6739a18f3a85
+langcode: en
+status: true
+dependencies: {  }
+id: section
+label: Section
+icon_uuid: null
+description: 'Root level sections.'
+behavior_plugins: {  }

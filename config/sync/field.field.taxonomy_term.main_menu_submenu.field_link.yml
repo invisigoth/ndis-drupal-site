@@ -1,0 +1,23 @@
+uuid: e22438c7-e914-43b6-995a-80468581695a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_link
+    - taxonomy.vocabulary.main_menu_submenu
+  module:
+    - link
+id: taxonomy_term.main_menu_submenu.field_link
+field_name: field_link
+entity_type: taxonomy_term
+bundle: main_menu_submenu
+label: Attachment
+description: 'The node where this menu is attached.'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 1
+  title: 0
+field_type: link

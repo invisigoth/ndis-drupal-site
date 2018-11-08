@@ -1,0 +1,106 @@
+uuid: 64462669-45b8-4a3e-b1b2-cab8253ef297
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.event.body
+    - field.field.node.event.field_category
+    - field.field.node.event.field_event_address
+    - field.field.node.event.field_event_date
+    - field.field.node.event.field_geocode
+    - node.type.event
+  module:
+    - address
+    - datetime_range_timezone
+    - ds
+    - geofield
+    - text
+    - user
+third_party_settings:
+  ds:
+    layout:
+      id: ds_1col
+      library: null
+      disable_css: false
+      entity_classes: all_classes
+      settings:
+        wrappers:
+          ds_content: div
+          ds_hidden: div
+        outer_wrapper: div
+        attributes: ''
+        link_attribute: ''
+        link_custom: ''
+        classes:
+          layout_class: {  }
+          ds_content: {  }
+          ds_hidden: {  }
+    regions:
+      ds_content:
+        - field_event_date
+        - langcode
+        - links
+        - body
+        - field_category
+        - field_event_address
+        - field_geocode
+id: node.event.default
+targetEntityType: node
+bundle: event
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 3
+    settings: {  }
+    third_party_settings: {  }
+    region: ds_content
+  field_category:
+    weight: 4
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: ds_content
+  field_event_address:
+    weight: 5
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: address_default
+    region: ds_content
+  field_event_date:
+    weight: 0
+    label: above
+    settings:
+      format_type: medium
+      display_timezone: true
+      date_field: start_date
+    third_party_settings: {  }
+    type: daterange_timezone_single_date
+    region: ds_content
+  field_geocode:
+    weight: 6
+    label: above
+    settings:
+      output_format: wkt
+    third_party_settings: {  }
+    type: geofield_default
+    region: ds_content
+  langcode:
+    type: language
+    weight: 1
+    region: ds_content
+    label: above
+    settings:
+      link_to_entity: false
+      native_language: false
+    third_party_settings: {  }
+  links:
+    weight: 2
+    region: ds_content
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

@@ -1,0 +1,10 @@
+uuid: 656a47d3-7fcf-49c0-8487-0f89169ed549
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+id: media.image_embed_wysiwyg_full
+label: 'Image Embed Wysiwyg: Full'
+targetEntityType: media
+cache: true

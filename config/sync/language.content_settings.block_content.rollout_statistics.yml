@@ -1,0 +1,11 @@
+uuid: 7041e2c0-c1de-406f-b101-7ba1e60e28f8
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.rollout_statistics
+id: block_content.rollout_statistics
+target_entity_type_id: block_content
+target_bundle: rollout_statistics
+default_langcode: site_default
+language_alterable: false

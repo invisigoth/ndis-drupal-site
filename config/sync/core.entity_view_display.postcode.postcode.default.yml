@@ -1,0 +1,62 @@
+uuid: 96b1612d-2f72-458e-8961-43b788fa2b2d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.postcode.postcode.field_postcode_location
+  module:
+    - ds
+    - geofield
+    - postcodes_entity
+id: postcode.postcode.default
+targetEntityType: postcode
+bundle: postcode
+mode: default
+content:
+  field_postcode_location:
+    type: geofield_latlon
+    weight: 3
+    region: content
+    label: above
+    settings:
+      output_format: decimal
+    third_party_settings:
+      ds:
+        ft:
+          id: default
+          settings:
+            lb: ''
+            lb-col: false
+            classes: {  }
+  postcode:
+    label: above
+    type: string
+    weight: 2
+    region: content
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+  state:
+    label: above
+    type: entity_reference_label
+    weight: 1
+    region: content
+    settings:
+      link: false
+    third_party_settings:
+      ds:
+        ft:
+          id: default
+          settings:
+            lb: ''
+            lb-col: false
+            classes: {  }
+  suburb:
+    label: above
+    type: string
+    weight: 0
+    region: content
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+hidden: {  }

@@ -1,0 +1,123 @@
+uuid: 5e32f4b3-5f0c-44a5-b427-6d5888f64445
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.connected_pathways_link.field_icon
+    - field.field.paragraph.connected_pathways_link.field_link
+    - field.field.paragraph.connected_pathways_link.field_pathway_left_class
+    - field.field.paragraph.connected_pathways_link.field_pathway_right_class
+    - field.field.paragraph.connected_pathways_link.field_wysiwyg
+    - paragraphs.paragraphs_type.connected_pathways_link
+  module:
+    - ds
+    - link
+    - options
+    - text
+third_party_settings:
+  ds:
+    layout:
+      id: ds_reset
+      library: null
+      disable_css: false
+      entity_classes: all_classes
+      settings:
+        wrappers:
+          ds_content: div
+          ds_hidden: div
+        outer_wrapper: div
+        attributes: ''
+        link_attribute: ''
+        link_custom: ''
+        classes:
+          layout_class: {  }
+          ds_content: {  }
+          ds_hidden: {  }
+    regions:
+      ds_hidden:
+        - field_icon
+        - field_wysiwyg
+        - field_pathway_left_class
+        - field_pathway_right_class
+        - field_link
+id: paragraph.connected_pathways_link.default
+targetEntityType: paragraph
+bundle: connected_pathways_link
+mode: default
+content:
+  field_icon:
+    weight: 0
+    label: hidden
+    settings:
+      view_mode: icon
+      link: false
+    third_party_settings:
+      ds:
+        ft:
+          id: minimal
+          settings:
+            lb: ''
+            lb-col: false
+            classes: {  }
+    type: entity_reference_entity_view
+    region: ds_hidden
+  field_link:
+    type: link
+    weight: 4
+    region: ds_hidden
+    label: hidden
+    settings:
+      trim_length: 200
+      url_only: false
+      url_plain: false
+      rel: '0'
+      target: '0'
+    third_party_settings:
+      ds:
+        ft:
+          id: minimal
+          settings:
+            lb: ''
+            lb-col: false
+            classes: {  }
+  field_pathway_left_class:
+    type: list_key
+    weight: 2
+    region: ds_hidden
+    label: hidden
+    settings: {  }
+    third_party_settings:
+      ds:
+        ds_limit: ''
+        ft:
+          id: reset
+          settings:
+            lb: ''
+  field_pathway_right_class:
+    type: list_key
+    weight: 3
+    region: ds_hidden
+    label: visually_hidden
+    settings: {  }
+    third_party_settings:
+      ds:
+        ds_limit: ''
+        ft:
+          id: reset
+          settings:
+            lb: ''
+  field_wysiwyg:
+    weight: 1
+    label: hidden
+    settings: {  }
+    third_party_settings:
+      ds:
+        ft:
+          id: minimal
+          settings:
+            lb: ''
+            lb-col: false
+            classes: {  }
+    type: text_default
+    region: ds_hidden
+hidden: {  }

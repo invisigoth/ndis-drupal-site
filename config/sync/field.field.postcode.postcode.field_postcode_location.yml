@@ -1,0 +1,24 @@
+uuid: d13a0f60-7569-47e7-8ffc-d56593e09650
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.postcode.field_postcode_location
+  module:
+    - geofield
+    - postcodes_entity
+_core:
+  default_config_hash: 1stxHpKEISDyWxqULItcpsVEZgoqBLtK9NvisF3PbOw
+id: postcode.postcode.field_postcode_location
+field_name: field_postcode_location
+entity_type: postcode
+bundle: postcode
+label: 'Postcode Location'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  backend: geofield_backend_default
+field_type: geofield

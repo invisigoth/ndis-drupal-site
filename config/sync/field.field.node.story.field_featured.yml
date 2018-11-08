@@ -1,0 +1,23 @@
+uuid: c4f09d5c-783c-48b2-b6bb-8d7625cc070d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_featured
+    - node.type.story
+id: node.story.field_featured
+field_name: field_featured
+entity_type: node
+bundle: story
+label: Featured
+description: 'Displays in the featured section of the stories and videos index.'
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'Yes'
+  off_label: 'No'
+field_type: boolean

@@ -1,0 +1,70 @@
+uuid: 41edefea-3a41-4342-89fb-1f14cf4d4333
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.related_resources
+    - field.storage.block_content.field_related_resources
+    - paragraphs.paragraphs_type.related_resource
+  module:
+    - entity_reference_revisions
+id: block_content.related_resources.field_related_resources
+field_name: field_related_resources
+entity_type: block_content
+bundle: related_resources
+label: 'Related Resources'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      related_resource: related_resource
+    target_bundles_drag_drop:
+      block:
+        weight: 15
+        enabled: false
+      columns:
+        weight: 16
+        enabled: false
+      connected_pathways:
+        weight: 17
+        enabled: false
+      connected_pathways_link:
+        weight: 18
+        enabled: false
+      image:
+        weight: 19
+        enabled: false
+      large_tile:
+        weight: 20
+        enabled: false
+      large_tiles:
+        weight: 21
+        enabled: false
+      link_with_icon_on_left:
+        weight: 22
+        enabled: false
+      related_resource:
+        enabled: true
+        weight: 23
+      section:
+        weight: 24
+        enabled: false
+      small_tile:
+        weight: 25
+        enabled: false
+      small_tiles:
+        weight: 26
+        enabled: false
+      video:
+        weight: 27
+        enabled: false
+      wysiwyg:
+        weight: 28
+        enabled: false
+field_type: entity_reference_revisions

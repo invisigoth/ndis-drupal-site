@@ -1,0 +1,8 @@
+uuid: faa65649-bca1-4583-857f-9cf58b237a90
+langcode: en
+status: true
+dependencies: {  }
+id: related_resources
+label: 'Related resources'
+revision: 1
+description: 'Creates a block of related resources to embed throughout site.'

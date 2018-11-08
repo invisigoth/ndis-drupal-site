@@ -1,0 +1,23 @@
+uuid: 274feb09-cd43-48d2-923c-dc644df6ae54
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_pathway_orientation
+    - paragraphs.paragraphs_type.connected_pathways
+  module:
+    - options
+id: paragraph.connected_pathways.field_pathway_orientation
+field_name: field_pathway_orientation
+entity_type: paragraph
+bundle: connected_pathways
+label: Orientation
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: horizontal
+default_value_callback: ''
+settings: {  }
+field_type: list_string

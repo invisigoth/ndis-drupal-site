@@ -1,0 +1,48 @@
+uuid: 2c122fc0-6648-49ae-aa5e-bbb3aace3695
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.paragraph.preview
+    - field.field.paragraph.accordion.field_title
+    - field.field.paragraph.accordion.field_wysiwyg
+    - paragraphs.paragraphs_type.accordion
+  module:
+    - ds
+    - header_formatter
+    - text
+id: paragraph.accordion.preview
+targetEntityType: paragraph
+bundle: accordion
+mode: preview
+content:
+  field_title:
+    weight: 0
+    label: hidden
+    settings:
+      level: '3'
+    third_party_settings:
+      ds:
+        ft:
+          id: default
+          settings:
+            lb: ''
+            lb-col: false
+            classes: {  }
+    type: text_header
+    region: content
+  field_wysiwyg:
+    weight: 1
+    label: hidden
+    settings: {  }
+    third_party_settings:
+      ds:
+        ft:
+          id: default
+          settings:
+            lb: ''
+            lb-col: false
+            classes: {  }
+    type: text_default
+    region: content
+hidden: {  }

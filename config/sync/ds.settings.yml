@@ -1,0 +1,55 @@
+disabled: false
+field_template: true
+ft-default: default
+ft-show-colon: false
+classes:
+  region:
+    - container
+    - row
+    - row-eq-height
+    - col
+    - col-2
+    - col-3
+    - col-4
+    - col-5
+    - col-6
+    - col-7
+    - col-8
+    - col-9
+    - col-10
+    - col-11
+    - col-12
+    - col-sm-2
+    - col-sm-3
+    - col-sm-4
+    - col-sm-5
+    - col-sm-6
+    - col-sm-7
+    - col-sm-8
+    - col-sm-9
+    - col-sm-10
+    - col-sm-11
+    - col-sm-12
+    - col-md-2
+    - col-md-3
+    - col-md-4
+    - col-md-5
+    - col-md-6
+    - col-md-7
+    - col-md-8
+    - col-md-9
+    - col-md-10
+    - col-md-11
+    - col-md-12
+    - offset-sm-1
+    - offset-sm-2
+    - offset-md-1
+    - offset-md-2
+    - d-flex
+    - flex-wrap
+    - flex-nowrap
+    - flex-grow-1
+  field: {  }
+use_field_names: true
+_core:
+  default_config_hash: xfB0qOeoAomOThclNNokdKTrVwXLcXz13SU3-4a5-FY

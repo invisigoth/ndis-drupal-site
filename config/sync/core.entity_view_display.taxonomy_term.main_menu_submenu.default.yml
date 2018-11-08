@@ -1,0 +1,73 @@
+uuid: 90a91d52-5ce0-41f7-bf20-d924e343ad8d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.main_menu_submenu.field_link
+    - field.field.taxonomy_term.main_menu_submenu.field_links
+    - taxonomy.vocabulary.main_menu_submenu
+  module:
+    - ds
+    - element_class_formatter
+    - link_plain_text_formatter
+third_party_settings:
+  ds:
+    layout:
+      id: ds_reset
+      library: null
+      disable_css: false
+      entity_classes: all_classes
+      settings:
+        wrappers:
+          ds_content: div
+          ds_hidden: div
+        outer_wrapper: div
+        attributes: ''
+        link_attribute: ''
+        link_custom: ''
+        classes:
+          layout_class: {  }
+          ds_content: {  }
+          ds_hidden: {  }
+    regions:
+      ds_content:
+        - field_links
+      ds_hidden:
+        - field_link
+id: taxonomy_term.main_menu_submenu.default
+targetEntityType: taxonomy_term
+bundle: main_menu_submenu
+mode: default
+content:
+  field_link:
+    weight: 1
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: link_plain_text_formatter
+    region: ds_hidden
+  field_links:
+    weight: 0
+    label: hidden
+    settings:
+      trim_length: 120
+      list_type: ul
+      class: sub-menu--side
+      url_only: false
+      url_plain: false
+      rel: '0'
+      target: '0'
+    third_party_settings:
+      ds:
+        ds_limit: ''
+        ft:
+          id: minimal
+          settings:
+            lb: ''
+            lb-col: false
+            classes: {  }
+    type: link_list_class
+    region: ds_content
+hidden:
+  description: true
+  langcode: true

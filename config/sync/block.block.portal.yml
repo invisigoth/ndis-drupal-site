@@ -1,0 +1,27 @@
+uuid: 8d80b811-1c69-4dbb-857c-8b0f6ff3ad2f
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.portal
+  module:
+    - menu_block
+  theme:
+    - ndis
+id: portal
+theme: ndis
+region: header_right
+weight: -7
+provider: null
+plugin: 'menu_block:portal'
+settings:
+  id: 'menu_block:portal'
+  label: 'Portal sign in menu'
+  provider: menu_block
+  label_display: '0'
+  level: 1
+  depth: 0
+  expand: 1
+  parent: 'portal:'
+  suggestion: portal
+visibility: {  }

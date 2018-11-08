@@ -1,0 +1,23 @@
+uuid: 589623e2-1790-4da6-b344-c6819f771baa
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.search_site
+  module:
+    - views
+  theme:
+    - ndis
+id: search_site_header
+theme: ndis
+region: header_right
+weight: -8
+provider: null
+plugin: 'views_exposed_filter_block:search_site-page'
+settings:
+  id: 'views_exposed_filter_block:search_site-page'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+visibility: {  }

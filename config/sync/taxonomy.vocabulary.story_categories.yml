@@ -1,0 +1,9 @@
+uuid: 6d56dab6-d34f-4bfb-a998-b394d1608ff2
+langcode: en
+status: true
+dependencies: {  }
+name: 'Story Categories'
+vid: story_categories
+description: 'Used in stories and videos'
+hierarchy: 0
+weight: 0

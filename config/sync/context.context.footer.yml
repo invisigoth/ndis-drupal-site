@@ -1,0 +1,44 @@
+uuid: 4f561507-d13d-44db-9d61-dd9d07b6c54d
+langcode: en
+status: true
+dependencies:
+  module:
+    - ctools
+name: footer
+label: Footer
+group: NDIS
+description: 'Add a node footer'
+requireAllConditions: false
+disabled: false
+conditions:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    bundles:
+      page: page
+    negate: 0
+    uuid: bcb6650d-9c14-47bd-b6b3-20bc2c3a175f
+    context_mapping:
+      node: '@node.node_route_context:node'
+reactions:
+  blocks:
+    blocks:
+      76ae2df6-c575-4274-baaf-80cabbfdd8f9:
+        id: 'entity_view:node'
+        label: 'Page Footer View'
+        provider: ctools
+        label_display: 0
+        view_mode: footer
+        region: content_bottom
+        weight: '0'
+        context_mapping:
+          entity: '@node.node_route_context:node'
+        theme: ndis
+        css_class: ''
+        unique: 1
+        context_id: footer
+        uuid: 76ae2df6-c575-4274-baaf-80cabbfdd8f9
+    id: blocks
+    saved: false
+    uuid: 347ee1db-2a70-4d3e-a6d3-0ed9eab8b2d0
+    include_default_blocks: 0
+weight: 0

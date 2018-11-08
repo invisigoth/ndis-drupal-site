@@ -1,0 +1,10 @@
+uuid: dff43f61-1123-4080-a628-905ff191f2d7
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+id: media.image_embed_wysiwyg_small
+label: 'Image Embed Wysiwyg: Small'
+targetEntityType: media
+cache: true

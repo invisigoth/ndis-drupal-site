@@ -1,0 +1,21 @@
+uuid: 870aaa36-1ba7-435f-af66-9c7410708a69
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_wysiwyg
+    - paragraphs.paragraphs_type.rollout_statistic
+  module:
+    - text
+id: paragraph.rollout_statistic.field_wysiwyg
+field_name: field_wysiwyg
+entity_type: paragraph
+bundle: rollout_statistic
+label: Content
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

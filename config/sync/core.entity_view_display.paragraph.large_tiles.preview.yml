@@ -1,0 +1,63 @@
+uuid: f0591f90-d78a-4020-a0de-f64ffa2256d9
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.paragraph.preview
+    - field.field.paragraph.large_tiles.field_tile
+    - paragraphs.paragraphs_type.large_tiles
+  module:
+    - ds
+    - entity_reference_revisions
+third_party_settings:
+  ds:
+    layout:
+      id: ds_1col
+      library: null
+      disable_css: false
+      entity_classes: all_classes
+      settings:
+        wrappers:
+          ds_content: div
+          ds_hidden: div
+        outer_wrapper: div
+        attributes: ''
+        link_attribute: ''
+        link_custom: ''
+        classes:
+          layout_class: {  }
+          ds_content: {  }
+          ds_hidden: {  }
+    regions:
+      ds_content:
+        - 'bundle_field:paragraph'
+        - field_tile
+    fields:
+      'bundle_field:paragraph':
+        plugin_id: 'bundle_field:paragraph'
+        weight: 0
+        label: inline
+        formatter: default
+id: paragraph.large_tiles.preview
+targetEntityType: paragraph
+bundle: large_tiles
+mode: preview
+content:
+  field_tile:
+    type: entity_reference_revisions_entity_view
+    weight: 1
+    label: hidden
+    settings:
+      view_mode: preview
+      link: ''
+    third_party_settings:
+      ds:
+        ds_limit: ''
+        ft:
+          id: default
+          settings:
+            lb: ''
+            lb-col: false
+            classes: {  }
+    region: ds_content
+hidden: {  }

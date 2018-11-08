@@ -1,0 +1,29 @@
+uuid: 654ca331-a157-4d2c-adec-1c8ce198b82e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_section_class
+    - paragraphs.paragraphs_type.section
+    - taxonomy.vocabulary.section_classes
+id: paragraph.section.field_section_class
+field_name: field_section_class
+entity_type: paragraph
+bundle: section
+label: Class
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      section_classes: section_classes
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

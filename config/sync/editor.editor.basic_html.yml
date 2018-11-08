@@ -1,0 +1,76 @@
+uuid: 3e27e8d1-f340-4355-9187-7c1db42db173
+langcode: en
+status: true
+dependencies:
+  config:
+    - filter.format.basic_html
+  module:
+    - ckeditor
+_core:
+  default_config_hash: AqlPmO16LvJI4D0Ih6u4GFQIzqr5OnLgAUSjcUGWk2g
+format: basic_html
+editor: ckeditor
+settings:
+  toolbar:
+    rows:
+      -
+        -
+          name: Formatting
+          items:
+            - Bold
+            - Italic
+        -
+          name: Align
+          items:
+            - JustifyLeft
+            - JustifyCenter
+        -
+          name: Linking
+          items:
+            - DrupalLink
+            - DrupalUnlink
+        -
+          name: Lists
+          items:
+            - BulletedList
+            - NumberedList
+            - Indent
+            - Outdent
+        -
+          name: Media
+          items:
+            - Blockquote
+            - media_entity_embed
+            - video_embed
+        -
+          name: 'Block Formatting'
+          items:
+            - Format
+            - Styles
+        -
+          name: Tools
+          items:
+            - Source
+  plugins:
+    stylescombo:
+      styles: "h3.breakout-text|Breakout header\r\nul.ticks-green|Green ticks list"
+    drupallink:
+      linkit_enabled: true
+      linkit_profile: all_nodes
+    language:
+      language_list: un
+    video_embed:
+      defaults:
+        children:
+          autoplay: true
+          responsive: true
+          width: '854'
+          height: '480'
+image_upload:
+  status: true
+  scheme: public
+  directory: inline-images
+  max_size: ''
+  max_dimensions:
+    width: null
+    height: null

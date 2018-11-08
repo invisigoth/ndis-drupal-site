@@ -1,0 +1,20 @@
+uuid: 623d7618-e23a-421a-bc41-13581a33adf6
+langcode: en
+status: true
+dependencies:
+  theme:
+    - ndis
+_core:
+  default_config_hash: 13GQpeITIJsp1kyPniXtWZfyFH87vb1xxJCHifL4UeE
+id: ndis_local_actions
+theme: ndis
+region: content_admin
+weight: -7
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

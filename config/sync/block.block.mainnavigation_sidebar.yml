@@ -1,0 +1,27 @@
+uuid: b51f2b1c-61f2-40b0-9b64-f5d811231d6e
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - menu_block
+  theme:
+    - ndis
+id: mainnavigation_sidebar
+theme: ndis
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'menu_block:main'
+settings:
+  id: 'menu_block:main'
+  label: 'Main navigation sidebar'
+  provider: menu_block
+  label_display: '0'
+  level: 2
+  depth: 0
+  expand: 0
+  parent: 'main:'
+  suggestion: main
+visibility: {  }

@@ -1,0 +1,9 @@
+uuid: 64c6dad4-4011-422e-bf4b-e8ca6aa3539a
+langcode: en
+status: true
+dependencies: {  }
+name: 'Main menu submenu'
+vid: main_menu_submenu
+description: 'Displayed in the main menu'
+hierarchy: 0
+weight: 0

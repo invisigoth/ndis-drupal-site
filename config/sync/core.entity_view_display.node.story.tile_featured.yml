@@ -1,0 +1,182 @@
+uuid: 7867802a-e9e0-4692-9373-e1e19fbf428e
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.tile_featured
+    - field.field.node.story.body
+    - field.field.node.story.field_category
+    - field.field.node.story.field_date
+    - field.field.node.story.field_featured
+    - field.field.node.story.field_image
+    - field.field.node.story.field_subtitle
+    - image.style.image_embed_wysiwyg_full
+    - node.type.story
+  module:
+    - datetime
+    - ds
+    - field_group
+    - media
+    - user
+third_party_settings:
+  ds:
+    layout:
+      id: ds_2col
+      library: ds/ds_2col
+      disable_css: true
+      entity_classes: all_classes
+      settings:
+        wrappers:
+          left: div
+          right: div
+          ds_hidden: div
+        outer_wrapper: article
+        attributes: ''
+        link_attribute: ''
+        link_custom: ''
+        classes:
+          layout_class: {  }
+          left:
+            col-sm-6: col-sm-6
+            col-md-8: col-md-8
+          right:
+            col-sm-6: col-sm-6
+            col-md-4: col-md-4
+          ds_hidden: {  }
+    regions:
+      left:
+        - field_image
+      right:
+        - group_header
+        - field_subtitle
+        - group_footer
+        - node_title
+        - field_date
+        - ndis_more_link
+        - group_bottom
+    fields:
+      ndis_more_link:
+        plugin_id: ndis_more_link
+        weight: 12
+        label: hidden
+        formatter: default
+        settings:
+          'link text': 'Read more'
+          'link class': ''
+          wrapper: ''
+          class: ''
+        ft:
+          id: minimal
+          settings:
+            lb: ''
+            lb-col: false
+            classes: {  }
+      node_title:
+        plugin_id: node_title
+        weight: 3
+        label: hidden
+        formatter: default
+        settings:
+          link: true
+          wrapper: h3
+          class: ''
+        ft:
+          id: minimal
+          settings:
+            lb: ''
+            lb-col: false
+            classes: {  }
+  field_group:
+    group_header:
+      children:
+        - field_subtitle
+        - node_title
+      parent_name: ''
+      weight: 1
+      format_type: html_element
+      format_settings:
+        id: ''
+        classes: ''
+        element: header
+        show_label: false
+        label_element: h3
+        attributes: ''
+        effect: none
+        speed: fast
+      label: Header
+    group_footer:
+      children:
+        - field_date
+        - ndis_more_link
+        - group_bottom
+      parent_name: ''
+      weight: 3
+      format_type: html_element
+      format_settings:
+        id: ''
+        classes: ''
+        element: footer
+        show_label: false
+        label_element: h3
+        attributes: ''
+        effect: none
+        speed: fast
+      label: Footer
+id: node.story.tile_featured
+targetEntityType: node
+bundle: story
+mode: tile_featured
+content:
+  field_date:
+    type: datetime_default
+    weight: 11
+    region: right
+    label: hidden
+    settings:
+      timezone_override: ''
+      format_type: page_current_date
+    third_party_settings:
+      ds:
+        ft:
+          id: minimal
+          settings:
+            lb: ''
+            lb-col: false
+            classes: {  }
+  field_image:
+    type: media_thumbnail
+    weight: 0
+    label: hidden
+    settings:
+      image_style: image_embed_wysiwyg_full
+      image_link: content
+    third_party_settings:
+      ds:
+        ft:
+          id: default
+          settings:
+            lb: ''
+            lb-col: false
+            classes: {  }
+    region: left
+  field_subtitle:
+    weight: 2
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings:
+      ds:
+        ft:
+          id: minimal
+          settings:
+            lb: ''
+            lb-col: false
+            classes: {  }
+    type: string
+    region: right
+hidden:
+  body: true
+  field_category: true
+  field_featured: true
+  langcode: true
+  links: true

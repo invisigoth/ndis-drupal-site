@@ -1,0 +1,75 @@
+uuid: fa74a781-0e73-4b2d-ba4f-aa4bc2d8c857
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.connected_pathways.field_connection
+    - field.field.paragraph.connected_pathways.field_pathway_orientation
+    - field.field.paragraph.connected_pathways.field_title
+    - paragraphs.paragraphs_type.connected_pathways
+  module:
+    - ds
+    - entity_reference_revisions
+    - header_formatter
+third_party_settings:
+  ds:
+    layout:
+      id: ds_1col
+      library: null
+      disable_css: false
+      entity_classes: all_classes
+      settings:
+        wrappers:
+          ds_content: div
+          ds_hidden: div
+        outer_wrapper: div
+        attributes: ''
+        link_attribute: ''
+        link_custom: ''
+        classes:
+          layout_class: {  }
+          ds_content: {  }
+          ds_hidden: {  }
+    regions:
+      ds_content:
+        - field_title
+        - field_connection
+id: paragraph.connected_pathways.default
+targetEntityType: paragraph
+bundle: connected_pathways
+mode: default
+content:
+  field_connection:
+    type: entity_reference_revisions_entity_view
+    weight: 1
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings:
+      ds:
+        ds_limit: ''
+        ft:
+          id: minimal
+          settings:
+            lb: ''
+            lb-col: false
+            classes: {  }
+    region: ds_content
+  field_title:
+    weight: 0
+    label: hidden
+    settings:
+      level: '3'
+    third_party_settings:
+      ds:
+        ft:
+          id: minimal
+          settings:
+            lb: ''
+            lb-col: false
+            classes: {  }
+    type: text_header
+    region: ds_content
+hidden:
+  field_pathway_orientation: true

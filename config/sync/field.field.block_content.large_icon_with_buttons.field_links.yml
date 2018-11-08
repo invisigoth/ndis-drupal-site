@@ -1,0 +1,23 @@
+uuid: 13841a63-f02f-4735-b92b-a21ea9291936
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.large_icon_with_buttons
+    - field.storage.block_content.field_links
+  module:
+    - link
+id: block_content.large_icon_with_buttons.field_links
+field_name: field_links
+entity_type: block_content
+bundle: large_icon_with_buttons
+label: Links
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 2
+field_type: link

@@ -1,0 +1,8 @@
+uuid: 785b971c-40c2-462d-9954-d4e194314b8d
+langcode: en
+status: true
+dependencies: {  }
+id: event_format
+label: 'Event format'
+locked: false
+pattern: 'l, jS F Y'

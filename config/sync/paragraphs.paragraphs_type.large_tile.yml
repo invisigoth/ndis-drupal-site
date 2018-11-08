@@ -1,0 +1,9 @@
+uuid: 98ce55ad-fcc5-45f9-8dd6-8a6331af7a9a
+langcode: en
+status: true
+dependencies: {  }
+id: large_tile
+label: 'Large Tile'
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

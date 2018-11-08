@@ -1,0 +1,9 @@
+uuid: 5d2acc28-94fa-485d-817c-ec1b055bbbe1
+langcode: en
+status: true
+dependencies: {  }
+id: link_boxes
+label: 'Links with Text and Description in Large Box'
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

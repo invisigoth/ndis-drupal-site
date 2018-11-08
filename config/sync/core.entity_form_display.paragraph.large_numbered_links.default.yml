@@ -1,0 +1,26 @@
+uuid: 97363816-a70a-478f-a782-97b66d08a11c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.large_numbered_links.field_links
+    - paragraphs.paragraphs_type.large_numbered_links
+  module:
+    - link
+id: paragraph.large_numbered_links.default
+targetEntityType: paragraph
+bundle: large_numbered_links
+mode: default
+content:
+  field_links:
+    weight: 0
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+    type: link_default
+    region: content
+hidden:
+  created: true
+  status: true
+  uid: true

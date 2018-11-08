@@ -1,0 +1,9 @@
+uuid: 4ed197f5-8c1b-42e8-810b-a481ed590723
+langcode: en
+status: true
+dependencies: {  }
+id: rollout_statistic
+label: 'Rollout statistic'
+icon_uuid: null
+description: 'Used by the block Rollout Statistics type.'
+behavior_plugins: {  }

@@ -1,0 +1,17 @@
+uuid: b76f7e47-8374-439f-a39f-be85547cad33
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Event
+type: event
+description: 'Use <em>events</em> for event content like events or information session posts.'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

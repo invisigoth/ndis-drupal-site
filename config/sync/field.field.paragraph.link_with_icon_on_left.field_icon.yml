@@ -1,0 +1,28 @@
+uuid: 7a294b6b-2130-4724-9e75-2efaa3822cc6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_icon
+    - media.type.icon
+    - paragraphs.paragraphs_type.link_with_icon_on_left
+id: paragraph.link_with_icon_on_left.field_icon
+field_name: field_icon
+entity_type: paragraph
+bundle: link_with_icon_on_left
+label: Icon
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      icon: icon
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

@@ -1,0 +1,81 @@
+uuid: ff3d21cc-08c1-4645-baec-52b52eaa7253
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.paragraph.preview
+    - field.field.paragraph.large_tile.field_has_video
+    - field.field.paragraph.large_tile.field_image
+    - field.field.paragraph.large_tile.field_links
+    - image.style.thumbnail
+    - paragraphs.paragraphs_type.large_tile
+  module:
+    - ds
+    - link_plain_text_formatter
+    - media
+third_party_settings:
+  ds:
+    layout:
+      id: ds_2col
+      library: ds/ds_2col
+      disable_css: false
+      entity_classes: all_classes
+      settings:
+        wrappers:
+          left: div
+          right: div
+          ds_hidden: div
+        outer_wrapper: div
+        attributes: ''
+        link_attribute: ''
+        link_custom: ''
+        classes:
+          layout_class: {  }
+          left: {  }
+          right: {  }
+          ds_hidden: {  }
+    regions:
+      left:
+        - field_image
+      right:
+        - field_links
+        - field_has_video
+id: paragraph.large_tile.preview
+targetEntityType: paragraph
+bundle: large_tile
+mode: preview
+content:
+  field_has_video:
+    type: boolean
+    weight: 2
+    region: right
+    label: hidden
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+  field_image:
+    weight: 0
+    label: hidden
+    settings:
+      image_style: thumbnail
+      image_link: ''
+    third_party_settings:
+      ds:
+        ft:
+          id: default
+          settings:
+            lb: ''
+            lb-col: false
+            classes: {  }
+    type: media_thumbnail
+    region: left
+  field_links:
+    weight: 1
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: link_plain_text_formatter
+    region: right
+hidden: {  }

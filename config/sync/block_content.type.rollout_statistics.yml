@@ -1,0 +1,8 @@
+uuid: 24058673-f682-4f0c-bd38-25871aba0ae2
+langcode: en
+status: true
+dependencies: {  }
+id: rollout_statistics
+label: 'Rollout statistics'
+revision: 1
+description: 'Creates a block of stats to embed throughout site.'

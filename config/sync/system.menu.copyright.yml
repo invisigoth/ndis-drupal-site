@@ -1,0 +1,8 @@
+uuid: 1f841b54-182b-4192-9ad1-a01fc09b3227
+langcode: en
+status: true
+dependencies: {  }
+id: copyright
+label: Copyright
+description: 'Footer menu'
+locked: false

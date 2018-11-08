@@ -1,0 +1,9 @@
+uuid: f71049c0-cde8-4bce-82b2-08296f8d74e0
+langcode: en
+status: true
+dependencies: {  }
+id: small_tiles
+label: 'Links with Icon on Left in Box'
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

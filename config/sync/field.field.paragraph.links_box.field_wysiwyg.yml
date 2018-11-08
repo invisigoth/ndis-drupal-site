@@ -1,0 +1,28 @@
+uuid: 56e28c1e-7009-454d-a324-2189a3b8b446
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_wysiwyg
+    - paragraphs.paragraphs_type.links_box
+  module:
+    - allowed_formats
+    - text
+third_party_settings:
+  allowed_formats:
+    basic_html: basic_html
+    restricted_html: '0'
+    full_html: '0'
+    plain_text: '0'
+id: paragraph.links_box.field_wysiwyg
+field_name: field_wysiwyg
+entity_type: paragraph
+bundle: links_box
+label: Content
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

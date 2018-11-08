@@ -1,0 +1,55 @@
+uuid: 2b170c9f-e0be-4a2c-9aa6-5ecf8aef9f9d
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.paragraph.preview
+    - field.field.paragraph.links_box.field_link
+    - field.field.paragraph.links_box.field_subtitle
+    - field.field.paragraph.links_box.field_title
+    - field.field.paragraph.links_box.field_wysiwyg
+    - paragraphs.paragraphs_type.links_box
+  module:
+    - link
+    - text
+id: paragraph.links_box.preview
+targetEntityType: paragraph
+bundle: links_box
+mode: preview
+content:
+  field_link:
+    weight: 3
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+    region: content
+  field_subtitle:
+    weight: 0
+    label: inline
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_title:
+    weight: 1
+    label: inline
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_wysiwyg:
+    weight: 2
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+hidden: {  }

@@ -1,0 +1,53 @@
+uuid: 1700bd30-f362-4f7b-9a0c-69c21c615ef5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.connected_pathways.field_connection
+    - field.field.paragraph.connected_pathways.field_pathway_orientation
+    - field.field.paragraph.connected_pathways.field_title
+    - paragraphs.paragraphs_type.connected_pathways
+  module:
+    - paragraphs
+id: paragraph.connected_pathways.default
+targetEntityType: paragraph
+bundle: connected_pathways
+mode: default
+content:
+  field_connection:
+    type: paragraphs
+    weight: 2
+    settings:
+      title: Link
+      title_plural: Links
+      edit_mode: closed
+      closed_mode: preview
+      autocollapse: all
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: _none
+      features:
+        duplicate: duplicate
+        collapse_edit_all: collapse_edit_all
+        add_above: '0'
+    third_party_settings: {  }
+    region: content
+  field_pathway_orientation:
+    weight: 1
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  field_title:
+    weight: 0
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+hidden:
+  created: true
+  moderation_state: true
+  status: true
+  uid: true

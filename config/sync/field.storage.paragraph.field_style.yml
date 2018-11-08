@@ -1,0 +1,27 @@
+uuid: 963c0e8d-7095-4714-9430-f42de12a8200
+langcode: en
+status: true
+dependencies:
+  module:
+    - options
+    - paragraphs
+id: paragraph.field_style
+field_name: field_style
+entity_type: paragraph
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: grid
+      label: 'Side by side'
+    -
+      value: list
+      label: 'Stacked list'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

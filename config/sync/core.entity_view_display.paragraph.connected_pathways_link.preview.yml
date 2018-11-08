@@ -1,0 +1,32 @@
+uuid: f79c6637-2c38-4aa1-a7bf-dc7568a5cc3e
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.paragraph.preview
+    - field.field.paragraph.connected_pathways_link.field_link
+    - field.field.paragraph.connected_pathways_link.field_pathway_left_class
+    - field.field.paragraph.connected_pathways_link.field_pathway_right_class
+    - paragraphs.paragraphs_type.connected_pathways_link
+  module:
+    - link
+id: paragraph.connected_pathways_link.preview
+targetEntityType: paragraph
+bundle: connected_pathways_link
+mode: preview
+content:
+  field_link:
+    weight: 0
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+    region: content
+hidden:
+  field_pathway_left_class: true
+  field_pathway_right_class: true

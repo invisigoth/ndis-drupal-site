@@ -1,0 +1,31 @@
+uuid: 9c1b23a2-f8c5-4ad8-88bf-8f5af3fd02d1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_test_address
+    - node.type.test_location
+  module:
+    - address
+id: node.test_location.field_test_address
+field_name: field_test_address
+entity_type: node
+bundle: test_location
+label: 'Test Address'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  available_countries: {  }
+  langcode_override: ''
+  field_overrides:
+    givenName:
+      override: hidden
+    additionalName:
+      override: hidden
+    familyName:
+      override: hidden
+  fields: {  }
+field_type: address

@@ -1,0 +1,15 @@
+uuid: a674f7b5-21c5-4690-85dd-3723d27d2b20
+langcode: en
+status: true
+dependencies: {  }
+name: image_embed_wysiwyg_small
+label: 'Image Embed Wysiwyg: Small'
+effects:
+  50890349-52f8-46be-98cf-4b7d36cd83df:
+    uuid: 50890349-52f8-46be-98cf-4b7d36cd83df
+    id: image_scale
+    weight: 1
+    data:
+      width: 336
+      height: null
+      upscale: false

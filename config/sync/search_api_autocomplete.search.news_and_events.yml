@@ -1,0 +1,40 @@
+uuid: 7a6acb97-7a48-4a41-b131-d86aa30bd75a
+langcode: en
+status: true
+dependencies:
+  config:
+    - search_api.index.solr_searchable_nodes
+    - views.view.news_and_events
+  module:
+    - views
+    - search_api_autocomplete
+    - search_api_solr
+id: news_and_events
+label: 'News and Events'
+index_id: solr_searchable_nodes
+suggester_settings:
+  server:
+    fields:
+      - title_fulltext
+  search_api_solr_suggester:
+    search_api_solr/site_hash: 1
+    search_api/index: solr_autocomplete_stories
+    drupal/langcode: any
+suggester_weights:
+  server: -48
+  search_api_solr_suggester: -49
+suggester_limits:
+  server: 5
+  search_api_solr_suggester: 5
+search_settings:
+  'views:news_and_events':
+    displays:
+      default: true
+      selected: {  }
+options:
+  limit: 10
+  min_length: 1
+  show_count: true
+  autosubmit: true
+  submit_button_selector: ':submit'
+  delay: null

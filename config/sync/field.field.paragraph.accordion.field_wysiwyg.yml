@@ -1,0 +1,28 @@
+uuid: f825dc83-aa7e-4f7d-be00-95eee1328078
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_wysiwyg
+    - paragraphs.paragraphs_type.accordion
+  module:
+    - allowed_formats
+    - text
+third_party_settings:
+  allowed_formats:
+    basic_html: '0'
+    restricted_html: '0'
+    full_html: '0'
+    plain_text: '0'
+id: paragraph.accordion.field_wysiwyg
+field_name: field_wysiwyg
+entity_type: paragraph
+bundle: accordion
+label: Content
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

@@ -1,0 +1,90 @@
+uuid: 57b65fb1-b9dd-4a6a-8bb8-7645adb14977
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.header
+    - field.field.node.page.body
+    - field.field.node.page.field_header_image
+    - field.field.node.page.field_sections
+    - image.style.header_image
+    - node.type.page
+  module:
+    - ds
+    - media
+    - user
+third_party_settings:
+  ds:
+    layout:
+      id: ds_reset
+      library: null
+      disable_css: false
+      entity_classes: all_classes
+      settings:
+        wrappers:
+          ds_content: header
+          ds_hidden: div
+        outer_wrapper: div
+        attributes: ''
+        link_attribute: ''
+        link_custom: ''
+        classes:
+          layout_class: {  }
+          ds_content: {  }
+          ds_hidden: {  }
+    regions:
+      ds_content:
+        - ndis_breadcrumbs
+        - node_title
+      ds_hidden:
+        - field_header_image
+    fields:
+      ndis_breadcrumbs:
+        plugin_id: ndis_breadcrumbs
+        weight: 0
+        label: hidden
+        formatter: default
+        ft:
+          id: reset
+          settings:
+            lb: ''
+      node_title:
+        plugin_id: node_title
+        weight: 1
+        label: hidden
+        formatter: default
+        settings:
+          wrapper: h1
+          class: title
+          link: false
+        ft:
+          id: reset
+          settings:
+            lb: ''
+_core:
+  default_config_hash: g1S3_GLaxq4l3I9RIca5Mlz02MxI2KmOquZpHw59akM
+id: node.page.header
+targetEntityType: node
+bundle: page
+mode: header
+content:
+  field_header_image:
+    type: media_thumbnail
+    weight: 2
+    region: ds_hidden
+    label: hidden
+    settings:
+      image_style: header_image
+      image_link: ''
+    third_party_settings:
+      ds:
+        ft:
+          id: reset
+          settings:
+            lb: ''
+hidden:
+  body: true
+  content_moderation_control: true
+  field_sections: true
+  langcode: true
+  links: true

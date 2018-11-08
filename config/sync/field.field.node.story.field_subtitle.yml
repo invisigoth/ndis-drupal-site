@@ -1,0 +1,19 @@
+uuid: 54a700e6-09df-43a8-ac98-6ee357893a75
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_subtitle
+    - node.type.story
+id: node.story.field_subtitle
+field_name: field_subtitle
+entity_type: node
+bundle: story
+label: 'Sub title'
+description: 'Eg Lisa and Austin''s story, Tim and Katies story.'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

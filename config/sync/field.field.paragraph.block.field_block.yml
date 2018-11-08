@@ -1,0 +1,37 @@
+uuid: 4a25cdec-3869-4cbf-90d6-98e9631c8cc8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_block
+    - paragraphs.paragraphs_type.block
+  module:
+    - block_field
+id: paragraph.block.field_block
+field_name: field_block
+entity_type: paragraph
+bundle: block
+label: Block
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  plugin_ids:
+    'block_content:9f5bcd79-a0ff-45eb-a084-e23aa33cd2c4': 'block_content:9f5bcd79-a0ff-45eb-a084-e23aa33cd2c4'
+    'block_content:bffadd6c-5609-4d0c-8bb0-575740b8438a': 'block_content:bffadd6c-5609-4d0c-8bb0-575740b8438a'
+    'block_content:9542ce34-c804-40a0-9e47-7516d6f40707': 'block_content:9542ce34-c804-40a0-9e47-7516d6f40707'
+    'block_content:d568718c-ccf8-4b50-93dd-2b3395776ad4': 'block_content:d568718c-ccf8-4b50-93dd-2b3395776ad4'
+    'block_content:e96cad13-3314-4935-a324-4b2ea43a0d99': 'block_content:e96cad13-3314-4935-a324-4b2ea43a0d99'
+    'block_content:cebdb88c-8f0a-44d6-872a-dbe0dd200385': 'block_content:cebdb88c-8f0a-44d6-872a-dbe0dd200385'
+    'block_content:0e6bc1af-e684-4951-b778-9d56d9decfc3': 'block_content:0e6bc1af-e684-4951-b778-9d56d9decfc3'
+    'block_content:cdc6b6bc-a619-408e-9e88-4bb9d7b6110e': 'block_content:cdc6b6bc-a619-408e-9e88-4bb9d7b6110e'
+    'views_block:upcoming_events-latest': 'views_block:upcoming_events-latest'
+    'views_block:upcoming_events-provider_info_sessions': 'views_block:upcoming_events-provider_info_sessions'
+    'views_block:content_recent-block_1': 'views_block:content_recent-block_1'
+    'views_block:whats_new-home': 'views_block:whats_new-home'
+    'views_block:your_stories-home': 'views_block:your_stories-home'
+    ndis_rollout_map_landing: ndis_rollout_map_landing
+    'views_exposed_filter_block:search_site-page': 'views_exposed_filter_block:search_site-page'
+field_type: block_field

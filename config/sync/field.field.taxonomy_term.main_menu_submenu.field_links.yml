@@ -1,0 +1,23 @@
+uuid: 95d7cd3b-1dff-4271-83f8-2960d9d61104
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_links
+    - taxonomy.vocabulary.main_menu_submenu
+  module:
+    - link
+id: taxonomy_term.main_menu_submenu.field_links
+field_name: field_links
+entity_type: taxonomy_term
+bundle: main_menu_submenu
+label: Links
+description: 'Links to display in the submenu.'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 2
+field_type: link

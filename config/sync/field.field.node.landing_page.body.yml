@@ -1,0 +1,29 @@
+uuid: b82d547f-ef0a-4560-9322-708cd2a4c52e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.landing_page
+  module:
+    - allowed_formats
+    - text
+third_party_settings:
+  allowed_formats:
+    plain_text: plain_text
+    basic_html: '0'
+    restricted_html: '0'
+    full_html: '0'
+id: node.landing_page.body
+field_name: body
+entity_type: node
+bundle: landing_page
+label: Summary
+description: 'This text will display on the search index.'
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+field_type: text_with_summary

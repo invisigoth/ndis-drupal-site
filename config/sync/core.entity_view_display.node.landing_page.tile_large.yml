@@ -1,0 +1,37 @@
+uuid: 17804fda-d5f6-4a1c-9e0e-737cb882d679
+langcode: en
+status: false
+dependencies:
+  config:
+    - core.entity_view_mode.node.tile_large
+    - field.field.node.landing_page.body
+    - field.field.node.landing_page.field_sections
+    - node.type.landing_page
+  module:
+    - ds
+    - entity_reference_revisions
+    - user
+id: node.landing_page.tile_large
+targetEntityType: node
+bundle: landing_page
+mode: tile_large
+content:
+  field_sections:
+    type: entity_reference_revisions_entity_view
+    weight: 0
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings:
+      ds:
+        ds_limit: ''
+        ft:
+          id: reset
+          settings:
+            lb: ''
+    region: content
+hidden:
+  body: true
+  langcode: true
+  links: true

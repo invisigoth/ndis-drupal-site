@@ -1,0 +1,256 @@
+uuid: e52cdb18-b494-40ab-a596-5b62ccc0c86d
+langcode: en
+status: true
+dependencies:
+  module:
+    - search_api_solr
+    - node
+    - taxonomy
+    - content_moderation
+    - search_api
+  config:
+    - field.storage.node.field_category
+    - field.storage.node.field_date
+    - field.storage.node.field_event_date
+    - search_api.server.localhost_solr
+    - core.entity_view_mode.node.tile_large
+third_party_settings:
+  search_api_solr:
+    finalize: false
+    commit_before_finalize: false
+    commit_after_finalize: false
+id: solr_searchable_nodes
+name: 'SOLR Searchable Nodes'
+description: ''
+read_only: false
+field_settings:
+  created:
+    label: 'Authored on'
+    datasource_id: 'entity:node'
+    property_path: created
+    type: date
+    dependencies:
+      module:
+        - node
+  field_category:
+    label: Category
+    datasource_id: 'entity:node'
+    property_path: field_category
+    type: integer
+    dependencies:
+      config:
+        - field.storage.node.field_category
+  field_category__name:
+    label: 'Category » Taxonomy term » Name'
+    datasource_id: 'entity:node'
+    property_path: 'field_category:entity:name'
+    type: string
+    dependencies:
+      config:
+        - field.storage.node.field_category
+      module:
+        - taxonomy
+        - taxonomy
+  field_category__tid:
+    label: 'Category » Taxonomy term » Term ID'
+    datasource_id: 'entity:node'
+    property_path: 'field_category:entity:tid'
+    type: integer
+    dependencies:
+      config:
+        - field.storage.node.field_category
+      module:
+        - taxonomy
+        - taxonomy
+  field_date:
+    label: Date
+    datasource_id: 'entity:node'
+    property_path: field_date
+    type: date
+    dependencies:
+      config:
+        - field.storage.node.field_date
+  field_event_date:
+    label: 'Event Date'
+    datasource_id: 'entity:node'
+    property_path: field_event_date
+    type: date
+    dependencies:
+      config:
+        - field.storage.node.field_event_date
+  moderation_state:
+    label: 'Moderation state'
+    datasource_id: 'entity:node'
+    property_path: moderation_state
+    type: string
+    dependencies:
+      module:
+        - content_moderation
+  nid:
+    label: ID
+    datasource_id: 'entity:node'
+    property_path: nid
+    type: integer
+    dependencies:
+      module:
+        - node
+  node_grants:
+    label: 'Node access information'
+    property_path: search_api_node_grants
+    type: string
+    indexed_locked: true
+    type_locked: true
+    hidden: true
+  promote:
+    label: 'Promoted to front page'
+    datasource_id: 'entity:node'
+    property_path: promote
+    type: boolean
+    dependencies:
+      module:
+        - node
+  rendered_full:
+    label: 'Rendered HTML output'
+    property_path: rendered_item
+    type: text
+    configuration:
+      roles:
+        anonymous: anonymous
+      view_mode:
+        'entity:node':
+          article: tile_large
+          event: tile_large
+          landing_page: ''
+          page: ''
+          story: tile_large
+  status:
+    label: Published
+    datasource_id: 'entity:node'
+    property_path: status
+    type: boolean
+    indexed_locked: true
+    type_locked: true
+    dependencies:
+      module:
+        - node
+  title:
+    label: Title
+    datasource_id: 'entity:node'
+    property_path: title
+    type: string
+    dependencies:
+      module:
+        - node
+  title_fulltext:
+    label: 'Title fulltext'
+    datasource_id: 'entity:node'
+    property_path: title
+    type: text
+    boost: !!float 5
+    dependencies:
+      module:
+        - node
+  title_suggester:
+    label: Title
+    datasource_id: 'entity:node'
+    property_path: title
+    type: solr_text_suggester
+    boost: !!float 5
+    dependencies:
+      module:
+        - node
+  type:
+    label: 'Content type'
+    datasource_id: 'entity:node'
+    property_path: type
+    type: string
+    dependencies:
+      module:
+        - node
+  uid:
+    label: uid
+    datasource_id: 'entity:node'
+    property_path: uid
+    type: integer
+    indexed_locked: true
+    type_locked: true
+    dependencies:
+      module:
+        - node
+  url:
+    label: URI
+    property_path: search_api_url
+    type: string
+  uuid:
+    label: UUID
+    datasource_id: 'entity:node'
+    property_path: uuid
+    type: string
+    dependencies:
+      module:
+        - node
+datasource_settings:
+  'entity:node':
+    bundles:
+      default: false
+      selected:
+        - article
+        - event
+        - landing_page
+        - page
+        - story
+    languages:
+      default: true
+      selected: {  }
+processor_settings:
+  add_url: {  }
+  aggregated_field: {  }
+  content_access:
+    weights:
+      preprocess_query: -30
+  double_quote_workaround:
+    all_fields: false
+    fields:
+      - title
+      - url
+      - uuid
+    replacement: '|9999999998|'
+    weights:
+      postprocess_query: 0
+      preprocess_index: -15
+      preprocess_query: -15
+  entity_status: {  }
+  hierarchy:
+    fields:
+      field_category: taxonomy_term-parent
+    weights:
+      preprocess_index: -45
+  html_filter:
+    all_fields: false
+    fields:
+      - rendered_full
+      - title
+      - url
+      - uuid
+    title: true
+    alt: true
+    tags:
+      b: 2
+      h1: 5
+      h2: 3
+      h3: 2
+      strong: 2
+    weights:
+      preprocess_index: -15
+      preprocess_query: -15
+  rendered_item: {  }
+  solr_date_range:
+    weights:
+      preprocess_index: 0
+tracker_settings:
+  default:
+    indexing_order: fifo
+options:
+  index_directly: true
+  cron_limit: 50
+server: localhost_solr

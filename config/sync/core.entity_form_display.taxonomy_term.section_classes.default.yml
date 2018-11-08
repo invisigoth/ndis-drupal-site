@@ -1,0 +1,32 @@
+uuid: 20c5020c-7170-4856-bd37-0c7f040385c3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.section_classes.field_class
+    - taxonomy.vocabulary.section_classes
+id: taxonomy_term.section_classes.default
+targetEntityType: taxonomy_term
+bundle: section_classes
+mode: default
+content:
+  field_class:
+    weight: 1
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  name:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  description: true
+  langcode: true
+  path: true

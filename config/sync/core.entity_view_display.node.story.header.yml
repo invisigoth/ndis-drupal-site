@@ -1,0 +1,42 @@
+uuid: ee9c8c3e-59e6-49b6-b708-707faacd9241
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.header
+    - field.field.node.story.body
+    - field.field.node.story.field_date
+    - field.field.node.story.field_image
+    - node.type.story
+  module:
+    - text
+    - user
+id: node.story.header
+targetEntityType: node
+bundle: story
+mode: header
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_image:
+    type: entity_reference_entity_view
+    weight: 102
+    label: above
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  field_date: true
+  langcode: true

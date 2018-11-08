@@ -1,0 +1,73 @@
+uuid: 6cff52da-afde-4cba-8341-4da53aaf60c2
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.rollout_statistics
+    - field.storage.block_content.field_rollout_statistics
+    - paragraphs.paragraphs_type.rollout_statistic
+  module:
+    - entity_reference_revisions
+id: block_content.rollout_statistics.field_rollout_statistics
+field_name: field_rollout_statistics
+entity_type: block_content
+bundle: rollout_statistics
+label: 'Rollout statistics'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      rollout_statistic: rollout_statistic
+    target_bundles_drag_drop:
+      block:
+        weight: 16
+        enabled: false
+      columns:
+        weight: 17
+        enabled: false
+      connected_pathways:
+        weight: 18
+        enabled: false
+      connected_pathways_link:
+        weight: 19
+        enabled: false
+      image:
+        weight: 20
+        enabled: false
+      large_tile:
+        weight: 21
+        enabled: false
+      large_tiles:
+        weight: 22
+        enabled: false
+      link_with_icon_on_left:
+        weight: 23
+        enabled: false
+      related_resource:
+        weight: 24
+        enabled: false
+      rollout_statistic:
+        enabled: true
+        weight: 25
+      section:
+        weight: 26
+        enabled: false
+      small_tile:
+        weight: 27
+        enabled: false
+      small_tiles:
+        weight: 28
+        enabled: false
+      video:
+        weight: 29
+        enabled: false
+      wysiwyg:
+        weight: 30
+        enabled: false
+field_type: entity_reference_revisions

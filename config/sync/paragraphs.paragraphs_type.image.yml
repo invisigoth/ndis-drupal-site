@@ -1,0 +1,9 @@
+uuid: d9ee5b6c-7c11-4a11-a158-1e641ffa2a01
+langcode: en
+status: true
+dependencies: {  }
+id: image
+label: Image
+icon_uuid: null
+description: 'A single image.'
+behavior_plugins: {  }

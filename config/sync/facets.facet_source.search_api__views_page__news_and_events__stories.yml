@@ -1,0 +1,9 @@
+uuid: d1386347-3c81-4637-9d8f-1adb9e210872
+langcode: en
+status: true
+dependencies: {  }
+id: search_api__views_page__news_and_events__stories
+name: 'search_api:views_page__news_and_events__stories'
+filter_key: null
+url_processor: query_string
+breadcrumb: {  }

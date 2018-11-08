@@ -1,0 +1,62 @@
+uuid: 8b90e485-4550-4317-856b-898cd8569c6f
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.footer
+    - field.field.node.page.body
+    - field.field.node.page.field_sections
+    - node.type.page
+  module:
+    - ds
+    - entity_reference_revisions
+    - user
+third_party_settings:
+  ds:
+    layout:
+      id: ds_1col
+      library: null
+      disable_css: false
+      entity_classes: all_classes
+      settings:
+        wrappers:
+          ds_content: div
+          ds_hidden: div
+        outer_wrapper: div
+        attributes: ''
+        link_attribute: ''
+        link_custom: ''
+        classes:
+          layout_class: {  }
+          ds_content: {  }
+          ds_hidden: {  }
+    regions:
+      ds_content:
+        - field_sections
+_core:
+  default_config_hash: g1S3_GLaxq4l3I9RIca5Mlz02MxI2KmOquZpHw59akM
+id: node.page.footer
+targetEntityType: node
+bundle: page
+mode: footer
+content:
+  field_sections:
+    type: entity_reference_revisions_entity_view
+    weight: 0
+    region: ds_content
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings:
+      ds:
+        ds_limit: ''
+        ft:
+          id: reset
+          settings:
+            lb: ''
+hidden:
+  body: true
+  content_moderation_control: true
+  langcode: true
+  links: true

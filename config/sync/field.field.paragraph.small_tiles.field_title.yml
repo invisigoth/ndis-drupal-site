@@ -1,0 +1,19 @@
+uuid: c60429fb-e11a-415a-b7b2-a90247503f5b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_title
+    - paragraphs.paragraphs_type.small_tiles
+id: paragraph.small_tiles.field_title
+field_name: field_title
+entity_type: paragraph
+bundle: small_tiles
+label: Title
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

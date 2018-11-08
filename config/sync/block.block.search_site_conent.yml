@@ -1,0 +1,29 @@
+uuid: 0869a86a-9105-48c7-b5bd-30b1a03fe6fa
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.search_site
+  module:
+    - system
+    - views
+  theme:
+    - ndis
+id: search_site_conent
+theme: ndis
+region: content
+weight: -8
+provider: null
+plugin: 'views_exposed_filter_block:search_site-page'
+settings:
+  id: 'views_exposed_filter_block:search_site-page'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+visibility:
+  request_path:
+    id: request_path
+    pages: "/search\r\n/search/*"
+    negate: false
+    context_mapping: {  }

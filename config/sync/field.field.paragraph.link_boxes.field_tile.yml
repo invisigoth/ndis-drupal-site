@@ -1,0 +1,82 @@
+uuid: 9bde832b-58ce-4940-be32-945c13c745d2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_tile
+    - paragraphs.paragraphs_type.link_boxes
+    - paragraphs.paragraphs_type.links_box
+  module:
+    - entity_reference_revisions
+id: paragraph.link_boxes.field_tile
+field_name: field_tile
+entity_type: paragraph
+bundle: link_boxes
+label: Tile
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      links_box: links_box
+    target_bundles_drag_drop:
+      block:
+        weight: 19
+        enabled: false
+      columns:
+        weight: 20
+        enabled: false
+      connected_pathways:
+        weight: 21
+        enabled: false
+      connected_pathways_link:
+        weight: 22
+        enabled: false
+      image:
+        weight: 23
+        enabled: false
+      large_numbered_links:
+        weight: 24
+        enabled: false
+      large_tile:
+        weight: 25
+        enabled: false
+      large_tiles:
+        weight: 26
+        enabled: false
+      link_boxes:
+        weight: 27
+        enabled: false
+      link_with_icon_on_left:
+        weight: 28
+        enabled: false
+      links_box:
+        enabled: true
+        weight: 29
+      related_resource:
+        weight: 30
+        enabled: false
+      rollout_statistic:
+        weight: 31
+        enabled: false
+      section:
+        weight: 32
+        enabled: false
+      small_tile:
+        weight: 33
+        enabled: false
+      small_tiles:
+        weight: 34
+        enabled: false
+      video:
+        weight: 35
+        enabled: false
+      wysiwyg:
+        weight: 36
+        enabled: false
+field_type: entity_reference_revisions

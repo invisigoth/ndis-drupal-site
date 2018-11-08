@@ -1,0 +1,9 @@
+uuid: ec4f6913-a107-4956-83b2-1bb2593bdd60
+langcode: en
+status: true
+dependencies: {  }
+id: small_tile
+label: 'Small Tile'
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

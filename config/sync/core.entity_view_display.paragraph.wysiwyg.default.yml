@@ -1,0 +1,49 @@
+uuid: 2185b9eb-7d7e-4f8a-9f49-33dffb304f16
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.wysiwyg.field_wysiwyg
+    - paragraphs.paragraphs_type.wysiwyg
+  module:
+    - ds
+    - text
+third_party_settings:
+  ds:
+    layout:
+      id: ds_1col
+      library: null
+      disable_css: false
+      entity_classes: all_classes
+      settings:
+        classes: {  }
+        wrappers:
+          ds_content: div
+          ds_hidden: div
+        outer_wrapper: div
+        attributes: ''
+        link_attribute: ''
+        link_custom: ''
+    regions:
+      ds_content:
+        - field_wysiwyg
+id: paragraph.wysiwyg.default
+targetEntityType: paragraph
+bundle: wysiwyg
+mode: default
+content:
+  field_wysiwyg:
+    weight: 0
+    label: hidden
+    settings: {  }
+    third_party_settings:
+      ds:
+        ft:
+          id: minimal
+          settings:
+            lb: ''
+            lb-col: false
+            classes: {  }
+    type: text_default
+    region: content
+hidden: {  }

@@ -1,0 +1,96 @@
+uuid: 9c4b4d7c-9c0d-44ff-81bb-12e42d695b9a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.section.field_section_class
+    - field.field.paragraph.section.field_section_content
+    - paragraphs.paragraphs_type.section
+  module:
+    - ds
+    - entity_reference_revisions
+third_party_settings:
+  ds:
+    layout:
+      id: ds_1col_wrapper
+      library: null
+      disable_css: false
+      entity_classes: all_classes
+      settings:
+        wrappers:
+          ds_content: div
+          ds_hidden: div
+        outer_wrapper: section
+        attributes: ''
+        link_attribute: ''
+        link_custom: ''
+        classes:
+          layout_class: {  }
+          ds_content:
+            container: container
+          ds_hidden: {  }
+    regions:
+      ds_content:
+        - field_section_content
+      ds_hidden:
+        - field_section_class
+id: paragraph.section.default
+targetEntityType: paragraph
+bundle: section
+mode: default
+content:
+  field_section_class:
+    type: entity_reference_entity_view
+    weight: 1
+    region: ds_hidden
+    label: hidden
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings:
+      ds:
+        ft:
+          id: default
+          settings:
+            lb: ''
+            lb-col: false
+            classes: {  }
+  field_section_content:
+    type: entity_reference_revisions_entity_view
+    weight: 0
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings:
+      ds:
+        ds_limit: ''
+        ft:
+          id: expert
+          settings:
+            lb: ''
+            prefix: ''
+            lbw-el: ''
+            lbw-cl: ''
+            lbw-at: ''
+            ow: true
+            ow-el: ''
+            ow-cl: row
+            ow-at: ''
+            fis: true
+            fis-el: ''
+            fis-cl: col
+            fis-at: ''
+            fi-el: ''
+            fi-cl: ''
+            fi-at: ''
+            suffix: ''
+            lbw: false
+            lb-col: false
+            ow-def-at: false
+            ow-def-cl: false
+            fis-def-at: false
+            fi: false
+            fi-def-at: false
+    region: ds_content
+hidden: {  }

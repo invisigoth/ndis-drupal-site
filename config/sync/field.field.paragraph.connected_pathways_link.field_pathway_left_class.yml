@@ -1,0 +1,21 @@
+uuid: aabbeced-ed8d-45e2-bb4d-8a869feacad5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_pathway_left_class
+    - paragraphs.paragraphs_type.connected_pathways_link
+  module:
+    - options
+id: paragraph.connected_pathways_link.field_pathway_left_class
+field_name: field_pathway_left_class
+entity_type: paragraph
+bundle: connected_pathways_link
+label: 'Pathway left class'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

@@ -1,0 +1,9 @@
+uuid: 1828e12d-5312-4bc2-9bc6-cae21fe5d456
+langcode: en
+status: true
+dependencies: {  }
+id: large_tiles
+label: 'Links with Image Above in Large Box'
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

@@ -1,0 +1,46 @@
+uuid: 4eb1d4a5-8b95-4d7e-94a6-a7e05186470b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.accordions.field_accordion
+    - field.field.paragraph.accordions.field_title
+    - paragraphs.paragraphs_type.accordions
+  module:
+    - paragraphs
+id: paragraph.accordions.default
+targetEntityType: paragraph
+bundle: accordions
+mode: default
+content:
+  field_accordion:
+    type: paragraphs
+    weight: 1
+    settings:
+      title: Row
+      title_plural: Rows
+      edit_mode: closed
+      closed_mode: preview
+      autocollapse: all
+      closed_mode_threshold: 0
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: _none
+      features:
+        duplicate: duplicate
+        collapse_edit_all: collapse_edit_all
+        add_above: '0'
+    third_party_settings: {  }
+    region: content
+  field_title:
+    weight: 0
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+hidden:
+  created: true
+  status: true
+  uid: true

@@ -1,0 +1,36 @@
+uuid: 4fc27680-238c-4c8d-86d7-02b7d7dfe2ba
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.paragraph.preview
+    - field.field.paragraph.section.field_section_class
+    - field.field.paragraph.section.field_section_content
+    - paragraphs.paragraphs_type.section
+  module:
+    - ds
+    - entity_reference_revisions
+id: paragraph.section.preview
+targetEntityType: paragraph
+bundle: section
+mode: preview
+content:
+  field_section_content:
+    type: entity_reference_revisions_entity_view
+    weight: 0
+    label: hidden
+    settings:
+      view_mode: preview
+      link: ''
+    third_party_settings:
+      ds:
+        ds_limit: ''
+        ft:
+          id: default
+          settings:
+            lb: ''
+            lb-col: false
+            classes: {  }
+    region: content
+hidden:
+  field_section_class: true

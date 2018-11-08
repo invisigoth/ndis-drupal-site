@@ -1,0 +1,19 @@
+attributes:
+  class:
+    label: ''
+    description: ''
+  target:
+    label: ''
+    description: ''
+    options:
+      _blank: 'New window (_blank)'
+      _self: 'Same window (_self)'
+  data-icon:
+    label: 'Icon class'
+    description: 'Enter a class to insert a <code>&lt;i&gt;</code> icon. Eg FontAwesome.'
+  container_class:
+    label: 'Container class'
+    description: 'Enter a class for the wrapping <code>&lt;li&gt;</code> element.'
+  container_data-description:
+    label: 'Container description'
+    description: 'Enter text to be shown under the link if available to the design.'

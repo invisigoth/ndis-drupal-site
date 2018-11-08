@@ -1,0 +1,51 @@
+uuid: 4815a345-816c-486b-b6fe-9a612d773659
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.paragraph.preview
+    - field.field.paragraph.columns.field_column
+    - field.field.paragraph.columns.field_title
+    - paragraphs.paragraphs_type.columns
+  module:
+    - ds
+    - entity_reference_revisions
+    - header_formatter
+id: paragraph.columns.preview
+targetEntityType: paragraph
+bundle: columns
+mode: preview
+content:
+  field_column:
+    type: entity_reference_revisions_entity_view
+    weight: 1
+    label: hidden
+    settings:
+      view_mode: preview
+      link: ''
+    third_party_settings:
+      ds:
+        ds_limit: ''
+        ft:
+          id: default
+          settings:
+            lb: ''
+            lb-col: false
+            classes: {  }
+    region: content
+  field_title:
+    type: text_header
+    weight: 0
+    region: content
+    label: hidden
+    settings:
+      level: '3'
+    third_party_settings:
+      ds:
+        ft:
+          id: default
+          settings:
+            lb: ''
+            lb-col: false
+            classes: {  }
+hidden: {  }

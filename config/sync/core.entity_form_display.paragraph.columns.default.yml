@@ -1,0 +1,46 @@
+uuid: 4336141a-5558-4135-b59e-b87dc8cc7e11
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.columns.field_column
+    - field.field.paragraph.columns.field_title
+    - paragraphs.paragraphs_type.columns
+  module:
+    - paragraphs
+id: paragraph.columns.default
+targetEntityType: paragraph
+bundle: columns
+mode: default
+content:
+  field_column:
+    type: paragraphs
+    weight: 1
+    settings:
+      title: 'Column content'
+      title_plural: 'Column contents'
+      edit_mode: closed
+      closed_mode: preview
+      autocollapse: all
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: wysiwyg
+      features:
+        duplicate: duplicate
+        collapse_edit_all: collapse_edit_all
+        add_above: '0'
+    third_party_settings: {  }
+    region: content
+  field_title:
+    weight: 0
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+hidden:
+  created: true
+  moderation_state: true
+  status: true
+  uid: true

@@ -1,0 +1,56 @@
+langcode: en
+page_title: Sitemap
+message:
+  value: ''
+  format: restricted_html
+show_front: true
+show_titles: true
+show_books: {  }
+books_expanded: true
+show_menus:
+  copyright: copyright
+  footer: footer
+  main: main
+  portal: portal
+  account: '0'
+  admin: '0'
+  devel: '0'
+  getting-started: '0'
+  social: '0'
+  tools: '0'
+show_menus_hidden: false
+show_vocabularies:
+  article_categories: '0'
+  event_categories: '0'
+  main_menu_submenu: '0'
+  postcode_states: '0'
+  section_classes: '0'
+show_description: false
+show_count: false
+vocabulary_show_links: false
+vocabulary_depth: -1
+term_threshold: 0
+forum_threshold: -1
+rss_front: rss.xml
+show_rss_links: 0
+rss_taxonomy: -1
+css: true
+order:
+  front: -50
+  menus_portal: -49
+  menus_account: -48
+  menus_admin: -47
+  menus_main: -46
+  menus_footer: -45
+  menus_copyright: -44
+  menus_devel: -43
+  menus_getting-started: -42
+  menus_social: -41
+  menus_tools: -40
+  vocabularies_article_categories: -39
+  vocabularies_event_categories: -38
+  vocabularies_main_menu_submenu: -37
+  vocabularies_postcode_states: -36
+  vocabularies_section_classes: -35
+_core:
+  default_config_hash: f4sH8CGbEMFQXKFoGeaHbmIP_f6cOTi02EeFhHSbYyo
